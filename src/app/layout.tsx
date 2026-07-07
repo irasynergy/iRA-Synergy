@@ -83,6 +83,9 @@ export const metadata: Metadata = {
   },
 };
 
+import { Toaster } from "react-hot-toast";
+import { ProductsProvider } from "@/components/ProductsProvider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -137,8 +140,11 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-inter)]">
-        <FloatingActionMenu />
-        {children}
+        <Toaster position="top-center" toastOptions={{ duration: 4000, style: { background: '#333', color: '#fff' } }} />
+        <ProductsProvider>
+          <FloatingActionMenu />
+          {children}
+        </ProductsProvider>
       </body>
     </html>
   );

@@ -89,6 +89,7 @@ export default function AdminGalleryPage() {
   const [deleteTarget, setDeleteTarget] = useState<GalleryImage | null>(null);
   const [uploadMethod, setUploadMethod] = useState<"file" | "url">("file");
   const [imageUrl, setImageUrl] = useState("");
+  const [filterCategory, setFilterCategory] = useState("All");
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleDrag = useCallback((e: React.DragEvent) => {
@@ -184,6 +185,8 @@ export default function AdminGalleryPage() {
     return <div className="admin-loading"><div className="admin-loading-spinner" /><p>Loading gallery...</p></div>;
   }
 
+  const displayedImages = filterCategory === "All" ? galleryImages : galleryImages.filter(img => img.category === filterCategory);
+
   return (
     <div className="admin-page">
       {/* Upload Section */}
@@ -235,10 +238,12 @@ export default function AdminGalleryPage() {
               style={{ width: "100%" }}
             >
               <option value="General">General</option>
+              <option value="Hero">Hero (Home Carousel)</option>
+              <option value="Team">Team</option>
+              <option value="Director">Director</option>
               <option value="Products">Products</option>
               <option value="Projects">Projects</option>
               <option value="Events">Events</option>
-              <option value="Team">Team</option>
             </select>
           </div>
         </div>
@@ -297,18 +302,35 @@ export default function AdminGalleryPage() {
 
       {/* Gallery Grid */}
       <div className="admin-card">
-        <div className="admin-card-header">
-          <h3 className="admin-card-title">Gallery ({galleryImages.length} images)</h3>
+        <div className="admin-card-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <h3 className="admin-card-title">Gallery ({displayedImages.length} images)</h3>
+          <div>
+            <select
+              value={filterCategory}
+              onChange={(e) => setFilterCategory(e.target.value)}
+              className="admin-select"
+              style={{ width: "200px" }}
+            >
+              <option value="All">All Categories</option>
+              <option value="General">General</option>
+              <option value="Hero">Hero</option>
+              <option value="Team">Team</option>
+              <option value="Director">Director</option>
+              <option value="Products">Products</option>
+              <option value="Projects">Projects</option>
+              <option value="Events">Events</option>
+            </select>
+          </div>
         </div>
 
-        {galleryImages.length === 0 ? (
+        {displayedImages.length === 0 ? (
           <div className="admin-empty-state">
             <Icons.Image />
             <p>No images uploaded yet. Upload your first image above!</p>
           </div>
         ) : (
           <div className="admin-gallery-grid">
-            {galleryImages.map((img, index) => (
+            {displayedImages.map((img, index) => (
               <div key={img.id} className="admin-gallery-item">
                 <div className="admin-gallery-item-img">
                   <img src={img.src} alt={img.title} />
@@ -341,11 +363,11 @@ export default function AdminGalleryPage() {
       {/* Lightbox */}
       {lightboxIndex !== null && (
         <Lightbox
-          images={galleryImages}
+          images={displayedImages}
           currentIndex={lightboxIndex}
           onClose={() => setLightboxIndex(null)}
-          onPrev={() => setLightboxIndex((prev) => (prev! > 0 ? prev! - 1 : galleryImages.length - 1))}
-          onNext={() => setLightboxIndex((prev) => (prev! < galleryImages.length - 1 ? prev! + 1 : 0))}
+          onPrev={() => setLightboxIndex((prev) => (prev! > 0 ? prev! - 1 : displayedImages.length - 1))}
+          onNext={() => setLightboxIndex((prev) => (prev! < displayedImages.length - 1 ? prev! + 1 : 0))}
         />
       )}
 

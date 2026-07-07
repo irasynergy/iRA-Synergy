@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { ArrowRight, MessageCircle, Send, Shield, Flag, Building2, Zap, Recycle, HeartPulse, Dumbbell, GraduationCap, CheckCircle2 } from "lucide-react";
 import { type Product } from "@/types";
@@ -41,10 +42,12 @@ export default function ProductCard({ product }: { product: Product }) {
       {/* Image Section */}
       <div className="relative h-28 sm:h-40 bg-gray-50 overflow-hidden border-b border-gray-100">
         {product.images && product.images.length > 0 ? (
-          <img
+          <Image
             src={product.images[0]}
             alt={`${product.name} — ${product.category} | iRA Synergy`}
-            className="w-full h-full object-contain p-2 sm:p-3 transition-transform duration-500 group-hover:scale-105"
+            fill
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            className="object-contain p-2 sm:p-3 transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">

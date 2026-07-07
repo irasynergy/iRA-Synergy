@@ -28,8 +28,8 @@ const getGalleryItems = () => {
   });
 
   // Products (Fillers - Wide, Tall, or Small Squares)
-  products.forEach((p, idx) => {
-    p.images.forEach((img, imgIdx) => {
+  products.forEach((p: any, idx: number) => {
+    p.images.forEach((img: string, imgIdx: number) => {
       // Avoid duplicates
       if (!items.find(i => i.src === img)) {
         

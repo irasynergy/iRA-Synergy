@@ -7,7 +7,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import CTABanner from "@/components/CTABanner";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import CountUp from "@/components/ui/CountUp";
-import { companyInfo, certifications, coreValues, companyStats, platforms, teamMembers } from "@/data/company";
+import { companyInfo, certifications, coreValues, companyStats, platforms, teamMembers as staticTeamMembers } from "@/data/company";
+import { supabase } from "@/lib/supabase";
+import type { TeamMember } from "@/types";
 
 export const metadata: Metadata = {
   title: "About Us — iRA Synergy",
@@ -28,15 +30,60 @@ const statIcons: Record<string, React.ElementType> = {
   Briefcase, Package, MapPin, Flag
 };
 
-export default function AboutPage() {
+export const revalidate = 60; // Revalidate every 60 seconds
+
+export default async function AboutPage() {
+  let dynamicTeamMembers: TeamMember[] = [];
+  let dynamicDirectors: typeof companyInfo.directors = [];
+
+  try {
+    const { data: teamData } = await supabase
+      .from("gallery")
+      .select("*")
+      .eq("category", "Team")
+      .order("uploaded_at", { ascending: true });
+
+    if (teamData && teamData.length > 0) {
+      dynamicTeamMembers = teamData.map((img: any) => ({
+        id: img.id,
+        name: img.title || "Unknown",
+        role: img.caption || "Team Member",
+        bio: "",
+        image: img.src,
+        email: "",
+        linkedin: "#",
+      }));
+    }
+
+    const { data: directorData } = await supabase
+      .from("gallery")
+      .select("*")
+      .eq("category", "Director")
+      .order("uploaded_at", { ascending: true });
+
+    if (directorData && directorData.length > 0) {
+      dynamicDirectors = directorData.map((img: any) => ({
+        name: img.title || "Unknown",
+        title: img.caption?.split('|')[0]?.trim() || "Director",
+        quote: img.caption?.split('|')[1]?.trim() || "Leading with excellence.",
+        image: img.src,
+      }));
+    }
+  } catch (err) {
+    console.error("Failed to fetch team/director images:", err);
+  }
+
+  const finalTeamMembers = dynamicTeamMembers.length > 0 ? dynamicTeamMembers : staticTeamMembers;
+  const finalDirectors = dynamicDirectors.length > 0 ? dynamicDirectors : companyInfo.directors;
+
   return (
     <div className="flex flex-col min-h-screen bg-white">
       <Header />
 
-      <main className="flex-grow pt-20 lg:pt-44">
+      <main className="flex-grow">
 
         {/* Compact Hero Section */}
-        <section className="relative w-full py-24 md:py-32 border-b border-gray-800 overflow-hidden">
+        <section className="relative w-full pt-32 pb-24 md:pt-48 md:pb-32 border-b border-gray-800 overflow-hidden">
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
             <Image
@@ -129,7 +176,7 @@ export default function AboutPage() {
         {/* Directors' Vision */}
         <section className="py-24 md:py-32 bg-gray-50 overflow-hidden">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-            {companyInfo.directors?.map((director, index) => (
+            {finalDirectors?.map((director, index) => (
               <div key={index} className="bg-white rounded-[3rem] shadow-xl border border-gray-100 overflow-hidden">
                 <div className={`flex flex-col ${index % 2 !== 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'}`}>
 
@@ -179,7 +226,7 @@ export default function AboutPage() {
             </ScrollReveal>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              {teamMembers.map((member, idx) => (
+              {finalTeamMembers.map((member, idx) => (
                 <ScrollReveal key={member.id} delay={idx * 100}>
                   <div className="flex flex-col items-center text-center group cursor-default">
                     <div className="relative w-32 h-32 md:w-40 md:h-40 mb-6 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border-4 border-gray-50 group-hover:border-ira-primary/20">

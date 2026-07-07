@@ -7,67 +7,13 @@ import { ArrowRight, ChevronLeft, ChevronRight, CheckCircle2 } from "lucide-reac
 import ScrollReveal from "./ui/ScrollReveal";
 import { getFeaturedProducts } from "@/data/products";
 
-import { useState, useEffect } from "react";
-import { supabase } from "@/lib/supabase";
+import { useProducts } from "@/components/ProductsProvider";
 
 export default function FeaturedProducts() {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
-  const [featuredProducts, setFeaturedProducts] = useState(getFeaturedProducts());
-
-  useEffect(() => {
-    async function loadFeatured() {
-      const isSupabaseConfigured =
-        process.env.NEXT_PUBLIC_SUPABASE_URL &&
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-      if (isSupabaseConfigured) {
-        try {
-          const { data: dbProducts, error } = await supabase
-            .from("products")
-            .select("*")
-            .order("created_at", { ascending: false })
-            .limit(8);
-
-          if (dbProducts && !error) {
-            const mapped = dbProducts.map((dbP: any) => ({
-              id: dbP.id,
-              slug: dbP.slug,
-              name: dbP.name,
-              category: dbP.category,
-              description: dbP.description,
-              shortDescription: dbP.short_description || "",
-              features: dbP.features || [],
-              specs: dbP.specs || [],
-              certifications: dbP.certifications || [],
-              images: dbP.images || [],
-              price: dbP.price || "On Request",
-              inStock: dbP.in_stock ?? true,
-              badge: dbP.badge || undefined,
-              relatedProductSlugs: dbP.related_product_slugs || [],
-              brochureUrl: dbP.brochure_url || undefined,
-            }));
-            setFeaturedProducts(mapped);
-            return;
-          }
-        } catch (e) {
-          console.warn("Supabase fetch failed for featured products", e);
-        }
-      }
-
-      // LocalStorage fallback
-      try {
-        const stored = localStorage.getItem("ira_admin_products");
-        if (stored) {
-          const parsedStored = JSON.parse(stored);
-          setFeaturedProducts(parsedStored.slice(0, 8));
-        }
-      } catch (e) {
-        console.error(e);
-      }
-    }
-    loadFeatured();
-  }, []);
+  const { products: allProducts } = useProducts();
+  const featuredProducts = allProducts.slice(0, 8);
 
   const scroll = (direction: "left" | "right") => {
     if (scrollContainerRef.current) {

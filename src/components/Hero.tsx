@@ -5,8 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Leaf, ShieldCheck, Map, Settings } from "lucide-react";
 import ScrollReveal from "./ui/ScrollReveal";
+import type { GalleryImage } from "@/components/admin/AdminContext";
 
-const heroImages = [
+export const fallbackImages = [
   { src: "/images/hero/smart-city-view.jpg", alt: "Smart City Infrastructure Solutions — IoT Integration | iRA Synergy" },
   { src: "/images/hero/Hospital-view.png", alt: "Public Health & Hospital Infrastructure — GeM Registered | iRA Synergy" },
   { src: "/images/hero/solar-panel.jpg", alt: "Solar Energy & Renewable Power Solutions for Government | iRA Synergy" },
@@ -14,7 +15,12 @@ const heroImages = [
   { src: "/images/hero/green-gym.png", alt: "Outdoor Gym & Fitness Equipment for Parks — Make in India | iRA Synergy" },
 ];
 
-export default function Hero() {
+export default function Hero({ dynamicImages = [] }: { dynamicImages?: GalleryImage[] }) {
+  // Use dynamic images if available, otherwise fallback
+  const heroImages = dynamicImages.length > 0 
+    ? dynamicImages.map(img => ({ src: img.src, alt: img.caption || img.title || "iRA Synergy" }))
+    : fallbackImages;
+
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [loadedIndexes, setLoadedIndexes] = useState<number[]>([0]);
 

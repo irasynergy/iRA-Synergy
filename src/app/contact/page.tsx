@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-grow pt-20 lg:pt-44">
+      <main className="flex-grow pt-[100px] lg:pt-[130px]">
         <ContactSection />
       </main>
       <Footer />

@@ -119,7 +119,7 @@ export default function Products() {
 
                       {/* Key specs */}
                       <div className="flex flex-wrap gap-2 mb-4">
-                        {product.specs.slice(0, 2).map((spec, i) => (
+                        {product.specs.slice(0, 2).map((spec: any, i: number) => (
                           <span
                             key={i}
                             className="inline-flex px-2.5 py-1 rounded-md bg-gray-50 text-xs text-gray-600 font-medium"
