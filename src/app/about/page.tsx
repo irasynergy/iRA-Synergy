@@ -313,7 +313,7 @@ export default async function AboutPage() {
                 {[
                   { file: "amazon.svg", name: "Amazon" },
                   { file: "indiamart.png", name: "IndiaMART" },
-                  { file: "tradeindia.png", name: "Trade India" },
+                  { file: "tradeindia1.png", name: "Trade India" },
                   { file: "gem-logo.png", name: "GeM" },
                 ].map((platform, index) => (
                   <div key={`platform-${index}`} className="w-32 sm:w-48 flex items-center justify-center bg-white rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow aspect-[4/3] relative overflow-hidden group">

@@ -4,6 +4,8 @@ import { useState } from "react";
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from "lucide-react";
 import ScrollReveal from "./ui/ScrollReveal";
 import { companyInfo } from "@/data/company";
+import { submitContact } from "@/app/actions/contact";
+import toast from "react-hot-toast";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -14,12 +16,27 @@ export default function ContactSection() {
     message: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    // In Phase 2, this will hit /api/inquiry
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+    setIsSubmitting(true);
+    
+    try {
+      const result = await submitContact(formData);
+      
+      if (result.success) {
+        setSubmitted(true);
+        setFormData({ name: "", email: "", phone: "", industry: "", message: "" });
+        setTimeout(() => setSubmitted(false), 5000);
+      } else {
+        toast.error(result.error || "Failed to send message. Please try again.");
+      }
+    } catch (error) {
+      toast.error("An unexpected error occurred.");
+    } finally {
+      setIsSubmitting(false);
+    }
   }
 
   return (
@@ -209,9 +226,9 @@ export default function ContactSection() {
                     />
                   </div>
 
-                  <button type="submit" className="btn-primary w-full sm:w-auto">
+                  <button type="submit" disabled={isSubmitting} className="btn-primary w-full sm:w-auto disabled:opacity-70 disabled:cursor-not-allowed">
                     <Send size={16} />
-                    Send Message
+                    {isSubmitting ? "Sending..." : "Send Message"}
                   </button>
                 </form>
               )}
