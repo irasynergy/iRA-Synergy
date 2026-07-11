@@ -24,8 +24,10 @@ export default function Gallery({ galleryImages = [] }: { galleryImages?: { src:
       .filter(img => img.category === solution.title || img.category === solution.shortTitle)
       .map(img => img.src);
     
+    const extraImages = solution.extraImages || [];
+
     // Combine main solution image with all product/machinery images and dynamic gallery images, filtering duplicates
-    return Array.from(new Set([solution.image, ...productImages, ...dynamicGalleryImages]));
+    return Array.from(new Set([solution.image, ...productImages, ...dynamicGalleryImages, ...extraImages]));
   };
 
   return (

@@ -37,6 +37,10 @@ export const solutions: Solution[] = [
       "portable-library",
     ],
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800",
+    extraImages: [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
     stats: [
       { label: "Schools Equipped", value: "50+" },
       { label: "Labs Installed", value: "200+" },
@@ -218,6 +222,10 @@ export const solutions: Solution[] = [
       "integrated-school-sports-development",
     ],
     image: "/images/hero/green-gym.png",
+    extraImages: [
+      "/images/generated/outdoor_fitness_gym_1783792293449.png",
+      "/images/generated/kids_play_station_1783792302898.png"
+    ],
     stats: [
       { label: "Gyms Installed", value: "75+" },
       { label: "Equipment Units", value: "500+" },

@@ -16,6 +16,7 @@ export interface Solution {
   useCases: string[];
   relatedProductSlugs: string[];
   image: string;
+  extraImages?: string[];
   stats: { label: string; value: string }[];
 }
 
