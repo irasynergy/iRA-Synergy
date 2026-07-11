@@ -25,16 +25,16 @@ export const revalidate = 60; // Revalidate every 60 seconds
 
 export default async function Home() {
   let heroImages: GalleryImage[] = [];
+  let allGalleryImages: GalleryImage[] = [];
   try {
     const { data } = await supabase
       .from("gallery")
       .select("*")
-      .eq("category", "Hero")
       .order("uploaded_at", { ascending: false });
     
     if (data && data.length > 0) {
       // Map to GalleryImage shape
-      heroImages = data.map((img: any) => ({
+      allGalleryImages = data.map((img: any) => ({
         id: img.id,
         src: img.src,
         title: img.title || "",
@@ -42,9 +42,10 @@ export default async function Home() {
         category: img.category || "Hero",
         uploadedAt: img.uploaded_at || new Date().toISOString()
       }));
+      heroImages = allGalleryImages.filter((img) => img.category === "Hero");
     }
   } catch (err) {
-    console.error("Failed to fetch hero images:", err);
+    console.error("Failed to fetch gallery images:", err);
   }
 
   return (
@@ -56,7 +57,7 @@ export default async function Home() {
         <Solutions />
         <StatsBanner />
         <FeaturedProducts />
-        <Gallery />
+        <Gallery galleryImages={allGalleryImages} />
         <BusinessInfo />
       </main>
       <Footer />

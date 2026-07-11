@@ -8,7 +8,7 @@ import { solutions } from "@/data/solutions";
 import { products } from "@/data/products";
 import { Solution } from "@/types";
 
-export default function Gallery() {
+export default function Gallery({ galleryImages = [] }: { galleryImages?: { src: string; category: string }[] }) {
   const [activeSolution, setActiveSolution] = useState<Solution | null>(null);
 
   // Aggregate images for a specific solution
@@ -19,8 +19,13 @@ export default function Gallery() {
 
     const productImages = relatedProducts.flatMap(p => p!.images);
     
-    // Combine main solution image with all product/machinery images, filtering duplicates
-    return Array.from(new Set([solution.image, ...productImages]));
+    // Find gallery images that match the solution category
+    const dynamicGalleryImages = galleryImages
+      .filter(img => img.category === solution.title || img.category === solution.shortTitle)
+      .map(img => img.src);
+    
+    // Combine main solution image with all product/machinery images and dynamic gallery images, filtering duplicates
+    return Array.from(new Set([solution.image, ...productImages, ...dynamicGalleryImages]));
   };
 
   return (
