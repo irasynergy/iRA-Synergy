@@ -8,7 +8,7 @@ import type { GalleryImage } from "@/components/admin/AdminContext";
 
 export const metadata: Metadata = {
   title:
-    "iRA Synergy | GeM-Registered Infrastructure & Sustainability Products",
+    "iRA Synergy",
   description:
     "iRA Synergy is a GeM-registered B2G/B2B supplier of infrastructure and sustainability products. Serving government departments, PSUs, municipalities, and institutions across India.",
   alternates: { canonical: "https://irasynergy.com" },
@@ -31,7 +31,7 @@ export default async function Home() {
       .from("gallery")
       .select("*")
       .order("uploaded_at", { ascending: false });
-    
+
     if (data && data.length > 0) {
       // Map to GalleryImage shape
       allGalleryImages = data.map((img: any) => ({
