@@ -185,7 +185,7 @@ export default async function SolutionDetailPage({
               <div className="relative max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl bg-gray-900 aspect-video ring-4 ring-white">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://youtu.be/yXu1wtSQ28Y?si=nwllBeG8TDZ8m5ne" // Using a placeholder video link
+                  src="https://www.youtube.com/embed/yXu1wtSQ28Y?si=Onrxbv_BO1xpSZ9B" // Using a placeholder video link
                   title={`${solution.title} Overview`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
