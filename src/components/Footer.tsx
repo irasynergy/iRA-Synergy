@@ -26,13 +26,13 @@ export default function Footer() {
     <footer className="bg-ira-primary-dark text-white pt-10 sm:pt-16 pb-16 md:pb-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-5 gap-x-4 gap-y-8 sm:gap-8 lg:gap-12 pb-8 sm:pb-12 border-b border-white/10">
-          
+
           {/* Column 1: Brand & Info */}
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="mb-4 sm:mb-6 inline-block rounded-xl overflow-hidden shadow-lg bg-white p-2 sm:p-3 transition-transform hover:scale-105">
-              <img 
-                src="/images/Only_Symbol.jpeg" 
-                alt="iRA Synergy Logo" 
+              <img
+                src="/images/Only_Symbol.jpeg"
+                alt="iRA Synergy Logo"
                 className="h-16 sm:h-24 w-auto object-contain"
               />
             </Link>
@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-ira-accent flex-shrink-0 mt-0.5" />
                 <span className="text-[11px] sm:text-xs text-gray-300 leading-relaxed">
-                  Shop No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra
+                  Office No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra
                 </span>
               </li>
               <li className="flex flex-col gap-1.5 sm:gap-2">
@@ -132,7 +132,7 @@ export default function Footer() {
           </div>
 
         </div>
-        
+
         {/* Bottom Bar */}
         <div className="py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-[11px] text-gray-400">
           <p>© {new Date().getFullYear()} iRA Synergy Private Limited. All Rights Reserved.</p>

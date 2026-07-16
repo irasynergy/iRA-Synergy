@@ -185,7 +185,7 @@ export default async function SolutionDetailPage({
               <div className="relative max-w-5xl mx-auto rounded-3xl overflow-hidden shadow-2xl bg-gray-900 aspect-video ring-4 ring-white">
                 <iframe
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&rel=0" // Using a placeholder video link
+                  src="https://youtu.be/yXu1wtSQ28Y?si=nwllBeG8TDZ8m5ne" // Using a placeholder video link
                   title={`${solution.title} Overview`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -236,7 +236,7 @@ export default async function SolutionDetailPage({
                         <h3 className="text-sm font-bold text-gray-900 group-hover:text-ira-primary transition-colors line-clamp-2 mb-2 min-h-[40px]">
                           {product.name}
                         </h3>
-                        
+
                         {/* Hidden short description on mobile, 2 lines on desktop */}
                         <p className="hidden sm:block text-[11px] text-gray-500 leading-relaxed line-clamp-2 mb-3 flex-grow">
                           {product.shortDescription}
@@ -263,7 +263,7 @@ export default async function SolutionDetailPage({
         <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-              
+
               {/* Features Column */}
               <div className="lg:col-span-7">
                 <ScrollReveal variant="left">
@@ -271,7 +271,7 @@ export default async function SolutionDetailPage({
                     <CheckCircle2 className="text-ira-primary" size={24} />
                     Key Features & Technical Capabilities
                   </h3>
-                  
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-3">
                     {solution.features.map((feature, i) => (
                       <div key={i} className="flex items-start gap-2 p-3 rounded-lg bg-white border border-gray-100 hover:border-ira-primary/20 transition-all shadow-sm">
