@@ -250,20 +250,14 @@ export default async function AboutPage() {
         <section className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8 border-b border-gray-100 pb-4">
-              <div className="max-w-2xl">
-                <ScrollReveal>
-                  <span className="text-ira-primary font-bold tracking-[0.3em] uppercase text-xs mb-2 block">Compliance</span>
-                  <h2 className="text-3xl font-black text-gray-900">Certified Reliability.</h2>
-                </ScrollReveal>
-              </div>
-              <div className="max-w-md">
-                <ScrollReveal delay={100}>
-                  <p className="text-sm text-gray-500">
-                    Our operations adhere to the strictest international and domestic quality standards, ensuring absolute compliance for government procurement.
-                  </p>
-                </ScrollReveal>
-              </div>
+            <div className="text-center max-w-3xl mx-auto mb-12">
+              <ScrollReveal>
+                <span className="text-ira-primary font-bold tracking-[0.3em] uppercase text-xs mb-2 block">Compliance</span>
+                <h2 className="text-3xl font-black text-gray-900 mb-4">Certified Reliability.</h2>
+                <p className="text-sm text-gray-500">
+                  Our operations adhere to the strictest international and domestic quality standards, ensuring absolute compliance for government procurement.
+                </p>
+              </ScrollReveal>
             </div>
             <ScrollReveal delay={200}>
               <div className="grid grid-cols-4 md:grid-cols-8 gap-3 sm:gap-4 items-center justify-items-center py-2">
@@ -299,13 +293,11 @@ export default async function AboutPage() {
             </ScrollReveal>
 
             {/* Platforms We Are Available On */}
-            <div className="mt-12 flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6 border-b border-gray-100 pb-4">
-              <div className="max-w-2xl">
-                <ScrollReveal>
-                  <span className="text-ira-primary font-bold tracking-[0.3em] uppercase text-xs mb-2 block">Availability</span>
-                  <h2 className="text-2xl md:text-3xl font-black text-gray-900">Platforms we are available on.</h2>
-                </ScrollReveal>
-              </div>
+            <div className="mt-20 text-center max-w-3xl mx-auto mb-10">
+              <ScrollReveal>
+                <span className="text-ira-primary font-bold tracking-[0.3em] uppercase text-xs mb-2 block">Availability</span>
+                <h2 className="text-2xl md:text-3xl font-black text-gray-900">Platforms we are available on.</h2>
+              </ScrollReveal>
             </div>
 
             <ScrollReveal delay={200}>

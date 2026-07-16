@@ -30,6 +30,7 @@ const initiativeLogos = [
   { url: "/images/smart-city-logo.jpg", className: "w-32 h-24 sm:w-48 sm:h-32" },
   { url: "/images/swatch-bharat.png", className: "w-20 h-16 sm:w-32 sm:h-20" },
   { url: "/images/digital-india-logo.png", className: "w-20 h-16 sm:w-32 sm:h-20" },
+  { url: "/images/brands/08_client.png", className: "w-20 h-16 sm:w-32 sm:h-20" },
   { url: "/images/Fit-India-logo.png", className: "w-20 h-16 sm:w-32 sm:h-20" },
   { url: "/images/MakeinIndia-logo.png", className: "w-20 h-16 sm:w-32 sm:h-20" }
 ];
