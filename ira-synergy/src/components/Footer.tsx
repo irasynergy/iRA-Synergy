@@ -104,8 +104,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-ira-accent flex-shrink-0" />
-                <a href="mailto:irasynergy2026@gmail.com" className="text-[11px] sm:text-xs text-gray-300 hover:text-ira-accent break-all">
-                  irasynergy2026@gmail.com
+                <a href="mailto:info@irasynergy.com" className="text-[11px] sm:text-xs text-gray-300 hover:text-ira-accent break-all">
+                  info@irasynergy.com
                 </a>
               </li>
             </ul>

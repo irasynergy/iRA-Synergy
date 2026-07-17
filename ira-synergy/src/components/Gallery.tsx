@@ -5,11 +5,12 @@ import Image from "next/image";
 import { X } from "lucide-react";
 import ScrollReveal from "./ui/ScrollReveal";
 import { solutions } from "@/data/solutions";
-import { products } from "@/data/products";
+import { useProducts } from "./ProductsProvider";
 import { Solution } from "@/types";
 
 export default function Gallery({ galleryImages = [] }: { galleryImages?: { src: string; category: string }[] }) {
   const [activeSolution, setActiveSolution] = useState<Solution | null>(null);
+  const { products } = useProducts();
 
   // Aggregate images for a specific solution
   const getAggregatedImages = (solution: Solution) => {

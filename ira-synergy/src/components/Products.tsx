@@ -5,8 +5,8 @@ import Link from "next/link";
 import { ArrowRight, Search, Zap, Recycle, Building2, HeartPulse, Dumbbell, GraduationCap } from "lucide-react";
 import ScrollReveal from "./ui/ScrollReveal";
 import CategoryFilter from "./ui/CategoryFilter";
-import { products, productCategories } from "@/data/products";
-
+import { productCategories } from "@/data/products";
+import { useProducts } from "./ProductsProvider";
 const categoryIcons: Record<string, React.ElementType> = {
   "Smart City": Building2,
   "Renewable Energy": Zap,
@@ -26,6 +26,7 @@ const categoryColors: Record<string, string> = {
 };
 
 export default function Products() {
+  const { products } = useProducts();
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
