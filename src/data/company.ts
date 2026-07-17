@@ -134,12 +134,14 @@ export const companyInfo = {
       name: "Dinesh Anand",
       title: "Managing Director",
       quote: "True infrastructure doesn't just occupy space—it elevates the community. Our goal is to ensure that every municipality, regardless of its size, has access to world-class, sustainable technology.",
+      description: "At iRA Synergy, we don't just supply equipment. We act as strategic engineering partners for India's largest civic and corporate entities, ensuring that every rupee invested yields a generation of value.",
       image: "/images/team/dinesh.jpeg",
     },
     {
       name: "Keshav Yendait",
       title: "Director",
       quote: "Engineering innovation and sustainability are the cornerstones of modern development. We strive to create robust solutions that empower communities and protect the environment for future generations.",
+      description: "Engineering solutions that strengthen India's infrastructure—designed for reliability, built for performance, and trusted where quality matters most.",
       image: "/images/team/keshav.jpeg",
     }
   ],
