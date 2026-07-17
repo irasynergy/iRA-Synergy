@@ -66,6 +66,7 @@ export default async function AboutPage() {
         name: img.title || "Unknown",
         title: img.caption?.split('|')[0]?.trim() || "Director",
         quote: img.caption?.split('|')[1]?.trim() || "Leading with excellence.",
+        description: img.caption?.split('|')[2]?.trim() || "",
         image: img.src,
       }));
     }
