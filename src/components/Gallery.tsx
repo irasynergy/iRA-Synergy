@@ -8,9 +8,26 @@ import { solutions } from "@/data/solutions";
 import { useProducts } from "./ProductsProvider";
 import { Solution } from "@/types";
 
-export default function Gallery({ galleryImages = [] }: { galleryImages?: { src: string; category: string }[] }) {
+import { supabase } from "@/lib/supabase";
+
+export default function Gallery() {
   const [activeSolution, setActiveSolution] = useState<Solution | null>(null);
+  const [galleryImages, setGalleryImages] = useState<{src: string, category: string}[]>([]);
   const { products } = useProducts();
+
+  useEffect(() => {
+    const fetchGallery = async () => {
+      try {
+        const hasUrl = !!(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL);
+        const hasKey = !!(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY);
+        if (hasUrl && hasKey) {
+          const { data } = await supabase.from('gallery').select('src, category');
+          if (data) setGalleryImages(data);
+        }
+      } catch (e) {}
+    };
+    fetchGallery();
+  }, []);
 
   // Aggregate images for a specific solution
   const getAggregatedImages = (solution: Solution) => {
