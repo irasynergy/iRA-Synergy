@@ -20,7 +20,9 @@ export const metadata: Metadata = {
 export default async function ProjectsPage() {
   let products = staticProducts;
   
-  const isSupabaseConfigured = process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const hasUrl = !!(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL);
+  const hasKey = !!(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY);
+  const isSupabaseConfigured = hasUrl && hasKey;
   if (isSupabaseConfigured) {
     try {
       const { data, error } = await supabase.from('products').select('*');

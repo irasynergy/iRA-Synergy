@@ -8,9 +8,9 @@ export const revalidate = 60; // Revalidate every minute
 export default async function ProductsPage() {
   let initialProducts = staticProducts as Product[];
 
-  const isSupabaseConfigured =
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const hasUrl = !!(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL);
+  const hasKey = !!(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY);
+  const isSupabaseConfigured = hasUrl && hasKey;
 
   let isFromDb = false;
 
