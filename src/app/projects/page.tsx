@@ -7,7 +7,8 @@ import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { projects } from "@/data/projects";
-import { products } from "@/data/products";
+import { supabase } from "@/lib/supabase";
+import { products as staticProducts } from "@/data/products";
 
 export const metadata: Metadata = {
   title: "Projects & Case Studies — Real-World Impact",
@@ -16,7 +17,21 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://irasynergy.com/projects" },
 };
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  let products = staticProducts;
+  
+  const isSupabaseConfigured = process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (isSupabaseConfigured) {
+    try {
+      const { data, error } = await supabase.from('products').select('*');
+      if (!error && data && data.length > 0) {
+        products = data;
+      }
+    } catch (e) {
+      console.warn("Failed to fetch products on projects page", e);
+    }
+  }
+
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
@@ -38,7 +53,7 @@ export default function ProjectsPage() {
         <div className="w-full pb-24">
           {projects.map((project, idx) => {
             const linkedProducts = project.productsUsed
-              .map(prodName => products.find(p => p.name === prodName))
+              .map(prodName => products.find((p: any) => p.name === prodName))
               .filter(Boolean);
 
             const isEven = idx % 2 === 0;
