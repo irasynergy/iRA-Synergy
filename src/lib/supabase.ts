@@ -17,7 +17,16 @@ export const supabase = createClient(
   supabaseAnonKey || dummyKey,
   {
     global: {
-      fetch: (url, options) => fetch(url, { ...options, cache: "no-store" })
+      fetch: (url, options) => {
+        // Use a 4-second timeout to prevent the site from hanging if Supabase is slow
+        const signal = AbortSignal.timeout ? AbortSignal.timeout(4000) : undefined;
+        return fetch(url, { 
+          ...options, 
+          signal,
+          // Allow Next.js to aggressively cache the response and revalidate every 60s
+          next: { revalidate: 60 }
+        });
+      }
     },
   }
 );
