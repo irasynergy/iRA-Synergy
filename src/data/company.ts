@@ -141,7 +141,7 @@ export const companyInfo = {
       name: "Keshav Yendait",
       title: "Director",
       quote: "Engineering innovation and sustainability are the cornerstones of modern development. We strive to create robust solutions that empower communities and protect the environment for future generations.",
-      description: "Built on the legacy of Vakratund, iRA Synergy continues to deliver trusted engineering solutions under a new brand. The clients featured on this website are long-standing partners from the Vakratund journey, reflecting years of proven expertise now led forward by Director **Keshav Yendait**.",
+      description: "Built on the legacy of Vakratund, iRA Synergy continues to deliver trusted engineering solutions under a new brand. The clients featured on this website are long-standing partners from the Vakratund journey, reflecting years of proven expertise now led forward by Director Keshav Yendait.",
       image: "/images/team/keshav.jpeg",
     }
   ],
