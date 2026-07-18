@@ -86,37 +86,13 @@ export default function BusinessInfo() {
                 <h2 className="text-sm font-bold text-gray-900 uppercase flex-shrink-0">
                   OUR PROJECTS
                 </h2>
-                <Link href="/projects" className="text-xs font-bold text-ira-primary hover:text-ira-primary-dark transition-colors flex items-center gap-1 border border-ira-primary/20 px-3 py-1.5 rounded-full">
-                  VIEW ALL PROJECTS
-                  <ArrowRight size={14} />
-                </Link>
               </div>
 
-              <div className="flex-1 mt-2">
-                <div className="grid grid-cols-2 gap-2 sm:gap-4 h-[280px] sm:h-full min-h-[240px]">
-                  {displayProjects.map((project, i) => (
-                    <Link href="/projects" key={i} className="relative group overflow-hidden rounded-xl shadow-sm border border-gray-200/50 block w-full h-full">
-                      <Image
-                        src={project.images && project.images.length > 0 ? project.images[0] : "https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=400"}
-                        alt={project.title}
-                        fill
-                        loading="lazy"
-                        className="object-cover group-hover:scale-110 transition-transform duration-700"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#0A3D24]/90 via-black/30 to-transparent opacity-90 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-                      <div className="absolute inset-0 p-3 sm:p-4 flex flex-col justify-end">
-                        <h4 className="text-white text-xs sm:text-sm font-bold leading-tight line-clamp-2 drop-shadow-md group-hover:text-green-300 transition-colors">
-                          {project.title.split('—')[0]}
-                        </h4>
-                        <p className="text-white/80 text-[10px] sm:text-xs mt-1.5 flex items-center gap-1 opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-300">
-                          <MapPin size={10} className="text-green-400" />
-                          {project.state}
-                        </p>
-                      </div>
-                    </Link>
-                  ))}
-                </div>
+              <div className="flex-1 mt-2 flex items-center justify-center bg-gray-50 rounded-xl border border-dashed border-gray-200 min-h-[240px]">
+                <p className="text-sm font-bold text-gray-400 uppercase tracking-widest flex items-center gap-2">
+                  <Settings size={16} className="text-gray-400" />
+                  Coming Soon
+                </p>
               </div>
             </div>
           </ScrollReveal>

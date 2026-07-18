@@ -7,7 +7,7 @@ export default function Footer() {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
     { label: "Solutions", href: "/solutions" },
-    { label: "Projects", href: "/projects" },
+    // { label: "Projects", href: "/projects" },
     { label: "Gallery", href: "/gallery" },
     { label: "Downloads", href: "/downloads" },
     { label: "Blog / News", href: "/blog" },
