@@ -11,11 +11,15 @@ export default async function ProductsPage() {
   let isFromDb = false;
 
   try {
+    console.log("USING URL:", process.env.NEXT_PUBLIC_SUPABASE_URL);
+    console.log("USING KEY:", process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
     const { data, error } = await supabase
       .from('products')
       .select('*')
       .order('created_at', { ascending: true });
       
+    console.log("DB FETCH RESULT:", { error, dataLength: data?.length });
+    
     if (!error && data && data.length > 0) {
       initialProducts = data.map((dbP: any) => ({
         id: dbP.id,
@@ -34,6 +38,7 @@ export default async function ProductsPage() {
         relatedProductSlugs: dbP.related_product_slugs || [],
       }));
       isFromDb = true;
+      console.log("Successfully mapped products! Count:", initialProducts.length);
     }
   } catch (err) {
     console.error("Failed to fetch products on server:", err);

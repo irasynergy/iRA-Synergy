@@ -90,6 +90,9 @@ import { supabase } from "@/lib/supabase";
 import { products as staticProducts } from "@/data/products";
 import type { Product } from "@/types";
 
+export const revalidate = 0;
+export const dynamic = 'force-dynamic';
+
 export default async function RootLayout({
   children,
 }: Readonly<{
