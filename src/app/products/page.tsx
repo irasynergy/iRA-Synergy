@@ -3,7 +3,8 @@ import { products as staticProducts } from "@/data/products";
 import ProductsClient from "./ProductsClient";
 import type { Product } from "@/types";
 
-export const revalidate = 60; // Revalidate every minute
+export const revalidate = 0; // Disable static caching completely
+export const dynamic = 'force-dynamic';
 
 export default async function ProductsPage() {
   let initialProducts = staticProducts as Product[];
