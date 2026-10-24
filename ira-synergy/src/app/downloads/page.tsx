@@ -7,62 +7,13 @@ import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { downloads as staticDownloads } from "@/data/downloads";
-import { supabase } from "@/lib/supabase";
+import { products as staticProducts } from "@/data/products";
 import type { Product } from "@/types";
 
 export default function DownloadsPage() {
-  const [products, setProducts] = useState<Product[]>([]);
+  const [products] = useState<Product[]>(staticProducts as Product[]);
   const [activeTab, setActiveTab] = useState<string>("All");
   const [searchQuery, setSearchQuery] = useState("");
-
-  useEffect(() => {
-    async function loadProducts() {
-      const isSupabaseConfigured =
-        process.env.NEXT_PUBLIC_SUPABASE_URL &&
-        process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-      if (isSupabaseConfigured) {
-        try {
-          const { data: dbProducts, error } = await supabase
-            .from("products")
-            .select("*")
-            .order("created_at", { ascending: false });
-
-          if (dbProducts && !error) {
-            const mapped = dbProducts.map((dbP: any) => ({
-              id: dbP.id,
-              slug: dbP.slug,
-              name: dbP.name,
-              category: dbP.category,
-              description: dbP.description,
-              shortDescription: dbP.short_description || "",
-              features: dbP.features || [],
-              specs: dbP.specs || [],
-              certifications: dbP.certifications || [],
-              images: dbP.images || [],
-              price: dbP.price || "On Request",
-              inStock: dbP.in_stock ?? true,
-              badge: dbP.badge || undefined,
-              relatedProductSlugs: dbP.related_product_slugs || [],
-              brochureUrl: dbP.brochure_url || undefined,
-            }));
-            setProducts(mapped);
-            return;
-          }
-        } catch (e) {
-          console.warn("Supabase fetch failed", e);
-        }
-      }
-
-      try {
-        const stored = localStorage.getItem("ira_admin_products");
-        if (stored) {
-          setProducts(JSON.parse(stored));
-        }
-      } catch (e) {}
-    }
-    loadProducts();
-  }, []);
 
   // Map products with brochures into the download format
   const dynamicBrochures = products

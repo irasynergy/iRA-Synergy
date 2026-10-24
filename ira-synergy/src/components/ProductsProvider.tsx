@@ -1,7 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from "react";
-import { supabase } from "@/lib/supabase";
+import React, { createContext, useContext, useState } from "react";
 import { products as staticProducts } from "@/data/products";
 import type { Product } from "@/types";
 
@@ -12,51 +11,18 @@ type ProductsContextType = {
 
 const ProductsContext = createContext<ProductsContextType>({
   products: staticProducts as Product[],
-  isLoading: true,
+  isLoading: false,
 });
 
-export const ProductsProvider = ({ children }: { children: React.ReactNode }) => {
-  const [products, setProducts] = useState<Product[]>(staticProducts as Product[]);
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const { data: dbProducts, error } = await supabase
-          .from("products")
-          .select("*")
-          .order("created_at", { ascending: true });
-
-        if (dbProducts && !error && dbProducts.length > 0) {
-          const mappedProducts = dbProducts.map((dbP: any) => ({
-            id: dbP.id,
-            slug: dbP.slug,
-            name: dbP.name,
-            category: dbP.category,
-            description: dbP.description,
-            shortDescription: dbP.short_description || "",
-            features: dbP.features || [],
-            specs: dbP.specs || [],
-            certifications: dbP.certifications || [],
-            images: dbP.images || [],
-            price: dbP.price || "On Request",
-            inStock: dbP.in_stock ?? true,
-            badge: dbP.badge || undefined,
-            relatedProductSlugs: dbP.related_product_slugs || [],
-            brochureUrl: dbP.brochure_url || undefined,
-          }));
-
-          setProducts(mappedProducts);
-        }
-      } catch (e) {
-        console.warn("Background global Supabase sync failed", e);
-      } finally {
-        setIsLoading(false);
-      }
-    };
-
-    fetchProducts();
-  }, []);
+export const ProductsProvider = ({ 
+  children,
+  initialProducts
+}: { 
+  children: React.ReactNode;
+  initialProducts?: Product[];
+}) => {
+  const [products] = useState<Product[]>(initialProducts || (staticProducts as Product[]));
+  const isLoading = false;
 
   return (
     <ProductsContext.Provider value={{ products, isLoading }}>
@@ -66,3 +32,4 @@ export const ProductsProvider = ({ children }: { children: React.ReactNode }) =>
 };
 
 export const useProducts = () => useContext(ProductsContext);
+

@@ -1,0 +1,2420 @@
+[
+  {
+    "id": "p-28",
+    "slug": "atal-tinkering-labs",
+    "name": "Atal Tinkering Labs (ATL)",
+    "category": "Education",
+    "description": "NITI Aayog compliant Atal Tinkering Lab setups with robotics kits, 3D printers, sensors, microcontrollers, and complete curriculum — fostering innovation in young minds.",
+    "shortDescription": "NITI Aayog compliant innovation labs",
+    "features": [
+      "NITI Aayog ATL compliant",
+      "Robotics & coding kits",
+      "3D printer & scanner",
+      "IoT & sensor modules",
+      "Complete curriculum guide",
+      "Teacher training included"
+    ],
+    "specs": [
+      {
+        "label": "Components",
+        "value": "50+ kits & modules"
+      },
+      {
+        "label": "3D Printer",
+        "value": "FDM, 200x200x200mm"
+      },
+      {
+        "label": "Robotics",
+        "value": "Arduino + Raspberry Pi"
+      },
+      {
+        "label": "Capacity",
+        "value": "30 students/batch"
+      },
+      {
+        "label": "Setup Time",
+        "value": "1 week"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 years"
+      }
+    ],
+    "certifications": [
+      "NITI Aayog ATL",
+      "GeM Listed"
+    ],
+    "images": [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Government Approved"
+  },
+  {
+    "id": "p-29",
+    "slug": "science-kit-lab",
+    "name": "Science Kit Lab",
+    "category": "Education",
+    "description": "Comprehensive science laboratory kits for Classes 1-12 covering Physics, Chemistry, Biology, and Mathematics experiments — aligned with CBSE and state board syllabi.",
+    "shortDescription": "Complete science labs for Classes 1-12",
+    "features": [
+      "Physics, Chemistry, Biology, Math kits",
+      "CBSE & state board aligned",
+      "Classes 1-12 coverage",
+      "Experiment manuals included",
+      "Safety equipment provided",
+      "Annual refill packs available"
+    ],
+    "specs": [
+      {
+        "label": "Subjects",
+        "value": "Physics, Chem, Bio, Math"
+      },
+      {
+        "label": "Classes",
+        "value": "1-12"
+      },
+      {
+        "label": "Experiments",
+        "value": "200+ per subject"
+      },
+      {
+        "label": "Curriculum",
+        "value": "CBSE / State Board"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 years"
+      }
+    ],
+    "certifications": [
+      "CBSE Lab Standards",
+      "ISO 9001:2015",
+      "GeM Listed"
+    ],
+    "images": [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Featured"
+  },
+  {
+    "id": "p-31",
+    "slug": "ai-robotics-lab",
+    "name": "AI & Robotics Lab",
+    "category": "Education",
+    "description": "Advanced AI and Robotics laboratory setups with programmable robots, machine learning kits, computer vision modules, and structured curriculum for future-ready education.",
+    "shortDescription": "Advanced AI & robotics education labs",
+    "features": [
+      "Programmable robot kits",
+      "Machine learning modules",
+      "Computer vision cameras",
+      "Python & Scratch curriculum",
+      "Competition-ready projects",
+      "Cloud AI platform access"
+    ],
+    "specs": [
+      {
+        "label": "Robots",
+        "value": "10-20 per lab"
+      },
+      {
+        "label": "AI Platform",
+        "value": "TensorFlow + Scratch AI"
+      },
+      {
+        "label": "Languages",
+        "value": "Python, Scratch, Block"
+      },
+      {
+        "label": "Capacity",
+        "value": "30 students/batch"
+      },
+      {
+        "label": "Setup Time",
+        "value": "1 week"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 years"
+      }
+    ],
+    "certifications": [
+      "NEP 2020 Aligned",
+      "GeM Listed"
+    ],
+    "images": [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "New"
+  },
+  {
+    "id": "p-30",
+    "slug": "earthquake-safety-lab",
+    "name": "Earthquake Safety Lab",
+    "category": "Education",
+    "description": "Interactive earthquake simulation and safety training labs for schools. Features earthquake simulator, safety equipment, and disaster preparedness curriculum.",
+    "shortDescription": "Earthquake simulation & safety training",
+    "features": [
+      "Earthquake simulator (Richter 3-8)",
+      "Safety training modules",
+      "Disaster preparedness curriculum",
+      "First-aid training kit",
+      "Building model demonstrations",
+      "VR experience (optional)"
+    ],
+    "specs": [
+      {
+        "label": "Simulator",
+        "value": "Richter 3-8 simulation"
+      },
+      {
+        "label": "Capacity",
+        "value": "10 persons/session"
+      },
+      {
+        "label": "Platform",
+        "value": "Hydraulic, 2m x 2m"
+      },
+      {
+        "label": "Training",
+        "value": "NDMA aligned"
+      },
+      {
+        "label": "Area",
+        "value": "50 sqm minimum"
+      },
+      {
+        "label": "Warranty",
+        "value": "3 years"
+      }
+    ],
+    "certifications": [
+      "NDMA Guidelines",
+      "ISO 9001:2015"
+    ],
+    "images": [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Featured"
+  },
+  {
+    "id": "p-32",
+    "slug": "portable-library",
+    "name": "Portable Library",
+    "category": "Education",
+    "description": "Mobile library units with 500+ curated books, digital readers, and reading furniture — bringing quality educational resources to underserved communities and remote schools.",
+    "shortDescription": "Mobile libraries with 500+ curated books",
+    "features": [
+      "500+ curated books",
+      "Digital e-reader tablets",
+      "Portable shelving system",
+      "Reading furniture included",
+      "Multi-lingual collection",
+      "Easy transport & setup"
+    ],
+    "specs": [
+      {
+        "label": "Books",
+        "value": "500-1000"
+      },
+      {
+        "label": "Tablets",
+        "value": "5-10 e-readers"
+      },
+      {
+        "label": "Languages",
+        "value": "English, Hindi, Regional"
+      },
+      {
+        "label": "Furniture",
+        "value": "Foldable tables & mats"
+      },
+      {
+        "label": "Transport",
+        "value": "Fits in standard vehicle"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 years"
+      }
+    ],
+    "certifications": [
+      "CBSE Reading Program"
+    ],
+    "images": [
+      "/images/generated/smart_school_lab_1783792273147.png",
+      "/images/generated/smart_school_library_1783792283921.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Featured"
+  },
+  {
+    "id": "p-11",
+    "slug": "bio-medical-waste-incinerator",
+    "name": "Smokeless Bio Medical Waste Incinerator",
+    "category": "Waste Management",
+    "description": "The Bio Medical Waste Incinerator by WASTEMENT is engineered for the safe and compliant disposal of bio-medical hazards. Utilizing advanced combustion technology, it guarantees a complete burn with minimal emissions, reducing infection risks. Built with robust materials for durability and featuring intelligent safety interlocks, this CPCB and MOEF compliant machine offers a low-maintenance, eco-friendly solution for hospitals and clinics.",
+    "shortDescription": "Safe and compliant advanced combustion incinerator for bio-medical waste",
+    "features": [
+      "Eco Friendly & Low Emission",
+      "Smart Control with Safety Interlocks",
+      "Advanced Combustion for Complete Burn",
+      "CPCB & MOEF Compliant",
+      "Durable and Robust Construction",
+      "User Friendly & Low Maintenance"
+    ],
+    "specs": [
+      {
+        "label": "Application",
+        "value": "Bio-Medical Waste Disposal"
+      },
+      {
+        "label": "Compliance",
+        "value": "CPCB & MOEF Guidelines"
+      },
+      {
+        "label": "Combustion",
+        "value": "High Efficiency Advanced Burn"
+      },
+      {
+        "label": "Safety",
+        "value": "Intelligent Interlocks"
+      },
+      {
+        "label": "Design",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 14001:2015",
+      "CPCB Compliant",
+      "Made in India"
+    ],
+    "images": [
+      "/images/products/incinerator/3_2.png",
+      "/images/products/incinerator/3_3.png",
+      "/images/products/incinerator/3_4.png",
+      "/images/products/incinerator/3_1.png",
+      "/images/generated/bio-medical-waste-incinerator-4.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "ISO Certified"
+  },
+  {
+    "id": "p-1782387894158",
+    "slug": "solid-waste-incinerator-with-smoke-control-system",
+    "name": "Solid Waste Incinerator with Smoke Control System",
+    "category": "Waste Management",
+    "description": "The Solid Waste Incinerator with Smoke Control System is a high-performance waste disposal system suitable for municipalities, industries, housing societies, commercial establishments, and institutional facilities. Featuring a dual-chamber combustion system with operating temperatures up to 1200°C, it provides complete waste destruction with significantly reduced smoke and emissions.\n\nCompatible with Diesel, LPG, and PNG, the incinerator incorporates a multi-stage emission control system, insulated heavy-duty construction, automated controls, and customizable capacities up to 2000 kg per batch, making it an ideal solution for modern solid waste management projects.",
+    "shortDescription": "The Solid Waste Incinerator with Smoke Control System is an industrial waste disposal solution designed for efficient combustion of municipal and commercial solid waste while maintaining low emissions through advanced smoke control technology.",
+    "features": [
+      "High-temperature combustion",
+      "Advanced smoke control system",
+      "Multi-stage emission control",
+      "Diesel, LPG & PNG compatibility",
+      "Dual chamber design",
+      "Low emission operation",
+      "Heavy-duty insulated body",
+      "Semi-automatic or automatic operation",
+      "Fully equipped control panel",
+      "High processing capacity",
+      "Durable industrial construction",
+      "Suitable for continuous operation"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Waste Management"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/solid-waste-incinerator-with-smoke-control-system-0.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Featured"
+  },
+  {
+    "id": "p-17",
+    "slug": "horizontal-industrial-incinerator",
+    "name": "Heavy-Duty Horizontal Incinerator",
+    "category": "Waste Management",
+    "description": "The Heavy-Duty Horizontal Incinerator is built for massive volume reduction and industrial waste processing. This skid-mounted unit features a large, accessible primary horizontal combustion chamber with multi-point automated latching for maximum safety. Equipped with forced-draft fans and a dedicated exhaust stack, it delivers uncompromising burn efficiency for bulk solid wastes in a robust, low-profile footprint.",
+    "shortDescription": "Large capacity horizontal industrial incinerator for bulk solid waste processing",
+    "features": [
+      "Large Horizontal Combustion Chamber",
+      "Multi-Point Safety Latching System",
+      "Skid-Mounted Modular Design",
+      "Integrated Forced-Draft Blowers",
+      "High-Capacity Bulk Waste Processing",
+      "Heavy Gauge Steel Construction"
+    ],
+    "specs": [
+      {
+        "label": "Configuration",
+        "value": "Horizontal Skid-Mounted"
+      },
+      {
+        "label": "Capacity",
+        "value": "Bulk Industrial Waste"
+      },
+      {
+        "label": "Combustion",
+        "value": "Forced-Draft High Temperature"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/products/waste_machinery/6_5.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Bulk Capacity"
+  },
+  {
+    "id": "p-34",
+    "slug": "dead-animal-solid-waste-incinerator",
+    "name": "Dual-Chamber Dead Animal & Solid Waste (2-in-1) Incinerator",
+    "category": "Waste Management",
+    "description": "The Dual-Purpose (2-in-1) Dead Animal & Solid Waste Incinerator is a high-efficiency incinerator designed for the safe disposal of both dead animals and solid municipal waste. It utilizes a 5-chamber design including primary and secondary combustion, heat exchange, scrubber, and an ID fan stack. Operating at extremely high temperatures, it ensures complete combustion with minimal emissions, making it ideal for municipalities, veterinary facilities, and large farms.",
+    "shortDescription": "High-efficiency 5-chamber incinerator for safe disposal of dead animals and solid waste",
+    "features": [
+      "Dual Purpose: Dead Animal & Solid Waste",
+      "5-Chamber Design for Complete Combustion",
+      "High Temperature (800°C - 1100°C)",
+      "Advanced Emission & Smoke Control (Scrubber)",
+      "Diesel or Gas Burner Options",
+      "PLC Based Automatic Operation",
+      "Heavy-Duty Steel Construction"
+    ],
+    "specs": [
+      {
+        "label": "Capacity",
+        "value": "Up to 500 kg/batch"
+      },
+      {
+        "label": "Temperature",
+        "value": "800°C - 1100°C"
+      },
+      {
+        "label": "Fuel Type",
+        "value": "Diesel / Gas"
+      },
+      {
+        "label": "Control System",
+        "value": "PLC Automatic"
+      },
+      {
+        "label": "Emission Standard",
+        "value": "As per CPCB Norms"
+      }
+    ],
+    "certifications": [
+      "CPCB Compliant",
+      "Environmentally Responsible"
+    ],
+    "images": [
+      "/images/products/dead-animal-solid-waste-incinerator/1.jpeg",
+      "/images/products/dead-animal-solid-waste-incinerator/2.jpeg",
+      "/images/products/dead-animal-solid-waste-incinerator/3.jpeg",
+      "/images/products/dead-animal-solid-waste-incinerator/4.jpeg",
+      "/images/products/dead-animal-solid-waste-incinerator/5.jpeg",
+      "/images/products/dead-animal-solid-waste-incinerator/6.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Dual-Purpose"
+  },
+  {
+    "id": "p-10",
+    "slug": "animal-poultry-waste-incinerator",
+    "name": "Animal & Poultry Waste Incinerator",
+    "category": "Waste Management",
+    "description": "Animal & Poultry Waste Incinerator engineered and manufactured by iRA Synergy for high reliability, certified compliance, and rugged industrial use.",
+    "shortDescription": "Animal & Poultry Waste Incinerator - industrial grade solution for Waste Management.",
+    "features": [
+      "Heavy-duty industrial grade construction",
+      "High efficiency, energy-optimized performance",
+      "Low maintenance with safety compliance",
+      "Tested for extreme environmental conditions"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Waste Management"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/products/waste_machinery/6_2.png"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-10",
+    "slug": "organic-waste-composter",
+    "name": "Automatic Organic Food Waste Compost Machine",
+    "category": "Waste Management",
+    "description": "The Organic Food Waste Composter Machine by WASTEMENT provides a fully automatic, odour-free solution to convert organic food waste into nutritious compost. It features a smart PLC control system and high-efficiency composting process with 50KG to 500KG capacity per cycle. The internal process includes shredding, drying, and composting chambers for sustainable waste reduction.",
+    "shortDescription": "Fully automatic machine to convert organic food waste into compost",
+    "features": [
+      "Fully Automatic Operation",
+      "Smart PLC Control System",
+      "Low Power Consumption",
+      "Odour Free Process",
+      "High Efficiency Composting",
+      "Easy to Operate & Maintain"
+    ],
+    "specs": [
+      {
+        "label": "Capacity",
+        "value": "50KG - 500KG per cycle"
+      },
+      {
+        "label": "Construction",
+        "value": "Mild Steel with Powder Coating"
+      },
+      {
+        "label": "Power Supply",
+        "value": "220V / 50Hz"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "3 - 5 kW"
+      },
+      {
+        "label": "Cycle Time",
+        "value": "8 - 12 Hours"
+      },
+      {
+        "label": "Operating Temp.",
+        "value": "40°C - 70°C"
+      },
+      {
+        "label": "Mobility",
+        "value": "Heavy Duty Castor Wheels"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/products/composter/composter_2.png",
+      "/images/products/composter/composter_1.png",
+      "/images/generated/organic-waste-composter-2.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Eco-Friendly"
+  },
+  {
+    "id": "p-29",
+    "slug": "plastic-shredder-machine",
+    "name": "Municipal Solid Waste Shredder Machine",
+    "category": "Waste Management",
+    "description": "The Municipal Solid Waste Shredder is engineered to handle mixed municipal solid waste with high efficiency and reliability. Equipped with heavy-duty alloy steel blades and a high-torque drive system, it effectively reduces waste volume while improving downstream processing efficiency.\n\nThe machine is ideal for municipal corporations, recycling plants, waste transfer stations, RDF production facilities, and integrated waste management projects. Its modular design allows customization based on required processing capacity.\n\nDesigned for continuous industrial use, the shredder delivers low maintenance, energy-efficient operation, and long service life.",
+    "shortDescription": "The Municipal Solid Waste Shredder is a heavy-duty industrial machine designed for shredding municipal solid waste into smaller, manageable particles for recycling, RDF production, composting, and waste processing applications.",
+    "features": [
+      "High-capacity shredding",
+      "Heavy-duty alloy steel blades",
+      "High torque gearbox",
+      "Continuous operation",
+      "Volume reduction",
+      "Suitable for mixed waste",
+      "Durable industrial construction",
+      "Low maintenance",
+      "High efficiency",
+      "Reliable operation",
+      "Long service life",
+      "Easy servicing"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Waste Management"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "Industrial Grade"
+    ],
+    "images": [
+      "/images/generated/plastic-shredder-machine-0.jpg",
+      "/images/generated/plastic-shredder-machine-1.jpg",
+      "/images/generated/plastic-shredder-machine-2.jpg",
+      "/images/generated/plastic-shredder-machine-3.jpg",
+      "/images/generated/plastic-shredder-machine-4.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "High Torque"
+  },
+  {
+    "id": "p-1782388213775",
+    "slug": "plastic-waste-grinder-machine",
+    "name": "Plastic Waste Grinder Machine",
+    "category": "Waste Management",
+    "description": "The Plastic Waste Grinder Machine is built for modern plastic recycling facilities requiring efficient size reduction of plastic waste. Equipped with hardened steel rotary blades, the grinder processes bottles, containers, injection molding scrap, pipes, sheets, and other plastic products into uniform flakes for further recycling.\n\nThe machine features a heavy-duty mild steel frame, low-vibration operation, and energy-efficient motor, making it suitable for continuous industrial use. Multiple capacities are available to meet the requirements of small, medium, and large recycling plants.\n\nDesigned with operator safety and maintenance convenience in mind, the EcoGrind machine delivers reliable performance, high output, and long equipment life.",
+    "shortDescription": "The Plastic Waste Grinder Machine is a high-performance plastic recycling machine designed to grind PET bottles, HDPE, LDPE, PP, PVC, and other plastic materials into reusable granules or flakes, improving recycling efficiency and reducing plastic waste volume.",
+    "features": [
+      "High-speed grinding",
+      "Suitable for all plastic waste",
+      "Hardened steel blades",
+      "Uniform output size",
+      "Heavy-duty mild steel construction",
+      "Low vibration",
+      "Low noise operation",
+      "Continuous industrial operation",
+      "Energy-efficient motor",
+      "Easy maintenance",
+      "Reliable performance",
+      "Long operational life"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Waste Management"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/plastic-waste-grinder-machine-0.jpg",
+      "/images/generated/plastic-waste-grinder-machine-1.jpg",
+      "/images/generated/plastic-waste-grinder-machine-2.jpg",
+      "/images/generated/plastic-waste-grinder-machine-3.jpg",
+      "/images/generated/plastic-waste-grinder-machine-4.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-1782388052583",
+    "slug": "coconut-waste-shredder-machine",
+    "name": "Coconut Waste Shredder Machine",
+    "category": "Waste Management",
+    "description": "The Organic & Coconut Waste Shredder is developed for efficient size reduction of organic materials, making them suitable for composting and biomass applications. It processes coconut husks, branches, leaves, crop residue, garden waste, and other biodegradable materials with high efficiency.\n\nPowered by a heavy-duty electric motor and fitted with hardened steel cutting blades, the machine provides uniform shredding while maintaining low energy consumption. The rugged mild steel body and industrial-grade components ensure long operational life with minimal maintenance.\n\nAvailable in different capacities, the shredder is suitable for municipalities, compost plants, agricultural farms, landscaping companies, and waste processing facilities.",
+    "shortDescription": "The Organic & Coconut Waste Shredder is a robust industrial shredding machine designed for reducing coconut waste, garden waste, agricultural residue, and organic biomass into smaller particles for composting, recycling, or biomass processing.",
+    "features": [
+      "High-speed shredding",
+      "Suitable for coconut waste",
+      "Processes garden waste",
+      "Heavy-duty steel blades",
+      "Uniform particle size",
+      "Continuous operation",
+      "Strong mild steel body",
+      "Low power consumption",
+      "Easy maintenance",
+      "High throughput",
+      "Durable industrial design",
+      "Long service life"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Waste Management"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/coconut-waste-shredder-machine-0.jpg",
+      "/images/generated/coconut-waste-shredder-machine-1.jpg",
+      "/images/generated/coconut-waste-shredder-machine-2.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-28",
+    "slug": "plastic-baling-machine",
+    "name": "Hydraulic Plastic Baling Machine",
+    "category": "Waste Management",
+    "description": "The Hydraulic Plastic Baling Machine is an industrial hydraulic press designed to compress plastic waste, cardboard, and paper into dense, manageable bales. It significantly reduces waste volume, lowering transportation and storage costs. Featuring a heavy-duty hydraulic cylinder, safety lock mechanisms, and a robust steel frame, it's essential for recycling centers and large facilities.",
+    "shortDescription": "Hydraulic press for compressing plastic and cardboard waste into dense bales",
+    "features": [
+      "Heavy-Duty Hydraulic Compression",
+      "High Volume Reduction Ratio",
+      "Safe & Easy Operation with Instructions",
+      "Robust Steel Construction",
+      "Lockable Compression Door",
+      "Ideal for Plastic, Paper, and Cardboard"
+    ],
+    "specs": [
+      {
+        "label": "Compression Force",
+        "value": "10 to 50 Tons"
+      },
+      {
+        "label": "Bale Weight",
+        "value": "50 Kg to 200 Kg"
+      },
+      {
+        "label": "Power Pack",
+        "value": "Separate Hydraulic Power Unit"
+      },
+      {
+        "label": "Operation",
+        "value": "Semi-Automatic / Manual"
+      }
+    ],
+    "certifications": [
+      "Industrial Grade",
+      "CE Standard"
+    ],
+    "images": [
+      "/images/products/plastic-baling-machine/1.jpeg",
+      "/images/products/plastic-baling-machine/2.jpeg",
+      "/images/generated/plastic-baling-machine-2.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Industrial Grade"
+  },
+  {
+    "id": "p-31",
+    "slug": "pet-bottle-crusher",
+    "name": "PET Bottle Crusher",
+    "category": "Waste Management",
+    "description": "The PET Bottle Crusher is a compact, high-speed machine designed specifically for volume reduction of plastic bottles. It quickly shreds PET bottles into flakes, facilitating efficient transport and recycling. Ideal for public spaces, events, recycling centers, and commercial facilities aiming to manage plastic bottle waste effectively.",
+    "shortDescription": "High-speed crusher for reducing PET bottle volume",
+    "features": [
+      "High-Speed Rotary Blades",
+      "Compact & Space-Saving Design",
+      "Safety Feed Hopper",
+      "Easy Access for Cleaning",
+      "Produces Uniform PET Flakes",
+      "Low Power Consumption"
+    ],
+    "specs": [
+      {
+        "label": "Application",
+        "value": "PET Bottles & Small Plastics"
+      },
+      {
+        "label": "Motor Power",
+        "value": "2 HP to 10 HP Options"
+      },
+      {
+        "label": "Blade Type",
+        "value": "Rotary & Stationary Knives"
+      },
+      {
+        "label": "Capacity",
+        "value": "50 Kg to 300 Kg/Hr"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/products/pet-bottle-crusher/1.jpeg",
+      "/images/products/pet-bottle-crusher/2.jpeg",
+      "/images/products/pet-bottle-crusher/3.jpeg",
+      "/images/products/pet-bottle-crusher/4.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Recycling"
+  },
+  {
+    "id": "p-44",
+    "slug": "msrtc-smart-bottle-crusher",
+    "name": "MSRTC Smart Bottle Crusher with In-Built Weight Machine",
+    "category": "Waste Management",
+    "description": "The MSRTC Smart Bottle Crusher with In-Built Weight Machine is a state-of-the-art public utility recycling kiosk designed for bus depots, transit stations, schools, and shopping malls. It allows citizens to dispose of plastic bottles automatically while instantly displaying the recycled weight and printing a contribution slip. Additionally, it features an integrated body weight measurement platform to promote healthy living, encouraging public participation in waste management.",
+    "shortDescription": "Automatic plastic bottle crusher with built-in digital weight machine and weight slip printer",
+    "features": [
+      "Crushes Plastic Bottles Automatically for instant volume reduction",
+      "In-Built Digital Weight Machine with instant display for public use",
+      "Self-Weight Display Platform for body weight tracking",
+      "Encourages Recycling and supports Swachh Bharat & MSRTC Clean Green mission",
+      "Prints Contribution Slip showing recycled weight and thank-you message",
+      "User-friendly and safe operation with simple instructions",
+      "Heavy-duty powder-coated steel construction for public durability",
+      "Compact, modern, and stylish design with corporate branding options"
+    ],
+    "specs": [
+      {
+        "label": "Crushing Capacity",
+        "value": "Up to 100 Bottles / Min"
+      },
+      {
+        "label": "Bottle Size Support",
+        "value": "Up to 2 Liters"
+      },
+      {
+        "label": "Power Supply",
+        "value": "220V AC, 50Hz"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "1.5 HP"
+      },
+      {
+        "label": "Weight Capacity (Scale)",
+        "value": "Up to 200 kg (Person)"
+      },
+      {
+        "label": "Machine Weight",
+        "value": "Approx. 90 kg"
+      },
+      {
+        "label": "Material",
+        "value": "Powder Coated Mild Steel"
+      },
+      {
+        "label": "Dimensions (HxWxD)",
+        "value": "1290 x 600 x 550 mm"
+      }
+    ],
+    "certifications": [
+      "MSRTC Approved",
+      "Swachh Bharat Compliant",
+      "ISO Certified"
+    ],
+    "images": [
+      "/images/products/msrtc-smart-bottle-crusher/1.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart Recycling"
+  },
+  {
+    "id": "p-15",
+    "slug": "trommel-screening-machine-with-feeding-conveyor",
+    "name": "3 Stage Trommel Screening Machine with Feeding Conveyor",
+    "category": "Waste Management",
+    "description": "The 3 Stage Trommel Screening Machine by WASTEMENT is an industrial-scale automated screening and waste segregation plant. Built for high volume municipal solid waste management, it features a massive rotating cylindrical screen, heavy-duty feeding conveyors, and multiple segregation stages. The system is designed with high-grade, corrosion-resistant steel and a centralized control panel, delivering continuous, reliable, and energy-efficient performance in municipal and commercial recycling facilities.",
+    "shortDescription": "Industrial-scale 3-stage rotating trommel screen with heavy-duty conveyor belts for municipal waste segregation",
+    "features": [
+      "Massive 3-Stage Cylindrical Rotating Screen for precise segregation",
+      "Heavy-Duty Automated Feeding & Discharge Conveyors",
+      "Centralized Control Panel for easy system operations",
+      "Corrosion-Resistant Powder Coated Finish for harsh environments",
+      "UV & Weather Resistant exterior for long-lasting shine",
+      "High-Throughput continuously automated processing",
+      "Low Maintenance and easy-to-clean design",
+      "Custom Color Finishes: Wastement Green, Industrial Grey, Earth Brown, Premium Blue"
+    ],
+    "specs": [
+      {
+        "label": "System Type",
+        "value": "3 Stage Trommel Screening Plant"
+      },
+      {
+        "label": "Operation",
+        "value": "Continuous Automated"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy-Duty Corrosion-Resistant Mild Steel"
+      },
+      {
+        "label": "Finishing",
+        "value": "Powder Coated (UV & Weather Resistant)"
+      },
+      {
+        "label": "Power & Control",
+        "value": "Central Control Panel with Emergency Stops"
+      },
+      {
+        "label": "Color Options",
+        "value": "Wastement Green (RAL 6005), Industrial Grey (RAL 7012), Earth Brown (RAL 8025), Premium Blue (RAL 5010)"
+      }
+    ],
+    "certifications": [
+      "Industrial Grade Approved",
+      "Make in India",
+      "ISO Certified"
+    ],
+    "images": [
+      "/images/products/trommel-waste-sorting-plant/1.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Industrial Scale"
+  },
+  {
+    "id": "p-1782298614401",
+    "slug": "fatka-machine",
+    "name": "Industrial Plastic Dust Remover Machine (Fatka Machine)",
+    "category": "Waste Management",
+    "description": "The Industrial Plastic Dust Remover Machine (Fatka Machine) is a high-performance rotary cleaning system designed to efficiently remove fine dust, powder, fiber, labels, and lightweight impurities from plastic flakes, granules, and recycled plastic materials before further processing.\n\nEngineered for plastic recycling plants, extrusion lines, washing systems, and granule manufacturing facilities, the machine significantly improves the cleanliness and quality of plastic materials by utilizing high-speed rotary separation and airflow technology. This enhances the performance of downstream equipment while reducing contamination in the final product.\n\nConstructed from heavy-duty mild steel with a robust industrial frame, the machine ensures reliable continuous operation, low maintenance requirements, and long service life. Its powerful motor delivers high rotational speed for effective dust separation while maintaining consistent production throughput.",
+    "shortDescription": "Industrial Plastic Dust Remover Machine (Fatka Machine) is a high-performance rotary cleaning system designed to efficiently remove fine dust, powder, fiber, labels, and lightweight impurities from plastic flakes, granules, and recycled plastic materials before further processing.",
+    "features": [
+      "Efficient plastic dust removal",
+      "Removes fine powder and lightweight impurities",
+      "High-capacity continuous operation",
+      "Suitable for plastic flakes and granules",
+      "Heavy-duty industrial construction",
+      "High-speed rotary drum design",
+      "Powerful 10 HP industrial motor",
+      "Stable and vibration-free operation",
+      "Easy material feeding system",
+      "Continuous discharge mechanism",
+      "Uniform material cleaning",
+      "Low power consumption"
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "PD-FATKA-2024"
+      },
+      {
+        "label": "Machine Type",
+        "value": "Plastic Dust Remover (Fatka Machine)"
+      },
+      {
+        "label": "Capacity",
+        "value": "500–800 kg/hour"
+      },
+      {
+        "label": "Motor Power",
+        "value": "10 HP (7.5 kW)"
+      },
+      {
+        "label": "Operating Voltage",
+        "value": "415V AC, 3 Phase, 50Hz"
+      },
+      {
+        "label": "Rotation Speed",
+        "value": "1440 RPM"
+      },
+      {
+        "label": "Machine Type",
+        "value": "Rotary Drum Dust Separator"
+      },
+      {
+        "label": "Construction Material",
+        "value": "Heavy-Duty Mild Steel"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/fatka-machine-0.jpg",
+      "/images/generated/fatka-machine-1.jpg",
+      "/images/generated/fatka-machine-2.jpg",
+      "/images/generated/fatka-machine-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Waste Management"
+  },
+  {
+    "id": "p-30",
+    "slug": "smoke-control-unit",
+    "name": "Smoke Control & Wet Scrubber Unit",
+    "category": "Waste Management",
+    "description": "The Smoke Control & Wet Scrubber Unit is an essential emission control system designed to treat exhaust gases from incinerators and industrial processes. By passing smoke through a water spray chamber, it effectively removes particulate matter and neutralizes harmful gases before they are released into the atmosphere, ensuring compliance with strict environmental regulations.",
+    "shortDescription": "Industrial wet scrubber for emission control and air purification",
+    "features": [
+      "High-Efficiency Wet Scrubbing Technology",
+      "Removes Particulate Matter & Toxic Gases",
+      "Stainless Steel / Anti-Corrosive Interior",
+      "Water Recirculation Pump System",
+      "Ensures CPCB Emission Compliance",
+      "Easy Maintenance & Sludge Removal"
+    ],
+    "specs": [
+      {
+        "label": "Type",
+        "value": "Wet Scrubber System"
+      },
+      {
+        "label": "Application",
+        "value": "Incinerator Exhaust Treatment"
+      },
+      {
+        "label": "Material",
+        "value": "SS 304 / Mild Steel with Epoxy Coating"
+      },
+      {
+        "label": "Pump",
+        "value": "High-Pressure Spray Pump"
+      }
+    ],
+    "certifications": [
+      "CPCB Compliant",
+      "Pollution Control Standard"
+    ],
+    "images": [
+      "/images/products/smoke-control-unit/1.jpeg",
+      "/images/generated/smoke-control-unit-1.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Eco-Friendly"
+  },
+  {
+    "id": "p-26",
+    "slug": "containerized-bio-gas-plant",
+    "name": "Containerized Bio-Gas Plant",
+    "category": "Renewable Energy",
+    "description": "The Containerized Bio-Gas Plant provides a decentralized, plug-and-play solution for organic waste management and renewable energy generation. Built within standard shipping containers, it converts food and agricultural waste into clean biogas and nutrient-rich liquid fertilizer. It features automated feeding, gas scrubbing, and smart monitoring for efficient, odor-free operation.",
+    "shortDescription": "Plug-and-play modular biogas plant in a shipping container",
+    "features": [
+      "Modular Containerized Design",
+      "Automated Feeding & Mixing System",
+      "Integrated Biogas Scrubber & Storage",
+      "Smart Monitoring & Control Panel",
+      "High-Yield Methane Production",
+      "Odor-Free & Weatherproof Operation",
+      "Produces Nutrient-Rich Liquid Fertilizer"
+    ],
+    "specs": [
+      {
+        "label": "Container Size",
+        "value": "20ft / 40ft Options"
+      },
+      {
+        "label": "Waste Capacity",
+        "value": "500 Kg to 5 Tonnes/Day"
+      },
+      {
+        "label": "Gas Output",
+        "value": "High-Calorific Biogas"
+      },
+      {
+        "label": "Byproduct",
+        "value": "Liquid Organic Fertilizer"
+      },
+      {
+        "label": "Automation",
+        "value": "PLC Based Control System"
+      }
+    ],
+    "certifications": [
+      "MNRE Compliant",
+      "Eco-Friendly"
+    ],
+    "images": [
+      "/images/generated/containerized-bio-gas-plant-0.jpg",
+      "/images/products/containerized-bio-gas-plant/2.jpeg",
+      "/images/generated/containerized-bio-gas-plant-2.jpg",
+      "/images/generated/containerized-bio-gas-plant-3.jpg",
+      "/images/generated/containerized-bio-gas-plant-4.jpg",
+      "/images/generated/containerized-bio-gas-plant-5.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Renewable Energy"
+  },
+  {
+    "id": "p-1782386119133",
+    "slug": "solar-tree",
+    "name": "Solar Tree",
+    "category": "Renewable Energy",
+    "description": "The Solar Tree is an innovative renewable energy structure designed to maximize solar power generation within a compact footprint. Its tree-inspired design not only generates clean electricity but also enhances the visual appeal of public spaces.\n\nBuilt using heavy-duty galvanized or mild steel with weather-resistant coatings, the structure supports high-efficiency monocrystalline solar panels capable of generating between 1 kW and 5 kW of power. Optional battery backup enables continuous operation even during non-sunlight hours.\n\nIdeal for Smart City infrastructure, educational institutions, parks, railway stations, and corporate campuses, the SmartSolar Tree combines sustainability, functionality, and architectural elegance.",
+    "shortDescription": "The Solar Tree is a vertical solar energy generation system that combines modern aesthetics with renewable power generation. Designed for Smart Cities, parks, campuses, and commercial spaces, it provides clean energy while occupying minimal ground space.",
+    "features": [
+      "Tree-inspired modern design",
+      "Clean renewable energy generation",
+      "Space-saving vertical structure",
+      "High-efficiency solar panels",
+      "Heavy-duty steel construction",
+      "Weather-resistant finish",
+      "Optional battery backup",
+      "Low maintenance",
+      "Smart City compatible",
+      "Eco-friendly infrastructure",
+      "Ground-mounted installation",
+      "Long operational life",
+      "Attractive landscape integration",
+      "Customizable power output"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Renewable Energy"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/solar-tree-0.jpg",
+      "/images/generated/solar-tree-1.jpg",
+      "/images/generated/solar-tree-2.jpg",
+      "/images/generated/solar-tree-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Renewable Energy"
+  },
+  {
+    "id": "p-23",
+    "slug": "plastic-waste-to-energy-gasifier-plant",
+    "name": "Biomass & Plastic Waste-to-Energy Gasifier Plant",
+    "category": "Renewable Energy",
+    "description": "Biomass & Plastic Waste-to-Energy Gasifier Plant engineered and manufactured by iRA Synergy for high reliability, certified compliance, and rugged industrial use.",
+    "shortDescription": "Biomass & Plastic Waste-to-Energy Gasifier Plant - industrial grade solution for Renewable Energy.",
+    "features": [
+      "Heavy-duty industrial grade construction",
+      "High efficiency, energy-optimized performance",
+      "Low maintenance with safety compliance",
+      "Tested for extreme environmental conditions"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Renewable Energy"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/plastic-waste-grinder-machine-0.jpg",
+      "/images/generated/plastic-waste-grinder-machine-1.jpg",
+      "/images/generated/plastic-waste-grinder-machine-2.jpg",
+      "/images/generated/plastic-waste-grinder-machine-3.jpg",
+      "/images/generated/plastic-waste-grinder-machine-4.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-41",
+    "slug": "electric-mobile-market-van",
+    "name": "Electric Mobile Market Van",
+    "category": "Renewable Energy",
+    "description": "The iRA Synergy Electric Mobile Market Van is an eco-friendly, zero-emission mobile business solution designed to support entrepreneurs, particularly women, and promote green commerce. Built with a robust chassis, spacious display shelves, a weather-protected canopy, and high-efficiency lithium-ion batteries, it offers a reliable, low-maintenance, and highly maneuverable solution for urban and rural retail markets.",
+    "shortDescription": "Zero-emission electric vehicle with spacious display shelves for mobile retail and market businesses",
+    "features": [
+      "100% Electric & Zero Emissions",
+      "Spacious Display Area with Well-Designed Shelves",
+      "Strong Canopy & Weather Protection for All-Season Use",
+      "High-Efficiency Lithium-ion Battery with Long Lifespan",
+      "Compact Design for Easy Maneuverability in Busy Streets",
+      "Low Operating Cost & Low Maintenance for High Savings",
+      "Custom Branding Options for Better Business Visibility",
+      "Empowers Women Entrepreneurs & Enhances Local Economy"
+    ],
+    "specs": [
+      {
+        "label": "Vehicle Type",
+        "value": "Electric Mobile Market Van"
+      },
+      {
+        "label": "Seating Capacity",
+        "value": "Driver + 1 Assistant"
+      },
+      {
+        "label": "Payload Capacity",
+        "value": "Up to 500 kg"
+      },
+      {
+        "label": "Battery Type",
+        "value": "Lithium-ion"
+      },
+      {
+        "label": "Battery Capacity",
+        "value": "48V / 100Ah"
+      },
+      {
+        "label": "Range per Charge",
+        "value": "100 - 120 km"
+      },
+      {
+        "label": "Charging Time",
+        "value": "4 - 5 Hours"
+      },
+      {
+        "label": "Top Speed",
+        "value": "45 km/h"
+      },
+      {
+        "label": "Drive Type",
+        "value": "Rear Wheel Drive"
+      },
+      {
+        "label": "Dimensions (LxWxH)",
+        "value": "3500mm x 1500mm x 2000mm"
+      }
+    ],
+    "certifications": [
+      "Make in India",
+      "Eco-Friendly & Zero Emission"
+    ],
+    "images": [
+      "/images/products/electric-mobile-market-van/1.jpeg",
+      "/images/products/electric-mobile-market-van/2.jpeg",
+      "/images/products/electric-mobile-market-van/3.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Empowering Women"
+  },
+  {
+    "id": "p-8",
+    "slug": "solar-smart-bench",
+    "name": "Smart Solar Bench",
+    "category": "Smart City",
+    "description": "The Solar Smart Bench is a next-generation urban seating solution that brings connectivity and renewable energy to public spaces. Fully powered by integrated solar panels, it provides free Wi-Fi, wireless device charging, USB ports, and atmospheric sensors. Designed with durable, weather-resistant materials, it's perfect for parks, university campuses, smart city squares, and corporate campuses.",
+    "shortDescription": "Solar-powered smart seating with Wi-Fi & USB charging",
+    "features": [
+      "Integrated monocrystalline solar panels",
+      "Wireless charging pad (Qi standard)",
+      "4x fast-charging USB ports",
+      "Public Wi-Fi hotspot integration",
+      "Ambient LED lighting for night safety",
+      "Vandal-resistant and weatherproof design",
+      "Built-in atmospheric and environmental sensors"
+    ],
+    "specs": [
+      {
+        "label": "Solar Panel",
+        "value": "100W High-Efficiency Monocrystalline"
+      },
+      {
+        "label": "Battery",
+        "value": "12V 40Ah / 50Ah Lithium Iron Phosphate"
+      },
+      {
+        "label": "USB Ports",
+        "value": "2x USB-A + 2x USB-C"
+      },
+      {
+        "label": "Seating Capacity",
+        "value": "4-6 persons"
+      },
+      {
+        "label": "Construction",
+        "value": "SS 304 Frame + UV-Resistant Composite"
+      },
+      {
+        "label": "IP Rating",
+        "value": "IP65 Waterproof"
+      }
+    ],
+    "certifications": [
+      "MNRE Approved",
+      "IP65",
+      "GeM Listed",
+      "CE Marking"
+    ],
+    "images": [
+      "/images/products/solar_bench/sb_1.png",
+      "/images/products/solar_bench/sb_2.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart City"
+  },
+  {
+    "id": "p-1782495515311",
+    "slug": "smart-pole",
+    "name": "Integrated Smart Pole",
+    "category": "Smart City",
+    "description": "The Integrated Smart Pole is a next-generation intelligent urban infrastructure platform engineered to support modern Smart City initiatives. By integrating multiple technologies into a single pole, it eliminates the need for separate installations while improving operational efficiency, aesthetics, and public services.\n\nPowered by a high-efficiency monocrystalline solar panel, the system generates renewable energy to operate its integrated components while reducing dependency on conventional power. An AI-powered PTZ surveillance camera delivers 360° monitoring with intelligent analytics such as object detection, facial recognition, intrusion alerts, and night vision.\n\nThe Smart Pole continuously monitors environmental conditions through integrated air quality and weather sensors capable of measuring AQI, CO₂, PM2.5, PM10, temperature, humidity, and ambient noise levels. A built-in 4G/LTE + Wi-Fi hotspot provides high-speed wireless internet connectivity for citizens and IoT devices.\n\nFor public communication, the system incorporates a Full HD outdoor LED display for advertisements, emergency alerts, and public information, along with a public address system for live or scheduled announcements. An integrated SOS emergency button enables instant communication with emergency response teams, while the optional EV charging unit supports electric vehicle charging infrastructure.\n\nIts modular architecture allows customization based on project requirements, making it suitable for smart transportation, public safety, digital advertising, environmental monitoring, and sustainable urban development projects.",
+    "shortDescription": "The Integrated Smart Pole is an advanced multi-functional urban infrastructure solution that combines intelligent surveillance, renewable solar power, environmental monitoring, public communication, digital advertising, EV charging, emergency response, and smart connectivity into a single modular system. Designed for Smart Cities, municipalities, industrial parks, campuses, and public spaces, it enhances safety, sustainability, and digital connectivity while reducing infrastructure costs.",
+    "features": [
+      "Multi-functional smart infrastructure",
+      "Solar-powered operation",
+      "High-efficiency monocrystalline solar panel",
+      "AI-powered PTZ surveillance camera",
+      "360° video monitoring",
+      "Facial recognition capability",
+      "Object detection",
+      "Intrusion detection",
+      "Night vision up to 100 m",
+      "Environmental monitoring",
+      "AQI monitoring",
+      "CO₂ monitoring",
+      "PM2.5 monitoring",
+      "PM10 monitoring",
+      "Temperature monitoring",
+      "Humidity monitoring",
+      "Noise monitoring",
+      "4G/LTE connectivity"
+    ],
+    "specs": [
+      {
+        "label": "Product Name",
+        "value": "SmartCity™ Integrated Smart Pole"
+      },
+      {
+        "label": "Pole Material",
+        "value": "Hot-Dip Galvanized Steel / Powder-Coated Steel"
+      },
+      {
+        "label": "Pole Height",
+        "value": "6–12 m (Customizable)"
+      },
+      {
+        "label": "Mounting Type",
+        "value": "Foundation Mounted"
+      },
+      {
+        "label": "Power Source",
+        "value": "Solar + Grid Hybrid"
+      },
+      {
+        "label": "Solar Panel Type",
+        "value": "Monocrystalline Silicon"
+      },
+      {
+        "label": "Solar Panel Capacity",
+        "value": "150W–300W (Customizable)"
+      },
+      {
+        "label": "Solar Efficiency",
+        "value": "≥21%"
+      },
+      {
+        "label": "Solar Panel Life",
+        "value": "25+ Years"
+      },
+      {
+        "label": "Battery Backup",
+        "value": "Optional Lithium Battery"
+      },
+      {
+        "label": "Connectivity",
+        "value": "4G / LTE / Wi-Fi"
+      },
+      {
+        "label": "Display",
+        "value": "Outdoor Full HD LED"
+      },
+      {
+        "label": "Protection Rating",
+        "value": "IP65 / Outdoor Rated"
+      },
+      {
+        "label": "Operating Mode",
+        "value": "Smart Automatic"
+      },
+      {
+        "label": "Remote Monitoring",
+        "value": "Cloud Based (Optional)"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/smart-pole-0.jpg",
+      "/images/generated/smart-pole-1.jpg",
+      "/images/generated/smart-pole-2.jpg",
+      "/images/generated/smart-pole-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-33",
+    "slug": "smart-city-bus-shelter",
+    "name": "Smart Solar Bus Shelter",
+    "category": "Smart City",
+    "description": "Our Smart Solar Bus Stop redefines urban commuting with modern amenities and sustainable infrastructure. It features a solar-powered smart pole, integrated CCTV for safety, environmental sensors, and digital advertisement displays. Built with weather-resistant materials and offering comfortable seating, it serves as a smart hub for public transportation.",
+    "shortDescription": "Modern transit shelter with solar power, CCTV, and digital displays",
+    "features": [
+      "Solar-Powered Smart Pole Integration",
+      "Integrated CCTV & Security Sensors",
+      "Digital Advertising Panel",
+      "Comfortable Seating with Weather Protection",
+      "Modern Aesthetics & Corporate Branding",
+      "Built-in Smart Waste Bins"
+    ],
+    "specs": [
+      {
+        "label": "Power Source",
+        "value": "Grid + Solar Backup Options"
+      },
+      {
+        "label": "Structure",
+        "value": "Galvanized Steel & Toughened Glass"
+      },
+      {
+        "label": "Displays",
+        "value": "Outdoor LED/LCD Screens"
+      },
+      {
+        "label": "Lighting",
+        "value": "Automated LED Illumination"
+      }
+    ],
+    "certifications": [
+      "Smart City Standard",
+      "ISO Certified"
+    ],
+    "images": [
+      "/images/generated/smart-city-bus-shelter-0.jpg",
+      "/images/generated/smart-city-bus-shelter-1.jpg",
+      "/images/generated/smart-city-bus-shelter-2.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart Infrastructure"
+  },
+  {
+    "id": "p-37",
+    "slug": "smart-waste-bin",
+    "name": "IoT Smart Waste Bin",
+    "category": "Smart City",
+    "description": "The Smart Waste Bin brings IoT technology to urban waste management. Featuring segregated compartments for general and recyclable waste, it includes built-in sensors to monitor fill levels in real-time, optimizing collection routes. It is solar-powered and boasts a durable, aesthetically pleasing design suitable for modern cityscapes.",
+    "shortDescription": "IoT-enabled segregated waste bin with real-time fill level monitoring",
+    "features": [
+      "Segregated Compartments (General / Recycle)",
+      "IoT Sensors for Fill-Level Monitoring",
+      "Solar-Powered Sensor Operation",
+      "Durable Weather-Resistant Construction",
+      "Optimizes Waste Collection Logistics",
+      "Clear Visual Iconography for Public Use"
+    ],
+    "specs": [
+      {
+        "label": "Compartments",
+        "value": "Dual / Triple Segregation"
+      },
+      {
+        "label": "Technology",
+        "value": "Ultrasonic Fill Sensors"
+      },
+      {
+        "label": "Power",
+        "value": "Solar Panel for IoT Module"
+      },
+      {
+        "label": "Material",
+        "value": "Powder-Coated Steel / Composite"
+      }
+    ],
+    "certifications": [
+      "Smart City Standard"
+    ],
+    "images": [
+      "/images/generated/smart-waste-bin-0.jpg",
+      "/images/generated/smart-waste-bin-1.jpg",
+      "/images/generated/smart-waste-bin-2.jpg",
+      "/images/generated/smart-waste-bin-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart City"
+  },
+  {
+    "id": "p-32",
+    "slug": "smart-vend-cloth-bag-vending-machine",
+    "name": "Smart Cloth Bag Vending Machine",
+    "category": "Smart City",
+    "description": "The Smart Vend Cloth Bag Vending Machine is a smart, automatic public utility kiosk designed to dispense reusable, eco-friendly cloth and jute bags. Featuring a touch-screen user interface, IoT connectivity for real-time stock monitoring, and multiple payment options (coins, notes, or digital UPI), it provides a convenient alternative to single-use plastics in retail markets, malls, schools, and transit hubs.",
+    "shortDescription": "IoT-enabled automatic cloth bag vending machine with touch-screen and UPI payment options",
+    "features": [
+      "Automatic Reusable Cloth / Jute Bag Dispensation",
+      "Multiple Payment Support: Coins, notes, and digital UPI payments",
+      "Touch-Screen User Interface & digital LCD display counter",
+      "IoT Enabled for real-time inventory monitoring and reporting",
+      "Secure Multi-point Locking System for cash and inventory protection",
+      "Durable & Weather-Resistant powder-coated mild steel enclosure",
+      "Custom Branding Options with eco-friendly 'Say No to Plastic' graphics",
+      "Compact floor-standing design suitable for indoor & outdoor use"
+    ],
+    "specs": [
+      {
+        "label": "Model",
+        "value": "WT-CBVM-01 / Smart Vend"
+      },
+      {
+        "label": "Storage Capacity",
+        "value": "100 - 150 Bags"
+      },
+      {
+        "label": "Payment Options",
+        "value": "Coins, Notes, and Digital (UPI)"
+      },
+      {
+        "label": "Dimensions (LxWxH)",
+        "value": "600 x 400 x 1200 mm"
+      },
+      {
+        "label": "Weight",
+        "value": "45 - 50 kg (Approx.)"
+      },
+      {
+        "label": "Body Material",
+        "value": "Mild Steel (Power Coated)"
+      },
+      {
+        "label": "Power Supply",
+        "value": "220V - 230V AC / 50Hz"
+      },
+      {
+        "label": "Connectivity",
+        "value": "IoT Enabled for Real-time Monitoring"
+      },
+      {
+        "label": "Display",
+        "value": "Touch Screen Interface / LCD Digital Display"
+      },
+      {
+        "label": "Color Options",
+        "value": "Green, Yellow, Blue, White, Earth Beige"
+      }
+    ],
+    "certifications": [
+      "Eco-Friendly Certified",
+      "Make in India",
+      "CE Standard"
+    ],
+    "images": [
+      "/images/generated/smart-vend-cloth-bag-vending-machine-0.jpg",
+      "/images/generated/smart-vend-cloth-bag-vending-machine-1.jpg",
+      "/images/generated/smart-vend-cloth-bag-vending-machine-2.jpg",
+      "/images/generated/smart-vend-cloth-bag-vending-machine-3.jpg",
+      "/images/generated/smart-vend-cloth-bag-vending-machine-4.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Eco-Friendly"
+  },
+  {
+    "id": "p-7",
+    "slug": "snacks-beverage-vending-machine",
+    "name": "Automated Snacks & Beverage Vending Machine",
+    "category": "Smart City",
+    "description": "Smart vending machines for snacks and beverages with cashless payment, remote inventory monitoring, and energy-efficient cooling systems.",
+    "shortDescription": "Smart vending with cashless payments & monitoring",
+    "features": [
+      "40+ product slots",
+      "Cashless payments (UPI, NFC)",
+      "Remote inventory monitoring",
+      "Energy-efficient cooling",
+      "Touchscreen interface",
+      "Tamper-proof construction"
+    ],
+    "specs": [
+      {
+        "label": "Slots",
+        "value": "40-60"
+      },
+      {
+        "label": "Cooling",
+        "value": "2°C - 8°C"
+      },
+      {
+        "label": "Payment",
+        "value": "UPI / NFC / Card / Cash"
+      },
+      {
+        "label": "Power",
+        "value": "220V AC, 350W"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 years"
+      }
+    ],
+    "certifications": [
+      "BIS Certified",
+      "FSSAI"
+    ],
+    "images": [
+      "/images/smart-city-logo.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-13",
+    "slug": "smart-food-cart",
+    "name": "Smart Mobile Food Cart",
+    "category": "Smart City",
+    "description": "A modern, hygienic, and fully equipped mobile food vending cart designed to elevate the street food experience. Built with premium food-grade stainless steel, this cart features integrated LED lighting, spacious storage compartments, built-in waste disposal units, and a sleek aesthetic. It's the perfect solution for street food vendors, outdoor catering, and modern smart city urban planning.",
+    "shortDescription": "Premium stainless steel mobile food vending cart with integrated lighting and storage",
+    "features": [
+      "Food-Grade Stainless Steel Construction",
+      "Integrated LED Branding & Lighting",
+      "Built-in Hygiene & Waste Management",
+      "Weather-resistant Canopy",
+      "Modular Cooking & Prep Sections",
+      "Heavy-duty Mobility Castors"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "Premium Stainless Steel (SS 304)"
+      },
+      {
+        "label": "Mobility",
+        "value": "Heavy Duty Swivel Castors with Brakes"
+      },
+      {
+        "label": "Lighting",
+        "value": "Energy-efficient LED strips & Panel Lights"
+      },
+      {
+        "label": "Storage",
+        "value": "Lockable under-counter cabinets"
+      },
+      {
+        "label": "Customization",
+        "value": "Fully customizable branding wraps"
+      }
+    ],
+    "certifications": [
+      "FSSAI Compliant Design",
+      "Make in India"
+    ],
+    "images": [
+      "/images/generated/smart-food-cart-0.jpg",
+      "/images/generated/smart-food-cart-1.jpg",
+      "/images/generated/smart-food-cart-2.jpg",
+      "/images/generated/smart-food-cart-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Modern Design"
+  },
+  {
+    "id": "p-21",
+    "slug": "container-food-stall",
+    "name": "Modular Container Food Stall",
+    "category": "Smart City",
+    "description": "The Container Food Stall is a vibrant, eye-catching, fully customizable food vending unit built from repurposed shipping containers. Branded with bold cultural artwork and signage (Maharashtra theme shown), these stalls feature large serving windows, interior shelving, display counters, and a compact yet functional kitchen setup. Ideal for street food businesses, government food distribution programs, cultural festivals, and smart city food zones.",
+    "shortDescription": "Branded container-based food vending stall",
+    "features": [
+      "Custom Branding & Cultural Artwork",
+      "Large Serving Window with Fold-Down Counter",
+      "Interior Shelving & Product Display",
+      "Built-in Kitchen/Prep Area",
+      "Weather-Resistant Exterior Coating",
+      "Multiple Window & Door Configurations",
+      "Roof Canopy / Awning Options",
+      "Lockable & Secure When Closed"
+    ],
+    "specs": [
+      {
+        "label": "Container Size",
+        "value": "10ft / 20ft / 40ft Options"
+      },
+      {
+        "label": "Exterior",
+        "value": "Powder-Coated Steel with Custom Graphics"
+      },
+      {
+        "label": "Serving Window",
+        "value": "Hydraulic Lift-Up or Sliding"
+      },
+      {
+        "label": "Interior",
+        "value": "Food-Grade Surfaces, LED Lighting"
+      },
+      {
+        "label": "Mobility",
+        "value": "Forklift / Crane Transportable"
+      }
+    ],
+    "certifications": [
+      "FSSAI Ready",
+      "Smart City Approved",
+      "Weather Resistant"
+    ],
+    "images": [
+      "/images/products/container_food_stall/1.jpeg",
+      "/images/products/container_food_stall/2.jpeg",
+      "/images/products/container_food_stall/3.jpeg",
+      "/images/products/container_food_stall/4.jpeg",
+      "/images/products/container_food_stall/12.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Customizable"
+  },
+  {
+    "id": "p-20",
+    "slug": "container-kitchen",
+    "name": "Heavy-Duty Container Kitchen",
+    "category": "Smart City",
+    "description": "The Container Kitchen is a fully-equipped, prefabricated commercial kitchen built inside a repurposed shipping container. Featuring industrial-grade stainless steel countertops, commercial gas burners, exhaust hoods, deep sinks, and ample prep space, it's a turnkey solution for catering businesses, event venues, disaster relief camps, and military field operations. The modular design allows rapid deployment — simply transport, connect utilities, and start cooking.",
+    "shortDescription": "Prefabricated commercial kitchen in a shipping container",
+    "features": [
+      "Full Commercial Kitchen Setup",
+      "Industrial-Grade SS Countertops & Equipment",
+      "Commercial Exhaust Hood & Ventilation",
+      "Multiple Gas Burner Stations",
+      "Deep Wash Sinks with Plumbing",
+      "LED Lighting & Electrical Wiring",
+      "Insulated Walls for Temperature Control",
+      "Rapid Deployment — Plug & Play"
+    ],
+    "specs": [
+      {
+        "label": "Container Size",
+        "value": "20ft / 40ft Standard"
+      },
+      {
+        "label": "Construction",
+        "value": "Corrugated Steel Shell + SS 304 Interior"
+      },
+      {
+        "label": "Kitchen Equipment",
+        "value": "Burners, Ovens, Exhaust, Sinks, Prep Tables"
+      },
+      {
+        "label": "Electrical",
+        "value": "Pre-wired with LED Lighting & Power Outlets"
+      },
+      {
+        "label": "Ventilation",
+        "value": "Industrial Chimney Hood with Grease Filters"
+      }
+    ],
+    "certifications": [
+      "FSSAI Ready",
+      "Fire Safety Compliant",
+      "ISO Certified"
+    ],
+    "images": [
+      "/images/products/container_kitchen/1.jpeg",
+      "/images/products/container_kitchen/2.jpeg",
+      "/images/products/container_kitchen/3.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Modular"
+  },
+  {
+    "id": "p-25",
+    "slug": "portable-community-kitchen",
+    "name": "Portable Community Kitchen",
+    "category": "Smart City",
+    "description": "The Portable Community Kitchen is a culturally-decorated, container-based cooking facility designed for Anganwadis, mid-day meal programs, community feeding centers, and rural welfare schemes. Adorned with traditional Warli art and vibrant cultural motifs, it blends seamlessly into community settings while providing a fully-functional kitchen with stainless steel counters, gas burners, wash basins, and fire safety systems. Built for government schemes like PM POSHAN and ICDS.",
+    "shortDescription": "Culturally-themed container kitchen for community programs",
+    "features": [
+      "Traditional Cultural Artwork & Branding",
+      "Full Kitchen Setup — Burners, Sinks, Counters",
+      "Fire Safety System with Alarm",
+      "Ceiling Fan & Ventilation Windows",
+      "Security Grills on Windows",
+      "Insulated Roof for Heat Protection",
+      "Lockable Entry with Secure Access",
+      "Designed for PM POSHAN / ICDS Programs"
+    ],
+    "specs": [
+      {
+        "label": "Container Size",
+        "value": "20ft Standard"
+      },
+      {
+        "label": "Interior",
+        "value": "SS Countertops, Food-Grade Surfaces"
+      },
+      {
+        "label": "Safety",
+        "value": "Fire Alarm, Extinguisher Mount"
+      },
+      {
+        "label": "Ventilation",
+        "value": "Ceiling Fan + Window Grills"
+      },
+      {
+        "label": "Exterior",
+        "value": "Cultural Art + Powder-Coated Steel"
+      }
+    ],
+    "certifications": [
+      "FSSAI Ready",
+      "PM POSHAN Compatible",
+      "Fire Safety Compliant"
+    ],
+    "images": [
+      "/images/products/portable_community_kitchen/1.jpeg",
+      "/images/products/portable_community_kitchen/2.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Community"
+  },
+  {
+    "id": "p-23",
+    "slug": "portable-site-office",
+    "name": "Portable Site Office",
+    "category": "Smart City",
+    "description": "The Portable Site Office is a fully-furnished, containerized office unit designed for construction sites, project management, and temporary field operations. Built from a modified shipping container, it features multiple windows for natural light, pre-installed electrical wiring, air conditioning provisions, and a professional interior finish. Ideal for engineers, supervisors, and project teams who need a functional workspace on remote sites.",
+    "shortDescription": "Container-based portable office for site operations",
+    "features": [
+      "Multiple Windows for Natural Lighting",
+      "Pre-Wired Electrical System with Outlets",
+      "Air Conditioning & Ventilation Provisions",
+      "Insulated Walls, Floor & Ceiling",
+      "Lockable Entry Door with Security",
+      "Notice Board & Signage Panel",
+      "Durable Powder-Coated Exterior",
+      "Fork Pockets for Easy Transport"
+    ],
+    "specs": [
+      {
+        "label": "Container Size",
+        "value": "20ft / 40ft Options"
+      },
+      {
+        "label": "Interior",
+        "value": "PVC/PUF Insulated Panels"
+      },
+      {
+        "label": "Flooring",
+        "value": "Vinyl / Chequered Plate"
+      },
+      {
+        "label": "Windows",
+        "value": "Sliding Aluminum with Grills"
+      },
+      {
+        "label": "Electrical",
+        "value": "Pre-Wired with MCB Panel"
+      }
+    ],
+    "certifications": [
+      "IS Standard",
+      "Fire Safety",
+      "Industrial Grade"
+    ],
+    "images": [
+      "/images/products/portable_site_office/1.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Portable"
+  },
+  {
+    "id": "p-22",
+    "slug": "portable-warehouse",
+    "name": "Modular Portable Warehouse",
+    "category": "Smart City",
+    "description": "The Portable Warehouse is a large-capacity, containerized storage solution with an arched corrugated metal roof for maximum headroom and weather protection. Built on a standard shipping container base, it provides secure, weatherproof storage for construction sites, agricultural produce, industrial equipment, and emergency supplies. The modular design allows quick setup without permanent foundations.",
+    "shortDescription": "Containerized storage with arched roof for maximum capacity",
+    "features": [
+      "Arched Roof for Extra Headroom",
+      "Heavy-Duty Corrugated Steel Construction",
+      "Large Double-Door Access",
+      "Weatherproof & Leak-Resistant",
+      "Ventilation Windows for Air Circulation",
+      "No Foundation Required — Sits on Level Ground",
+      "Stackable & Expandable Design",
+      "Anti-Corrosion Coated Exterior"
+    ],
+    "specs": [
+      {
+        "label": "Base Size",
+        "value": "20ft / 40ft Container Base"
+      },
+      {
+        "label": "Roof Type",
+        "value": "Arched Galvanized Steel"
+      },
+      {
+        "label": "Height",
+        "value": "Extended — Up to 12ft Internal"
+      },
+      {
+        "label": "Load Capacity",
+        "value": "Heavy-Duty Industrial Grade"
+      },
+      {
+        "label": "Access",
+        "value": "Double Swing Doors + Side Entry"
+      }
+    ],
+    "certifications": [
+      "IS Standard",
+      "Weatherproof",
+      "Industrial Grade"
+    ],
+    "images": [
+      "/images/products/portable_warehouse/1.jpeg",
+      "/images/products/portable_warehouse/2.jpeg",
+      "/images/products/portable_warehouse/3.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Heavy Duty"
+  },
+  {
+    "id": "p-39",
+    "slug": "cyclone-safe-zone-shelter",
+    "name": "Cyclone Safe Zone ZP School Shelter",
+    "category": "Smart City",
+    "description": "The iRA Synergy Cyclone Safe Zone is a specially designed multi-purpose school shelter built to provide robust protection for students, teachers, and staff during cyclones, heavy rains, floods, and extreme weather. Featuring high wind resistance up to 250 kmph, waterproof and leak-proof design, and rapid 2-5 day installation, it serves as a resilient classroom, sleeping shelter, or community relief hub in disaster-prone regions.",
+    "shortDescription": "Multi-purpose, high-wind-resistant school shelter for disaster protection and classrooms",
+    "features": [
+      "Protects Lives: Secure shelter for students, teachers, and staff during cyclones",
+      "High Wind Resistance: Built to withstand wind speeds up to 250 kmph",
+      "Waterproof & Leak-Proof: Special roof and wall design prevents water leakage",
+      "Multi-Purpose Use: Can be used as a classroom, emergency shelter, store room, or emergency hall",
+      "Rapid Installation: Ready to use in just 2-5 days with minimal civil work",
+      "Long Lasting: High-grade materials ensure durability for 20+ years",
+      "Eco-Friendly: Sustainable, reusable, and environmentally friendly structure"
+    ],
+    "specs": [
+      {
+        "label": "Structure",
+        "value": "High-grade Steel (GI/MS)"
+      },
+      {
+        "label": "Wall Panel",
+        "value": "Insulated PU Panels"
+      },
+      {
+        "label": "Roof",
+        "value": "Curved / Flat - Weatherproof"
+      },
+      {
+        "label": "Flooring",
+        "value": "Anti-skid Marine Board"
+      },
+      {
+        "label": "Windows",
+        "value": "Aluminium Sliding Windows"
+      },
+      {
+        "label": "Door",
+        "value": "Steel Security Door"
+      },
+      {
+        "label": "Wind Resistance",
+        "value": "Up to 250 kmph"
+      },
+      {
+        "label": "Lifespan",
+        "value": "20+ Years"
+      },
+      {
+        "label": "Installation",
+        "value": "Ready to Use in 2-5 Days"
+      },
+      {
+        "label": "Customization",
+        "value": "As per School Requirement"
+      }
+    ],
+    "certifications": [
+      "Government Approved Design",
+      "Make in India",
+      "ISO 9001:2015"
+    ],
+    "images": [
+      "/images/products/cyclone-safe-zone-shelter/1.jpeg",
+      "/images/products/cyclone-safe-zone-shelter/2.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Disaster Ready"
+  },
+  {
+    "id": "p-19",
+    "slug": "pure-water-atm",
+    "name": "Pure Water ATM",
+    "category": "Public Health",
+    "description": "The Pure Water ATM provides 24/7 access to clean, safe, and mineral-enriched drinking water. Equipped with a 4-stage purification process including Reverse Osmosis (RO), UV Care, Ozonation, and a Mineral Booster, this automated dispensing unit ensures high-quality hydration for public spaces. It features a digital interface, automated dispensing, and sturdy weather-resistant construction.",
+    "shortDescription": "Automated 4-stage purification water dispensing ATM",
+    "features": [
+      "4-Stage Purification (RO + UV + Ozonation + Mineral Booster)",
+      "24/7 Automated Dispensing",
+      "Digital Interface & Payment System",
+      "Real-time Water Quality Monitoring",
+      "Hygienic Touchless Design",
+      "Weather & Vandal Resistant"
+    ],
+    "specs": [
+      {
+        "label": "Purification",
+        "value": "RO, UV, Ozonation, Mineral Booster"
+      },
+      {
+        "label": "Dispensing",
+        "value": "Automated Sensor/Button"
+      },
+      {
+        "label": "Construction",
+        "value": "Premium Stainless Steel & Coated Panels"
+      },
+      {
+        "label": "Capacity",
+        "value": "High Volume Commercial Output"
+      }
+    ],
+    "certifications": [
+      "Safe Drinking Water",
+      "ISO Certified"
+    ],
+    "images": [
+      "/images/generated/pure-water-atm-0.jpg",
+      "/images/generated/pure-water-atm-1.jpg",
+      "/images/generated/pure-water-atm-2.jpg",
+      "/images/generated/pure-water-atm-3.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Public Health"
+  },
+  {
+    "id": "p-18",
+    "slug": "e-toilet",
+    "name": "Automated Self-Cleaning E-Toilet",
+    "category": "Public Health",
+    "description": "The EcoRestroom E-Toilet is a self-cleaning, eco-friendly public sanitation solution designed for smart cities. It features an automated access system, hygienic self-washing mechanisms, odor control technology, and minimal water consumption. This green infrastructure is essential for improving urban hygiene with dignity and sustainability.",
+    "shortDescription": "Automated, self-cleaning eco-friendly public restroom",
+    "features": [
+      "Fully Automated Self-Cleaning System",
+      "Eco-Friendly & Minimal Water Usage",
+      "Advanced Odor Control Technology",
+      "Touchless Hygienic Operation",
+      "Smart Access & Usage Monitoring",
+      "Durable, Vandal-Resistant Design"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "High-Grade Stainless Steel & Composite"
+      },
+      {
+        "label": "Water Usage",
+        "value": "Optimized Flush (1.5L - 2.5L)"
+      },
+      {
+        "label": "Power",
+        "value": "Solar/Grid Compatible"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Automated Floor & Bowl Wash"
+      }
+    ],
+    "certifications": [
+      "Swachh Bharat Approved",
+      "Eco-Friendly",
+      "Smart City Standard"
+    ],
+    "images": [
+      "/images/products/e_toilet/2.jpeg",
+      "/images/products/e_toilet/3.jpeg",
+      "/images/products/e_toilet/4.jpeg",
+      "/images/products/e_toilet/5.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart City"
+  },
+  {
+    "id": "p-18",
+    "slug": "portable-toilet-block",
+    "name": "Modular Portable Toilet Block",
+    "category": "Public Health",
+    "description": "The EcoRestroom E-Toilet is a self-cleaning, eco-friendly public sanitation solution designed for smart cities. It features an automated access system, hygienic self-washing mechanisms, odor control technology, and minimal water consumption. This green infrastructure is essential for improving urban hygiene with dignity and sustainability.",
+    "shortDescription": "Automated, self-cleaning eco-friendly public restroom",
+    "features": [
+      "Fully Automated Self-Cleaning System",
+      "Eco-Friendly & Minimal Water Usage",
+      "Advanced Odor Control Technology",
+      "Touchless Hygienic Operation",
+      "Smart Access & Usage Monitoring",
+      "Durable, Vandal-Resistant Design"
+    ],
+    "specs": [
+      {
+        "label": "Material",
+        "value": "High-Grade Stainless Steel & Composite"
+      },
+      {
+        "label": "Water Usage",
+        "value": "Optimized Flush (1.5L - 2.5L)"
+      },
+      {
+        "label": "Power",
+        "value": "Solar/Grid Compatible"
+      },
+      {
+        "label": "Maintenance",
+        "value": "Automated Floor & Bowl Wash"
+      }
+    ],
+    "certifications": [
+      "Swachh Bharat Approved",
+      "Eco-Friendly",
+      "Smart City Standard"
+    ],
+    "images": [
+      "/images/products/e_toilet/2.jpeg",
+      "/images/products/e_toilet/3.jpeg",
+      "/images/products/e_toilet/4.jpeg",
+      "/images/products/e_toilet/5.jpeg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Smart City"
+  },
+  {
+    "id": "p-1782298473921",
+    "slug": "sanitary-napkin-vending-machine",
+    "name": "Automatic Sanitary Napkin Vending Machine",
+    "category": "Public Health",
+    "description": "The Smart Choice Sanitary Napkin Vending Machine is an innovative and user-friendly hygiene solution developed to ensure easy, secure, and affordable access to sanitary napkins anytime they are needed. Designed for installation in educational institutions, workplaces, healthcare facilities, shopping malls, public toilets, factories, and government organizations, the machine supports better menstrual hygiene management while promoting women's health, confidence, and dignity.\n\nThe machine features a robust mild steel body with a powder-coated finish, making it durable for long-term use in high-traffic environments. Its compact wall-mounted design saves space while allowing convenient installation in washrooms and common areas.\n\nEquipped with a reliable coin-operated dispensing mechanism, the vending machine provides quick and hassle-free dispensing of sanitary napkins. The refill process is simple, ensuring minimal maintenance and uninterrupted service. Operating on a low-voltage 12V DC power supply, the machine consumes very little electricity while delivering reliable performance.\n\nDesigned under the vision of supporting women's empowerment and public hygiene initiatives, the Smart Choice Sanitary Napkin Vending Machine is an ideal solution for institutions seeking to improve hygiene infrastructure and create a healthier environment for women and girls.",
+    "shortDescription": "The Smart Choice Sanitary Napkin Vending Machine is a compact, wall-mounted, coin-operated dispensing system designed to provide safe, hygienic, and instant access to sanitary napkins in public and private facilities. Built with durable steel construction and energy-efficient electronics, it promotes menstrual hygiene, women's dignity, and uninterrupted access to essential hygiene products in schools, colleges, offices, hospitals, and public spaces.",
+    "features": [
+      "Coin operated dispensing mechanism",
+      "Instant sanitary napkin dispensing",
+      "Hygienic and contact-safe operation",
+      "Wall mounted space-saving design",
+      "Compact and modern appearance",
+      "Heavy-duty mild steel body",
+      "Powder-coated rust-resistant finish",
+      "Low power consumption",
+      "12V DC powered operation",
+      "Easy refill mechanism",
+      "Secure lock and key system",
+      "Reliable dispensing system",
+      "Durable commercial-grade construction",
+      "User-friendly operation"
+    ],
+    "specs": [
+      {
+        "label": "Product Name",
+        "value": "Smart Choice Sanitary Napkin Vending Machine"
+      },
+      {
+        "label": "Machine Type",
+        "value": "Coin Operated Sanitary Napkin Vending Machine"
+      },
+      {
+        "label": "Operation",
+        "value": "Semi-Automatic"
+      },
+      {
+        "label": "Dispensing Method",
+        "value": "Coin Operated"
+      },
+      {
+        "label": "Mounting Type",
+        "value": "Wall Mounted"
+      },
+      {
+        "label": "Capacity",
+        "value": "50 Sanitary Napkins"
+      },
+      {
+        "label": "Material",
+        "value": "Heavy-Duty Mild Steel"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/Sanitary Napkin Vending Machine-0.jpg",
+      "/images/generated/Sanitary Napkin Vending Machine-1.jpg",
+      "/images/generated/Sanitary Napkin Vending Machine-2.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Public Health"
+  },
+  {
+    "id": "p-1782388677598",
+    "slug": "sanitary-napkin-incinerator-machine",
+    "name": "Sanitary Napkin Incinerator Machine",
+    "category": "Public Health",
+    "description": "The Sanitary Napkin Incinerator Machine provides a safe, odor-free, and environmentally friendly solution for disposing of used sanitary napkins at the point of use. Designed with an electrically heated combustion chamber, the unit incinerates sanitary waste into sterile ash while minimizing smoke and odor.\n\nThe machine features automatic temperature control, thermal insulation, and an easy-to-use interface, ensuring safe operation with minimal maintenance. Its compact wall-mounted design makes it ideal for installation in female washrooms across educational institutions, healthcare facilities, commercial buildings, and public spaces.\n\nConstructed using heavy-duty powder-coated mild steel, the SmartBurn machine offers long service life, low power consumption, and compliance with hygienic waste disposal practices.",
+    "shortDescription": "The Sanitary Napkin Incinerator Machine is a compact, smokeless disposal system designed for the safe destruction of used sanitary napkins. Engineered for schools, colleges, offices, hospitals, and public washrooms, it promotes hygienic waste disposal while supporting women's health and environmental sustainability.",
+    "features": [
+      "Smokeless incineration",
+      "Odor-free operation",
+      "Fast waste destruction",
+      "Electric heating system",
+      "Automatic temperature control",
+      "Wall-mounted design",
+      "Heavy-duty steel body",
+      "Low power consumption",
+      "Ceramic insulation",
+      "Safe operation",
+      "Easy ash removal",
+      "Low maintenance",
+      "Hygienic waste disposal",
+      "Long service life"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Public Health"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/smart-city-logo.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true
+  },
+  {
+    "id": "p-1782386401733",
+    "slug": "kids-outdoor-fitness-hub",
+    "name": "Kids Outdoor Fitness Hub & Play Station",
+    "category": "Fitness",
+    "description": "The Kids Outdoor Fitness Hub is an all-in-one outdoor fitness and recreational equipment solution developed for parks, schools, residential communities, and Smart City projects. Designed specifically for children aged 5–15 years, the equipment promotes physical fitness, balance, coordination, and active play.\n\nConstructed using heavy-duty galvanized or mild steel with weather-resistant powder coating, the equipment withstands continuous outdoor exposure while maintaining safety and durability. Smooth edges, anti-slip components, and corrosion-resistant finishes ensure long-term reliability and child safety.\n\nThe PlayFit Hub is available as a complete 7-station activity set, making it ideal for municipalities, educational campuses, recreation centers, and community parks.",
+    "shortDescription": "The Kids Outdoor Fitness Hub is a premium outdoor fitness and play equipment system designed to encourage physical activity, improve coordination, and promote healthy lifestyles for children through safe and engaging exercise stations.",
+    "features": [
+      "Child-friendly design",
+      "Heavy-duty construction",
+      "Weather-resistant finish",
+      "Rust-resistant structure",
+      "UV-resistant coating",
+      "Anti-slip components",
+      "Smooth safety edges",
+      "Attractive multicolor appearance",
+      "Outdoor installation",
+      "Improves balance",
+      "Enhances coordination",
+      "Encourages physical activity",
+      "Low maintenance",
+      "Long service life",
+      "Safe recreational equipment"
+    ],
+    "specs": [
+      {
+        "label": "Category",
+        "value": "Fitness"
+      },
+      {
+        "label": "Compliance",
+        "value": "ISO & Government Norms"
+      },
+      {
+        "label": "Origin",
+        "value": "Made in India"
+      }
+    ],
+    "certifications": [
+      "ISO 9001:2015",
+      "Made in India",
+      "CE Certified"
+    ],
+    "images": [
+      "/images/generated/kids-outdoor-fitness-hub-0.jpg",
+      "/images/generated/kids-outdoor-fitness-hub-1.jpg"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Fitness"
+  },
+  {
+    "id": "p-25",
+    "slug": "health-open-gym-for-adults",
+    "name": "Open Air Fitness Gym for Adults",
+    "category": "Fitness",
+    "description": "Outdoor gym equipment stations designed for public parks and community spaces. Heavy-duty galvanized steel construction with 12+ exercise stations for full-body workouts.",
+    "shortDescription": "Outdoor fitness stations for public parks",
+    "features": [
+      "12+ exercise stations",
+      "Full-body workout coverage",
+      "Heavy-duty galvanized steel",
+      "Weather-resistant powder coating",
+      "Anti-vandal design",
+      "Instructional signage",
+      "Foundation & installation included"
+    ],
+    "specs": [
+      {
+        "label": "Stations",
+        "value": "12-20 per setup"
+      },
+      {
+        "label": "Material",
+        "value": "MS + Hot-dip Galvanized"
+      },
+      {
+        "label": "Coating",
+        "value": "Powder-coated (UV resistant)"
+      },
+      {
+        "label": "User Weight",
+        "value": "Up to 150 kg"
+      },
+      {
+        "label": "Area Required",
+        "value": "200-500 sqm"
+      },
+      {
+        "label": "Warranty",
+        "value": "5 years structural"
+      }
+    ],
+    "certifications": [
+      "EN 16630",
+      "ISO 9001:2015",
+      "GeM Listed"
+    ],
+    "images": [
+      "/images/generated/kids_play_station_1783792302898.png",
+      "/images/generated/outdoor_fitness_gym_1783792293449.png"
+    ],
+    "price": "On Request",
+    "inStock": true,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "p-27",
+    "slug": "integrated-school-sports-development",
+    "name": "Integrated School & Sports Development Solutions",
+    "category": "Fitness",
+    "description": "Comprehensive sports infrastructure packages for schools including playground equipment, sports courts, athletic tracks, and fitness zones — complete turnkey solutions.",
+    "shortDescription": "Complete school sports infrastructure packages",
+    "features": [
+      "Multi-sport court setup",
+      "Playground equipment",
+      "Athletic track markings",
+      "Fitness zone with equipment",
+      "Sports equipment supply",
+      "Coaching support available"
+    ],
+    "specs": [
+      {
+        "label": "Coverage",
+        "value": "Complete school sports"
+      },
+      {
+        "label": "Sports",
+        "value": "8+ activities"
+      },
+      {
+        "label": "Area",
+        "value": "500-5000 sqm"
+      },
+      {
+        "label": "Installation",
+        "value": "Turnkey (2-4 weeks)"
+      },
+      {
+        "label": "Warranty",
+        "value": "5 years"
+      }
+    ],
+    "certifications": [
+      "CBSE Sports Standards",
+      "ISO 9001:2015"
+    ],
+    "images": [
+      "/images/generated/kids_play_station_1783792302898.png",
+      "/images/generated/outdoor_fitness_gym_1783792293449.png"
+    ],
+    "price": "On Request",
+    "inStock": true
+  }
+]

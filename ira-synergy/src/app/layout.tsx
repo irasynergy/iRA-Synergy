@@ -85,12 +85,16 @@ export const metadata: Metadata = {
 
 import { Toaster } from "react-hot-toast";
 import { ProductsProvider } from "@/components/ProductsProvider";
+import { products as staticProducts } from "@/data/products";
+import type { Product } from "@/types";
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const initialProducts = staticProducts as Product[];
+
   return (
     <html
       lang="en"
@@ -141,7 +145,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-[family-name:var(--font-inter)]">
         <Toaster position="top-center" toastOptions={{ duration: 4000, style: { background: '#333', color: '#fff' } }} />
-        <ProductsProvider>
+        <ProductsProvider initialProducts={initialProducts}>
           <FloatingActionMenu />
           {children}
         </ProductsProvider>

@@ -39,8 +39,13 @@ export default function ProductsClient({
 }) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
-  const { products } = useProducts();
+  const { products: contextProducts } = useProducts();
 
+  // If server component successfully fetched from DB, use that immediately to prevent client-side delay/flicker.
+  // Otherwise use the globally synced context products.
+  const products = isFromDb && initialProducts && initialProducts.length > 0 
+    ? initialProducts 
+    : contextProducts;
   const filtered = products.filter((p) => {
     const matchesCategory = activeCategory === "All" || p.category === activeCategory;
     const matchesSearch =

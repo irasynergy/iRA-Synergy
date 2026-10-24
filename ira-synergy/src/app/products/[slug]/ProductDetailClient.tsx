@@ -87,8 +87,21 @@ export default function ProductDetailClient({
 }) {
   const { slug } = use(params);
   const decodedSlug = decodeURIComponent(slug);
-  const { products: allProducts, isLoading } = useProducts();
-  const product = allProducts.find((p) => p.slug === decodedSlug);
+  const { products: contextProducts, isLoading } = useProducts();
+  
+  const allProducts = isFromDb && initialProducts && initialProducts.length > 0 
+    ? initialProducts 
+    : contextProducts;
+
+  const normalizedSlug = decodedSlug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const product = allProducts.find((p) => {
+    if (p.slug === decodedSlug || p.slug.toLowerCase() === decodedSlug.toLowerCase()) return true;
+    if ((p as any).originalDbSlug && (p as any).originalDbSlug.toLowerCase() === decodedSlug.toLowerCase()) return true;
+    const pNorm = p.slug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    if (pNorm === normalizedSlug) return true;
+    const nameNorm = p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return nameNorm === normalizedSlug;
+  });
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);

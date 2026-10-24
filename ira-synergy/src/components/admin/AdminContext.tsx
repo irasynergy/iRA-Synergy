@@ -62,9 +62,8 @@ const LS_INITIALIZED = "ira_admin_initialized";
 import { supabase } from "@/lib/supabase";
 
 const isSupabaseConfigured =
-  typeof window !== "undefined" &&
-  process.env.NEXT_PUBLIC_SUPABASE_URL &&
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  !!(process.env.NEXT_PUBLIC_SUPABASE_URL &&
+  (process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY));
 
 export function AdminProvider({ children }: { children: React.ReactNode }) {
   const [adminProducts, setAdminProducts] = useState<Product[]>([]);

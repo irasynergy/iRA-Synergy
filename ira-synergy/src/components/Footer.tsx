@@ -7,7 +7,7 @@ export default function Footer() {
     { label: "Home", href: "/" },
     { label: "About Us", href: "/about" },
     { label: "Solutions", href: "/solutions" },
-    { label: "Projects", href: "/projects" },
+    // { label: "Projects", href: "/projects" },
     { label: "Gallery", href: "/gallery" },
     { label: "Downloads", href: "/downloads" },
     { label: "Blog / News", href: "/blog" },
@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-ira-accent flex-shrink-0 mt-0.5" />
                 <span className="text-[11px] sm:text-xs text-gray-300 leading-relaxed">
-                  Office No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra
+                  Nashik, Pune, Mahrashtra, India
                 </span>
               </li>
               <li className="flex flex-col gap-1.5 sm:gap-2">
