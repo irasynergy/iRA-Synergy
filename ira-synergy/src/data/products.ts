@@ -362,7 +362,48 @@ export const products: any[] = [
       "Attractive landscape integration",
       "Customizable power output"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Solar PV Generation",
+        "value": "1.5 kWp to 5 kWp Mono/Poly Crystalline panels"
+      },
+      {
+        "label": "Structure Design",
+        "value": "Artistic Biomimetic 3D Solar Tree branch architecture"
+      },
+      {
+        "label": "Structure Material",
+        "value": "High-grade Hot-Dip Galvanized Structural Steel (IS 2062)"
+      },
+      {
+        "label": "Energy Storage",
+        "value": "In-built LiFePO4 Lithium Battery bank with Smart BMS"
+      },
+      {
+        "label": "Lighting Output",
+        "value": "Integrated high-efficiency LED luminaires with dusk-to-dawn sensors"
+      },
+      {
+        "label": "Interactive Features",
+        "value": "Multi-port fast USB mobile charging & optional public Wi-Fi hotspot"
+      },
+      {
+        "label": "Environmental Monitoring",
+        "value": "AQI sensor with digital LED parameter display (optional)"
+      },
+      {
+        "label": "Wind Resistance",
+        "value": "Designed for wind speeds up to 160 km/h"
+      },
+      {
+        "label": "Inverter / Controller",
+        "value": "High-efficiency MPPT Solar Charge Controller"
+      },
+      {
+        "label": "Warranty",
+        "value": "5 Years comprehensive on system, 25 years on solar panels"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -408,14 +449,59 @@ export const products: any[] = [
       "Long service life",
       "Safe recreational equipment"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Exercise Stations",
+        "value": "12 to 20 multi-user stations (customizable)"
+      },
+      {
+        "label": "Material Composition",
+        "value": "Heavy-Duty Galvanized Class B Mild Steel Pipes"
+      },
+      {
+        "label": "Surface Finish",
+        "value": "Electrostatic UV-Resistant Dual-Coat Pure Polyester Powder Coating"
+      },
+      {
+        "label": "Maximum User Weight",
+        "value": "150 kg per user station"
+      },
+      {
+        "label": "Installation Method",
+        "value": "Sub-surface concrete foundation with tamper-proof SS fasteners"
+      },
+      {
+        "label": "Bearings & Bushings",
+        "value": "Sealed maintenance-free high-load Japanese deep groove ball bearings"
+      },
+      {
+        "label": "Grips & Footrests",
+        "value": "Ergonomic anti-slip UV-stabilized virgin polymer / aluminum tread"
+      },
+      {
+        "label": "Safety Standard",
+        "value": "Compliant with EN 16630:2015 & IS safety standards"
+      },
+      {
+        "label": "Weather Resistance",
+        "value": "Rust, monsoon, salt-spray & extreme thermal resistant"
+      },
+      {
+        "label": "Warranty",
+        "value": "5 Years Structural Integrity Guarantee"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
       "ISO 45001:2018",
       "EN 16630 Certification"
     ],
-    "images": [],
+    "images": [
+      "/images/products/adult-outdoor-fitness-hub/1.png",
+      "/images/products/adult-outdoor-fitness-hub/2.png",
+      "/images/products/adult-outdoor-fitness-hub/3.png"
+    ],
     "price": "On Request",
     "inStock": true,
     "relatedProductSlugs": []
@@ -579,10 +665,52 @@ export const products: any[] = [
     "originalDbSlug": "Science Kit Lab",
     "name": "Science Kit Lab",
     "category": "Smart City",
-    "description": "Science Kit Lab",
-    "shortDescription": "Science Kit Lab",
-    "features": [],
-    "specs": [],
+    "description": "The Science Kit Lab is a comprehensive, state-of-the-art interactive experiential learning laboratory solution designed for primary, middle, and secondary schools. Aligned with NEP 2020, CBSE, ICSE, and state board educational curricula, it includes all core experimental equipment, apparatus, glassware, chemicals, and interactive models across Physics, Chemistry, Biology, and Mathematics.\n\nEquipped with teacher demonstration kits, individual student experimentation trays, comprehensive laboratory safety manuals, and digital multimedia lesson guides, the Science Kit Lab empowers students to develop scientific temper, critical inquiry, and analytical reasoning through practical hands-on experimentation.",
+    "shortDescription": "Comprehensive, NEP 2020-compliant hands-on science lab kits covering Physics, Chemistry, Biology, and Math for Classes 1 to 12.",
+    "features": [
+      "Complete laboratory kits for Physics, Chemistry, Biology, and Mathematics",
+      "Aligned with NEP 2020, CBSE, ICSE, and State Board curriculums",
+      "Includes 250+ structured experiments with step-by-step experiment manuals",
+      "High-grade borosilicate glassware and laboratory-grade safe test consumables",
+      "Student experimentation trays and teacher demonstration apparatus included",
+      "Classroom safety gear including safety goggles, aprons, and spill kits",
+      "Detailed bilingual teacher training modules and student activity workbooks",
+      "Robust stackable modular storage bins with clear labeling"
+    ],
+    "specs": [
+      {
+        "label": "Curriculum Coverage",
+        "value": "Classes 1 to 12 (Physics, Chemistry, Biology, Mathematics)"
+      },
+      {
+        "label": "Number of Experiments",
+        "value": "250+ standard lab experiments"
+      },
+      {
+        "label": "Apparatus Included",
+        "value": "Microscopes, electrical circuits, optics bench, chemical sets, anatomical models"
+      },
+      {
+        "label": "Glassware Grade",
+        "value": "Thermal shock-resistant Borosilicate 3.3 glass"
+      },
+      {
+        "label": "Student Capacity",
+        "value": "Supports 40-50 students per lab session"
+      },
+      {
+        "label": "Storage",
+        "value": "Heavy-duty impact-resistant plastic modular organizing cases"
+      },
+      {
+        "label": "Safety Compliance",
+        "value": "BIS & OSHA school laboratory safety standards"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years warranty on lab apparatus & instrumentation"
+      }
+    ],
     "certifications": [],
     "images": [
       "/images/db-uploads/prod_Science Kit Lab_0_1788713119172_zexft.png",
@@ -728,12 +856,54 @@ export const products: any[] = [
     "id": "p-1788174183507",
     "slug": "ai-robotics-lab",
     "originalDbSlug": "ai-robotics-lab",
-    "name": "AI Robotics Lab",
+    "name": "AI & Robotics Lab",
     "category": "Smart City",
-    "description": "AI Robotics Lab",
-    "shortDescription": "AI Robotics Lab",
-    "features": [],
-    "specs": [],
+    "description": "The AI & Robotics Lab is an advanced, future-ready STEAM educational setup engineered to introduce school and college students to Artificial Intelligence, Robotics, Machine Learning, Computer Vision, and the Internet of Things (IoT).\n\nThe lab provides a complete learning ecosystem featuring programmable robotic hardware kits, microcontroller developer platforms (Arduino, ESP32, Raspberry Pi), AI vision sensor cameras, robotic arms, obstacle-avoidance rovers, and coding software interfaces (Scratch, Block-based, Python, and C++). Designed to foster 21st-century problem-solving, algorithmic thinking, and competitive robotics readiness.",
+    "shortDescription": "Turnkey Artificial Intelligence, Robotics, and IoT education lab with programmable hardware kits, sensors, and structured curricula.",
+    "features": [
+      "Full-featured programmable robot kits: humanoid, hexapod, and smart rovers",
+      "Comprehensive IoT and sensor modules: ultrasonic, LiDAR, IR, temperature, gyroscope",
+      "Machine learning and AI computer vision kits with high-definition camera modules",
+      "Multi-language coding support: Scratch, Blockly, Python, MicroPython, and C/C++",
+      "Robotic arm mechanics with servo motor positioning and precision gripping",
+      "Turnkey lab setup including student workstations, presentation tools, and arena mats",
+      "Year-round competition-oriented curriculum with 100+ project guides",
+      "Dedicated teacher training, continuous mentor support, and certification roadmap"
+    ],
+    "specs": [
+      {
+        "label": "Student Capacity",
+        "value": "30-40 students per batch in teams of 3-4"
+      },
+      {
+        "label": "Core Controllers",
+        "value": "Raspberry Pi 4/5, ESP32 Wi-Fi/BLE, Arduino Mega/Uno"
+      },
+      {
+        "label": "AI & Vision Hardware",
+        "value": "Neural compute engines, HD smart camera vision modules"
+      },
+      {
+        "label": "Robotic Hardware",
+        "value": "Multi-DOF robotic arms, omnidirectional rovers, quadruped robots"
+      },
+      {
+        "label": "Software Compatibility",
+        "value": "Python, ROS (Robot Operating System), TensorFlow Lite, Scratch"
+      },
+      {
+        "label": "Power & Battery",
+        "value": "High-discharge Li-Ion rechargeable battery packs with smart chargers"
+      },
+      {
+        "label": "Standards",
+        "value": "Aligned with NEP 2020 STEAM Guidelines & GeM Listed"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years warranty on electronic kits and controllers"
+      }
+    ],
     "certifications": [],
     "images": [
       "/images/db-uploads/prod_ai-robotics-lab_0_1788713123290_jf5qq9.jpg",
@@ -748,15 +918,58 @@ export const products: any[] = [
     "id": "p-1788174248645",
     "slug": "smart-reading-room-digital-library",
     "originalDbSlug": "Smart  reading room & digital library",
-    "name": "Smart reading room & digital library",
+    "name": "Smart Reading Room & Digital Library",
     "category": "Smart City",
-    "description": "Smart \\nreading room & digital library",
-    "shortDescription": "Smart  reading room & digital library",
-    "features": [],
-    "specs": [],
+    "description": "The Smart Reading Room & Digital Library is a modern technology-driven educational space that transforms traditional institutional libraries into interactive digital learning centers. Designed for schools, colleges, municipal centers, and rural community hubs, it provides instant access to hundreds of thousands of digital books, academic journals, interactive encyclopedias, multimedia lectures, and competitive examination resources.\n\nThe turnkey solution includes high-definition touch display kiosks, student e-reader stations, cloud library management software (Koha/custom LMS), high-speed Wi-Fi networking, ergonomic library furniture, and dedicated digital archiving systems.",
+    "shortDescription": "Turnkey digital library and smart reading room solution with digital terminals, cloud LMS, e-books, and ergonomic learning infrastructure.",
+    "features": [
+      "Cloud-based Library Management System (LMS) with automated barcode/RFID cataloging",
+      "Pre-loaded with 50,000+ curriculum-aligned e-books, journals, and multimedia content",
+      "Interactive touch-enabled multi-media learning kiosks and reading tablets",
+      "Ergonomic acoustic reading desks with integrated charging points and LED reading lights",
+      "High-speed managed Wi-Fi router network with content filtering and firewalls",
+      "Central server with local caching for uninterrupted offline digital access",
+      "Automated student attendance, book borrowing, and digital analytics dashboard",
+      "Complete interior fit-out: bookshelves, display stands, comfortable seating, and signage"
+    ],
+    "specs": [
+      {
+        "label": "Seating Capacity",
+        "value": "30 to 100 readers (modular configuration)"
+      },
+      {
+        "label": "Digital Terminals",
+        "value": "10 to 30 all-in-one touch workstations / rugged tablets"
+      },
+      {
+        "label": "Local Storage Server",
+        "value": "2TB to 8TB High-Speed SSD NAS Server with offline caching"
+      },
+      {
+        "label": "Software System",
+        "value": "Koha / DSpace / Custom Web LMS with mobile accessibility"
+      },
+      {
+        "label": "Networking",
+        "value": "Dual-band Gigabit Wi-Fi 6 APs with captive portal"
+      },
+      {
+        "label": "Power Backup",
+        "value": "Online pure sine wave UPS for 4-6 hours continuous backup"
+      },
+      {
+        "label": "Furniture Material",
+        "value": "High-grade commercial prelaminated board with powder-coated steel frame"
+      },
+      {
+        "label": "Warranty",
+        "value": "3 Years comprehensive warranty on hardware and software support"
+      }
+    ],
     "certifications": [],
     "images": [
-      "/images/db-uploads/db_extracted_Smart__reading_room___digital_library_0.png"
+      "/images/db-uploads/db_extracted_Smart__reading_room___digital_library_0.png",
+      "/images/generated/smart_school_library_1783792283921.png"
     ],
     "price": "On Request",
     "inStock": true,
@@ -978,15 +1191,58 @@ export const products: any[] = [
     "id": "p-1788174255739",
     "slug": "atal-tinkering-lab",
     "originalDbSlug": "Atal  Tinkering Lab",
-    "name": "Atal Tinkering Lab",
+    "name": "Atal Tinkering Lab (ATL)",
     "category": "Smart City",
-    "description": "Atal \\nTinkering Lab",
-    "shortDescription": "Atal  Tinkering Lab",
-    "features": [],
-    "specs": [],
+    "description": "The Atal Tinkering Lab (ATL) is an all-inclusive, turnkey educational innovation workspace setup strictly compliant with NITI Aayog's Atal Innovation Mission (AIM) specifications. Designed to foster curiosity, creativity, and imagination in young minds, ATL equips schools with modern technological tools including 3D printers, rapid prototyping equipment, robotics kits, sensors, IoT devices, electronic workstations, and mechanical hand tools.\n\nOur ATL package covers everything required for successful grant implementation: site inspection, customized laboratory layout design, supply of official AIM Package-1, Package-2, Package-3, and Package-4 equipment, comprehensive teacher training, curriculum materials, and ongoing mentor support for national science challenges.",
+    "shortDescription": "Complete NITI Aayog AIM-compliant Atal Tinkering Lab setup with 3D printers, robotics kits, IoT modules, and teacher training.",
+    "features": [
+      "100% compliant with NITI Aayog Atal Innovation Mission (AIM) official equipment guidelines",
+      "High-precision FDM 3D printer with biodegradable PLA filaments and 3D modeling software",
+      "Complete STEM electronics and prototyping kits: Arduino, sensors, breadboards, soldering stations",
+      "Robotics packages with motorized chassis, wireless remotes, and programmable controllers",
+      "Heavy-duty mechanical tool workstations: drills, saws, vices, precision screwdrivers, pliers",
+      "Comprehensive health and safety equipment: safety glasses, first aid kits, fire extinguishers",
+      "Year-round innovation curriculum with hands-on lesson plans and DIY student challenge cards",
+      "On-site installation, faculty development training, and ATL Marathon competition mentoring"
+    ],
+    "specs": [
+      {
+        "label": "Compliance Standard",
+        "value": "NITI Aayog Atal Innovation Mission (AIM) Approved Package P1, P2, P3, P4"
+      },
+      {
+        "label": "3D Printer Spec",
+        "value": "Enclosed FDM 3D Printer, Build Volume 220x220x250 mm, heated bed"
+      },
+      {
+        "label": "Electronics & IoT",
+        "value": "50+ sensor types, microcontrollers, communication modules (BLE, Wi-Fi, GSM)"
+      },
+      {
+        "label": "Power & Safety",
+        "value": "Regulated DC power supplies, ESD-safe soldering stations, safety goggles"
+      },
+      {
+        "label": "Student Batch Size",
+        "value": "30-50 students per cohort"
+      },
+      {
+        "label": "Tools & Hardware",
+        "value": "80+ piece mechanical fabrication and electrical assembly toolkit"
+      },
+      {
+        "label": "Setup Timeline",
+        "value": "7 to 10 days complete on-site setup and teacher orientation"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years warranty with dedicated technical maintenance support"
+      }
+    ],
     "certifications": [],
     "images": [
-      "/images/db-uploads/db_extracted_Atal__Tinkering_Lab_0.png"
+      "/images/db-uploads/db_extracted_Atal__Tinkering_Lab_0.png",
+      "/images/generated/smart_school_lab_1783792273147.png"
     ],
     "price": "On Request",
     "inStock": true,
@@ -1014,7 +1270,44 @@ export const products: any[] = [
       "Long service life",
       "Easy servicing"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Processing Capacity",
+        "value": "500 kg/hr to 10 Tons/hr (customizable models)"
+      },
+      {
+        "label": "Shaft Configuration",
+        "value": "Dual Shaft / Quad Shaft high-torque low-RPM mechanism"
+      },
+      {
+        "label": "Blade Metallurgy",
+        "value": "Hardened Alloy Steel (D2 / EN31), vacuum heat treated (58-62 HRC)"
+      },
+      {
+        "label": "Drive Motor Power",
+        "value": "15 HP to 100 HP Three-Phase TEFC Heavy-Duty Motor"
+      },
+      {
+        "label": "Feed Material",
+        "value": "Mixed municipal solid waste, plastics, cardboard, organic waste, wood"
+      },
+      {
+        "label": "Output Particle Size",
+        "value": "20 mm to 50 mm (regulated via discharge sizing screen)"
+      },
+      {
+        "label": "Safety Controls",
+        "value": "Auto-reverse anti-jamming mechanism & emergency stop pull-cord"
+      },
+      {
+        "label": "Control Panel",
+        "value": "Microprocessor / Siemens PLC automation with overload protection"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year comprehensive on gearbox and motor, 2 years on chassis"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -1114,7 +1407,48 @@ export const products: any[] = [
       "Durable industrial construction",
       "Suitable for continuous operation"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Waste Capacity",
+        "value": "50 kg/hr to 500 kg/hr batch / continuous feeding"
+      },
+      {
+        "label": "Chamber Architecture",
+        "value": "Dual-Chamber (Primary & Secondary) refractory insulated"
+      },
+      {
+        "label": "Combustion Temperature",
+        "value": "Primary: 850°C - 900°C | Secondary: 1050°C - 1150°C"
+      },
+      {
+        "label": "Smoke Abatement",
+        "value": "High-efficiency Venturi Wet Scrubber with neutralizing spray nozzles"
+      },
+      {
+        "label": "Emission Standard",
+        "value": "Fully compliant with CPCB (Central Pollution Control Board) norms"
+      },
+      {
+        "label": "Fuel Options",
+        "value": "Diesel, LPG, Natural Gas, or Electric ignition hybrid"
+      },
+      {
+        "label": "Chimney Height",
+        "value": "30 meters mild steel chimney with ladder, sampling port & lightning arrester"
+      },
+      {
+        "label": "Refractory Lining",
+        "value": "High alumina refractory bricks rated up to 1450°C"
+      },
+      {
+        "label": "Control System",
+        "value": "Digital PLC controller with continuous temperature datalogging"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year comprehensive warranty with AMC options"
+      }
+    ],
     "certifications": [],
     "images": [
       "/images/db-uploads/prod_Solid Waste Incinerator with Smoke Control System_0_1788713139093_oojglp.png",
@@ -1596,7 +1930,44 @@ export const products: any[] = [
       "Smart Access & Usage Monitoring",
       "Durable, Vandal-Resistant Design"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Enclosure Material",
+        "value": "Marine-grade 304 Stainless Steel / Anti-corrosion Sandwich PUF Panel"
+      },
+      {
+        "label": "Flushing Mechanism",
+        "value": "Automated sensor-based water-conserving dual flush system"
+      },
+      {
+        "label": "Floor Cleaning",
+        "value": "Automated automatic floor wash mechanism after set user cycles"
+      },
+      {
+        "label": "Access Control",
+        "value": "Coin operated, smart RFID card, UPI QR code, or free access toggle"
+      },
+      {
+        "label": "Power System",
+        "value": "Standard 230V AC with automatic battery UPS backup & solar integration option"
+      },
+      {
+        "label": "Water Storage",
+        "value": "Integrated 500L - 1000L overhead water tank with auto-refill pumps"
+      },
+      {
+        "label": "Ventilation",
+        "value": "Automatic continuous exhaust fan with ambient air freshener dispenser"
+      },
+      {
+        "label": "Indicator System",
+        "value": "External LED display showing Occupied / Vacant / Maintenance status"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years comprehensive warranty on electronic and mechanical modules"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -2083,7 +2454,44 @@ export const products: any[] = [
       "Maintenance-free sealed bearings for smooth operation",
       "High load-bearing capacity and sturdy construction"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Target Age Group",
+        "value": "3 to 12 Years"
+      },
+      {
+        "label": "Equipment Types",
+        "value": "Junior swings, multi-activity climber, sensory play panels, mini balance beam"
+      },
+      {
+        "label": "Plastic Material",
+        "value": "Non-toxic, food-grade UV-stabilized rotational molded LLDPE"
+      },
+      {
+        "label": "Metallic Structure",
+        "value": "Galvanized mild steel pipes with rounded anti-pinch joints"
+      },
+      {
+        "label": "Coating Finish",
+        "value": "Lead-free, non-toxic outdoor polyester powder coating"
+      },
+      {
+        "label": "Safety Clearance",
+        "value": "Minimum 1.5 m safe fall zone perimeter around equipment"
+      },
+      {
+        "label": "Safety Standard",
+        "value": "Compliant with IS 15638 and EN 1176 children playground safety standards"
+      },
+      {
+        "label": "Flooring Compatibility",
+        "value": "Suitable for soft EPDM rubber flooring, artificial turf, or sand pits"
+      },
+      {
+        "label": "Warranty",
+        "value": "3 Years warranty against structural and manufacturing defects"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -2280,12 +2688,54 @@ export const products: any[] = [
     "id": "p-1787610631259",
     "slug": "rotary-drum-composter-machine",
     "originalDbSlug": "rotary-drum-composter-machine",
-    "name": "Rotary drum composter machine",
+    "name": "Rotary Drum Composter Machine",
     "category": "Smart City",
-    "description": "ROtary drum composter machine",
-    "shortDescription": "ROtary drum composter machine",
-    "features": [],
-    "specs": [],
+    "description": "The Rotary Drum Composter Machine is a continuous, high-efficiency aerobic composting system designed to treat organic wet waste, horticultural waste, food scraps, and agricultural residues. Featuring a heavy-duty cylindrical rotating drum with internal lifting vanes, the machine ensures continuous mixing, aeration, and moisture distribution.\n\nThe constant thermophilic reaction inside the drum accelerates decomposition, destroying pathogens and weed seeds within 10 to 14 days while eliminating foul odors through controlled air circulation and bio-filtration. It represents an energy-efficient, robust decentralized composting solution for housing societies, hotels, educational campuses, temple complexes, and smart municipalities.",
+    "shortDescription": "High-efficiency rotating drum aerobic composter for converting food and municipal wet waste into rich organic compost in 10-14 days.",
+    "features": [
+      "Continuous automated aerobic composting with low power consumption",
+      "Dual-chamber / single continuous drum with specialized internal mixing vanes",
+      "Accelerated composting cycle completing maturation in just 10 to 14 days",
+      "Uniform thermal aeration reaching 55°C-65°C to eliminate weed seeds and harmful pathogens",
+      "Odorless processing with natural negative-pressure biofilter air exhaust",
+      "Heavy-duty geared motor drive with forward/reverse jogging controls",
+      "Leachate collection tray ensuring clean, dry, and hygienic surrounding floors",
+      "Rugged weather-resistant structural frame suitable for outdoor and semi-indoor installations"
+    ],
+    "specs": [
+      {
+        "label": "Processing Capacity",
+        "value": "100 kg/day to 2000 kg/day organic waste"
+      },
+      {
+        "label": "Drum Construction",
+        "value": "Double-walled SS 304 / Galvanized Mild Steel with insulation"
+      },
+      {
+        "label": "Drive Mechanism",
+        "value": "Heavy-duty gear motor with chain/sprocket drive (2-5 RPM)"
+      },
+      {
+        "label": "Process Type",
+        "value": "Thermophilic aerobic composting with natural/forced draft"
+      },
+      {
+        "label": "Composting Cycle",
+        "value": "10 to 14 Days continuous throughput"
+      },
+      {
+        "label": "Power Requirement",
+        "value": "1.5 HP to 7.5 HP Three Phase electric supply"
+      },
+      {
+        "label": "Discharge System",
+        "value": "Automatic continuous gravity discharge into compost collection bins"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years warranty on drum structure and mechanical components"
+      }
+    ],
     "certifications": [],
     "images": [
       "/images/db-uploads/prod_rotary-drum-composter-machine_0_1788713137119_b0zjff.png"
@@ -2319,7 +2769,44 @@ export const products: any[] = [
       "Long operational life",
       "Environmentally friendly waste disposal"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Combustion Technology",
+        "value": "Self-sustaining controlled natural draft pyrolytic combustion (Zero Fuel)"
+      },
+      {
+        "label": "Waste Capacity",
+        "value": "50 kg to 500 kg per batch / 24 hours"
+      },
+      {
+        "label": "Acceptable Waste",
+        "value": "Paper, cardboard, dry leaves, cotton waste, solid non-chlorinated combustible waste"
+      },
+      {
+        "label": "Ash Volume Reduction",
+        "value": "90% to 95% reduction into sterile mineral ash"
+      },
+      {
+        "label": "Smoke Filtration",
+        "value": "Built-in cyclone particulate separator and multi-layer wet scrubber"
+      },
+      {
+        "label": "Operating Cost",
+        "value": "Zero diesel / gas fuel cost; minimal electricity only for scrubber pump"
+      },
+      {
+        "label": "Body Construction",
+        "value": "Heavy-gauge boiler quality steel plate with high-temp refractory coating"
+      },
+      {
+        "label": "Chimney Height",
+        "value": "15m to 30m with rain cap and spark arrestor"
+      },
+      {
+        "label": "Warranty",
+        "value": "2 Years structural warranty"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -2614,7 +3101,48 @@ export const products: any[] = [
       "Low maintenance",
       "Smart City compatible"
     ],
-    "specs": [],
+    "specs": [
+      {
+        "label": "Clean Air Delivery Rate (CADR)",
+        "value": "3000 m³/hr to 10,000 m³/hr"
+      },
+      {
+        "label": "Filtration Stages",
+        "value": "4-Stage: Washable Pre-filter, Activated Carbon, HEPA H13, and UV-C sterilizer"
+      },
+      {
+        "label": "Target Pollutants",
+        "value": "PM2.5, PM10, smog, vehicle exhaust, pollen, dust, and VOCs"
+      },
+      {
+        "label": "Solar PV Capacity",
+        "value": "600W to 1200W Monocrystalline solar canopy"
+      },
+      {
+        "label": "Battery Backup",
+        "value": "In-built LiFePO4 Lithium battery with 12+ hours continuous backup"
+      },
+      {
+        "label": "Purification Radius",
+        "value": "30 to 50 meters ambient circular coverage zone"
+      },
+      {
+        "label": "Air Quality Display",
+        "value": "Outdoor high-brightness LED screen displaying real-time PM2.5, PM10, Temp & Humidity"
+      },
+      {
+        "label": "Body Construction",
+        "value": "All-weather anti-corrosion galvanized aluminum alloy & stainless steel"
+      },
+      {
+        "label": "Noise Level",
+        "value": "< 55 dB at 3 meters operating distance"
+      },
+      {
+        "label": "Warranty",
+        "value": "3 Years comprehensive warranty on solar unit and purification electronics"
+      }
+    ],
     "certifications": [
       "ISO 9001:2015",
       "ISO 14001:2015",
@@ -2804,29 +3332,10 @@ export const products: any[] = [
   }
 ];
 
-export const productCategories = [
-  'Waste Management',
-  'Smart City',
-  'Public Health',
-  'Renewable Energy',
-  'Fitness',
-  'Education'
-];
+export const productCategories = ['Smart City', 'Renewable Energy', 'Waste Management', 'Public Health', 'Fitness', 'Education'];
 
 export function getProductBySlug(slug: string) {
-  if (!slug) return undefined;
-  const decoded = decodeURIComponent(slug).toLowerCase().trim();
-  const normalized = decoded.replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-
-  return (products as any[]).find((p: any) => {
-    if (p.slug.toLowerCase() === decoded) return true;
-    if (p.originalDbSlug && p.originalDbSlug.toLowerCase() === decoded) return true;
-    const pNorm = p.slug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    if (pNorm === normalized) return true;
-    const nameNorm = p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-    if (nameNorm === normalized) return true;
-    return false;
-  });
+  return (products as any[]).find((p: any) => p.slug === slug);
 }
 
 export function getAllProductSlugs() {
@@ -2835,7 +3344,7 @@ export function getAllProductSlugs() {
 
 export function getFeaturedProducts() {
   const featured = (products as any[]).filter((p: any) => p.badge);
-  if (featured.length >= 8) {
+  if (featured.length >= 4) {
     return featured.slice(0, 8);
   }
   return (products as any[]).slice(0, 8);
