@@ -93,7 +93,15 @@ export default function ProductDetailClient({
     ? initialProducts 
     : contextProducts;
 
-  const product = allProducts.find((p) => p.slug === decodedSlug);
+  const normalizedSlug = decodedSlug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const product = allProducts.find((p) => {
+    if (p.slug === decodedSlug || p.slug.toLowerCase() === decodedSlug.toLowerCase()) return true;
+    if ((p as any).originalDbSlug && (p as any).originalDbSlug.toLowerCase() === decodedSlug.toLowerCase()) return true;
+    const pNorm = p.slug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    if (pNorm === normalizedSlug) return true;
+    const nameNorm = p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    return nameNorm === normalizedSlug;
+  });
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { getProductBySlug, getAllProductSlugs, products } from "@/data/products";
-import { supabase } from "@/lib/supabase";
 import type { Product } from "@/types";
 
 // Allow Next.js to render product pages for slugs NOT in generateStaticParams
@@ -36,82 +35,13 @@ const categoryFAQs: Record<string, { q: string; a: string }[]> = {
   ],
 };
 
-// Helper: look up a product by slug from static data OR Supabase
+// Helper: look up a product by slug directly from database products
 async function findProductBySlug(slug: string): Promise<Product | undefined> {
-  // 1. Check static data first (instant, no network)
-  const staticProduct = getProductBySlug(slug);
-  if (staticProduct) return staticProduct;
-
-  // 2. Fall back to Supabase for admin-added products
-  const isSupabaseConfigured =
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (isSupabaseConfigured) {
-    try {
-      const { data, error } = await supabase
-        .from("products")
-        .select("*")
-        .eq("slug", slug)
-        .single();
-
-      if (data && !error) {
-        return {
-          id: data.id,
-          slug: data.slug,
-          name: data.name,
-          category: data.category,
-          description: data.description,
-          shortDescription: data.short_description || "",
-          features: data.features || [],
-          specs: data.specs || [],
-          certifications: data.certifications || [],
-          images: data.images || [],
-          price: data.price || "On Request",
-          inStock: data.in_stock ?? true,
-          badge: data.badge || undefined,
-          relatedProductSlugs: data.related_product_slugs || [],
-          brochureUrl: data.brochure_url || undefined,
-        };
-      }
-    } catch (e) {
-      console.warn("Supabase lookup failed for slug:", slug, e);
-    }
-  }
-
-  return undefined;
+  return getProductBySlug(slug);
 }
 
 export async function generateStaticParams() {
-  // Start with all static product slugs
-  const staticSlugs = getAllProductSlugs().map((slug) => ({ slug }));
-
-  // Also include slugs from Supabase so admin-added products get pre-rendered
-  const isSupabaseConfigured =
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (isSupabaseConfigured) {
-    try {
-      const { data: dbProducts } = await supabase
-        .from("products")
-        .select("slug");
-
-      if (dbProducts) {
-        const dbSlugs = dbProducts.map((p: any) => ({ slug: p.slug }));
-        // Merge & deduplicate
-        const allSlugs = new Map<string, { slug: string }>();
-        for (const s of [...staticSlugs, ...dbSlugs]) {
-          allSlugs.set(s.slug, s);
-        }
-        return Array.from(allSlugs.values());
-      }
-    } catch (e) {
-      console.warn("Could not fetch slugs from Supabase for static params:", e);
-    }
-  }
-
-  return staticSlugs;
+  return getAllProductSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({

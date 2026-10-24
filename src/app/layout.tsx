@@ -85,48 +85,15 @@ export const metadata: Metadata = {
 
 import { Toaster } from "react-hot-toast";
 import { ProductsProvider } from "@/components/ProductsProvider";
-
-import { supabase } from "@/lib/supabase";
 import { products as staticProducts } from "@/data/products";
 import type { Product } from "@/types";
 
-export const revalidate = 0;
-export const dynamic = 'force-dynamic';
-
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  let initialProducts = staticProducts as Product[];
-
-  try {
-    const { data, error } = await supabase
-      .from('products')
-      .select('*')
-      .order('created_at', { ascending: true });
-      
-    if (!error && data && data.length > 0) {
-      initialProducts = data.map((dbP: any) => ({
-        id: dbP.id,
-        slug: dbP.slug,
-        name: dbP.name,
-        category: dbP.category,
-        description: dbP.description,
-        shortDescription: dbP.short_description || "",
-        features: dbP.features || [],
-        specs: dbP.specs || [],
-        certifications: dbP.certifications || [],
-        images: dbP.images || [],
-        price: dbP.price || "On Request",
-        inStock: dbP.in_stock ?? true,
-        badge: dbP.badge || undefined,
-        relatedProductSlugs: dbP.related_product_slugs || [],
-      }));
-    }
-  } catch (err) {
-    console.error("Failed to fetch products on server layout:", err);
-  }
+  const initialProducts = staticProducts as Product[];
 
   return (
     <html

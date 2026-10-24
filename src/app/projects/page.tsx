@@ -7,7 +7,6 @@ import Footer from "@/components/Footer";
 import CTABanner from "@/components/CTABanner";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import { projects } from "@/data/projects";
-import { supabase } from "@/lib/supabase";
 import { products as staticProducts } from "@/data/products";
 
 export const metadata: Metadata = {
@@ -17,22 +16,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://irasynergy.com/projects" },
 };
 
-export default async function ProjectsPage() {
-  let products = staticProducts;
-  
-  const hasUrl = !!(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL);
-  const hasKey = !!(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY);
-  const isSupabaseConfigured = hasUrl && hasKey;
-  if (isSupabaseConfigured) {
-    try {
-      const { data, error } = await supabase.from('products').select('*');
-      if (!error && data && data.length > 0) {
-        products = data;
-      }
-    } catch (e) {
-      console.warn("Failed to fetch products on projects page", e);
-    }
-  }
+export default function ProjectsPage() {
+  const products = staticProducts;
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
