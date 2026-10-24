@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Leaf, ShieldCheck, Map, Settings } from "lucide-react";
 import ScrollReveal from "./ui/ScrollReveal";
-import type { GalleryImage } from "@/components/admin/AdminContext";
 
 export const fallbackImages = [
   { src: "/images/hero/smart-city-view.jpg", alt: "Smart City Infrastructure Solutions — IoT Integration | iRA Synergy" },

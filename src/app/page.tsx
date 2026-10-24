@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import dynamic from "next/dynamic";
 import { supabase } from "@/lib/supabase";
-import type { GalleryImage } from "@/components/admin/AdminContext";
 
 export const metadata: Metadata = {
   title:
