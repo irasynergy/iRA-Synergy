@@ -87,7 +87,12 @@ export default function ProductDetailClient({
 }) {
   const { slug } = use(params);
   const decodedSlug = decodeURIComponent(slug);
-  const { products: allProducts, isLoading } = useProducts();
+  const { products: contextProducts, isLoading } = useProducts();
+  
+  const allProducts = isFromDb && initialProducts && initialProducts.length > 0 
+    ? initialProducts 
+    : contextProducts;
+
   const product = allProducts.find((p) => p.slug === decodedSlug);
 
   const [activeImageIndex, setActiveImageIndex] = useState(0);

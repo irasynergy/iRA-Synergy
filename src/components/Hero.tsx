@@ -15,11 +15,28 @@ export const fallbackImages = [
   { src: "/images/hero/green-gym.png", alt: "Outdoor Gym & Fitness Equipment for Parks — Make in India | iRA Synergy" },
 ];
 
-export default function Hero({ dynamicImages = [] }: { dynamicImages?: GalleryImage[] }) {
-  // Use dynamic images if available, otherwise fallback
-  const heroImages = dynamicImages.length > 0 
-    ? dynamicImages.map(img => ({ src: img.src, alt: img.caption || img.title || "iRA Synergy" }))
-    : fallbackImages;
+import { supabase } from "@/lib/supabase";
+
+export default function Hero() {
+  const [heroImages, setHeroImages] = useState(fallbackImages);
+
+  useEffect(() => {
+    const fetchHero = async () => {
+      try {
+        const hasUrl = !!(process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL);
+        const hasKey = !!(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.SUPABASE_PUBLISHABLE_KEY);
+        if (hasUrl && hasKey) {
+          const { data } = await supabase.from('gallery').select('*').eq('category', 'Hero').order('uploaded_at', { ascending: false });
+          if (data && data.length > 0) {
+            setHeroImages(data.map((img: any) => ({ src: img.src, alt: img.caption || img.title || "iRA Synergy" })));
+          }
+        }
+      } catch (e) {
+        // use fallback
+      }
+    };
+    fetchHero();
+  }, []);
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [loadedIndexes, setLoadedIndexes] = useState<number[]>([0]);

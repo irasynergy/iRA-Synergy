@@ -23,41 +23,17 @@ const TrustSection = dynamic(() => import("@/components/TrustSection"));
 
 export const revalidate = 60; // Revalidate every 60 seconds
 
-export default async function Home() {
-  let heroImages: GalleryImage[] = [];
-  let allGalleryImages: GalleryImage[] = [];
-  try {
-    const { data } = await supabase
-      .from("gallery")
-      .select("*")
-      .order("uploaded_at", { ascending: false });
-
-    if (data && data.length > 0) {
-      // Map to GalleryImage shape
-      allGalleryImages = data.map((img: any) => ({
-        id: img.id,
-        src: img.src,
-        title: img.title || "",
-        caption: img.caption || "",
-        category: img.category || "Hero",
-        uploadedAt: img.uploaded_at || new Date().toISOString()
-      }));
-      heroImages = allGalleryImages.filter((img) => img.category === "Hero");
-    }
-  } catch (err) {
-    console.error("Failed to fetch gallery images:", err);
-  }
-
+export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-        <Hero dynamicImages={heroImages} />
+        <Hero />
         <TrustSection />
         <Solutions />
         <StatsBanner />
         <FeaturedProducts />
-        <Gallery galleryImages={allGalleryImages} />
+        <Gallery />
         <BusinessInfo />
       </main>
       <Footer />

@@ -17,7 +17,7 @@ export default function StatsBanner() {
                   <Award className="text-[#052615] w-5 h-5 md:w-7 md:h-7" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">10+</div>
+                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">9+</div>
                   <div className="text-[10px] md:text-xs text-white/90 font-medium">Years of Experience</div>
                 </div>
               </div>
@@ -27,7 +27,7 @@ export default function StatsBanner() {
                   <CheckCircle2 className="text-[#052615] w-5 h-5 md:w-7 md:h-7" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">500+</div>
+                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">149+</div>
                   <div className="text-[10px] md:text-xs text-white/90 font-medium">Successful Projects</div>
                 </div>
               </div>
@@ -37,7 +37,7 @@ export default function StatsBanner() {
                   <MapPin className="text-[#052615] w-5 h-5 md:w-7 md:h-7" strokeWidth={1.5} />
                 </div>
                 <div>
-                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">25+</div>
+                  <div className="text-xl md:text-2xl lg:text-3xl font-extrabold text-white leading-none mb-1">12+</div>
                   <div className="text-[10px] md:text-xs text-white/90 font-medium">States Covered</div>
                 </div>
               </div>
