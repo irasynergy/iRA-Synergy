@@ -87,19 +87,22 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-ira-accent flex-shrink-0 mt-0.5" />
                 <span className="text-[11px] sm:text-xs text-gray-300 leading-relaxed">
-                  Office No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra
+                  6th Floor, Gera's Imperium Gateway, A-620, Nashik Phata, PCMC, Pune, Pimpri-Chinchwad, Maharashtra 411034
                 </span>
               </li>
               <li className="flex flex-col gap-1.5 sm:gap-2">
                 <div className="flex items-center gap-3">
                   <Phone size={16} className="text-ira-accent flex-shrink-0" />
-                  <span className="text-[11px] sm:text-xs text-gray-300">+91 75880 15401</span>
+                  <span className="text-[11px] sm:text-xs text-gray-300">+91 93211 14440</span>
                 </div>
                 <div className="flex items-center gap-3 ml-7">
                   <span className="text-[11px] sm:text-xs text-gray-300">+91 88880 48480</span>
                 </div>
                 <div className="flex items-center gap-3 ml-7">
                   <span className="text-[11px] sm:text-xs text-gray-300">+91 80076 29969</span>
+                </div>
+                <div className="flex items-center gap-3 ml-7">
+                  <span className="text-[11px] sm:text-xs text-gray-300">+91 74100 44049</span>
                 </div>
               </li>
               <li className="flex items-center gap-3">
