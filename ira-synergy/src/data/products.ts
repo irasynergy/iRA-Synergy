@@ -417,8 +417,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/generated/solar-tree-0.jpg",
-      "/images/generated/solar-tree-3.jpg"
+      "/images/products/solar-tree/primary.jpg"
     ],
     "price": "On Request",
     "inStock": true,
@@ -1716,7 +1715,7 @@ export const products: any[] = [
     "id": "p-1788174390924",
     "slug": "plastic-waste-interlock-pavement-block-plant",
     "originalDbSlug": "PLASTIC WASTE INTERLOCK PAVEMENT BLOCK  PLANT",
-    "name": "PLASTIC WASTE INTERLOCK PAVEMENT BLOCK PLANT",
+    "name": "Plastic Waste Interlock Pavement Block Plant",
     "category": "Smart City",
     "description": "The iRA's ECO Plastic Waste Interlock Pavement Block Plant is an integrated waste management solution designed for recycling plastic waste into high-strength interlocking paving blocks. The plant combines plastic grinding, material mixing, extrusion, die pressing, and curing into a continuous production workflow for efficient and sustainable manufacturing.\\n\\nBuilt with heavy-duty steel construction and energy-efficient machinery, it delivers reliable performance, high productivity, and consistent block quality, making it ideal for municipal recycling projects, plastic recycling plants, and industrial waste processing facilities.",
     "shortDescription": "A complete plastic waste recycling plant that converts plastic waste into durable interlocking pavement blocks through grinding, mixing, extrusion, and hydraulic molding.",
@@ -2353,90 +2352,6 @@ export const products: any[] = [
     "brochureUrl": "/downloads/brochure_solar-smart-bench_1788713646084_d1a7ss.pdf"
   },
   {
-    "id": "p-1782388677598",
-    "slug": "sanitary-napkin-incinerator-machine",
-    "originalDbSlug": "sanitary-napkin-incinerator-machine",
-    "name": "Sanitary Napkin Incinerator Machine",
-    "category": "Public Health",
-    "description": "The Sanitary Napkin Incinerator Machine provides a safe, odor-free, and environmentally friendly solution for disposing of used sanitary napkins at the point of use. Designed with an electrically heated combustion chamber, the unit incinerates sanitary waste into sterile ash while minimizing smoke and odor.\\n\\nThe machine features automatic temperature control, thermal insulation, and an easy-to-use interface, ensuring safe operation with minimal maintenance. Its compact wall-mounted design makes it ideal for installation in female washrooms across educational institutions, healthcare facilities, commercial buildings, and public spaces.\\n\\nConstructed using heavy-duty powder-coated mild steel, the SmartBurn machine offers long service life, low power consumption, and compliance with hygienic waste disposal practices.",
-    "shortDescription": "The Sanitary Napkin Incinerator Machine is a compact, smokeless disposal system designed for the safe destruction of used sanitary napkins. Engineered for schools, colleges, offices, hospitals, and public washrooms, it promotes hygienic waste disposal while supporting women's health and environmental sustainability.",
-    "features": [
-      "Smokeless incineration",
-      "Odor-free operation",
-      "Fast waste destruction",
-      "Electric heating system",
-      "Automatic temperature control",
-      "Wall-mounted design",
-      "Heavy-duty steel body",
-      "Low power consumption",
-      "Ceramic insulation",
-      "Safe operation",
-      "Easy ash removal",
-      "Low maintenance",
-      "Hygienic waste disposal",
-      "Long service life"
-    ],
-    "specs": [
-      {
-        "label": "Machine Type",
-        "value": "Electrical Sanitary Napkin Incinerator"
-      },
-      {
-        "label": "Capacity",
-        "value": "50–200 Napkins Per Day (Customizable)"
-      },
-      {
-        "label": "Heating Type",
-        "value": "Electrical Heating Element"
-      },
-      {
-        "label": "Operating Temperature",
-        "value": "Up To 800°C"
-      },
-      {
-        "label": "Power Supply",
-        "value": "Single Phase, 230V AC"
-      },
-      {
-        "label": "Body Material",
-        "value": "Powder-Coated Mild Steel"
-      },
-      {
-        "label": "Installation Type",
-        "value": "Wall Mounted"
-      },
-      {
-        "label": "Operation Mode",
-        "value": "Automatic"
-      },
-      {
-        "label": "Exhaust",
-        "value": "GI Flexible Pipe"
-      },
-      {
-        "label": "Safety",
-        "value": "Auto Power Cut-Off MCB, Heat & Shock Proof Body"
-      }
-    ],
-    "certifications": [
-      "ISO 9001:2015",
-      "ISO 14001:2015",
-      "ISO 45001:2018",
-      "IS/IEC 60335",
-      "CPCB",
-      "MPCB",
-      "NABL",
-      "RoHS",
-      "CE Certification"
-    ],
-    "images": [
-      "/images/db-uploads/prod_sanitary-napkin-incinerator-machine_3_1784313504031_dipalh.png"
-    ],
-    "price": "On Request",
-    "inStock": true,
-    "relatedProductSlugs": []
-  },
-  {
     "id": "p-1782926238609",
     "slug": "kids-outdoor-fitness-hub",
     "originalDbSlug": "Kids Outdoor Fitness Hub",
@@ -2511,10 +2426,10 @@ export const products: any[] = [
     "id": "p-1782388013207",
     "slug": "2-in-1-solid-waste-dead-animal-waste-incinerator",
     "originalDbSlug": "animal-poultry-waste-incinerator",
-    "name": "2 in 1 Solid Waste & Dead Animal Waste Incinerator",
+    "name": "Dead Animal & Solid Waste Incinerator",
     "category": "Waste Management",
-    "description": "The 2 in 1 Solid Waste & Dead Animal Waste Incinerator is an advanced, high-temperature waste treatment system designed for the safe and hygienic disposal of municipal solid waste as well as animal carcasses in a single integrated unit. The system operates on controlled combustion technology to ensure complete destruction of waste, minimizing environmental impact.\\n\\nThe incinerator features a dual-chamber combustion system, where the primary chamber burns the waste at high temperature and the secondary chamber ensures complete combustion of gases, reducing smoke, odor, and harmful emissions. This results in a smokeless, odor-free, and eco-friendly operation.\\n\\nIt is widely used in municipal corporations, veterinary hospitals, slaughterhouses, animal shelters, disaster management units, and rural waste management systems for safe disposal of bio-contaminated and organic waste.\\n\\nThe unit is designed with a heat-resistant insulated body, advanced emission control system (scrubber and filtration unit), and automated temperature control system to maintain efficient and safe operation. It ensures compliance with environmental safety norms and reduces the risk of disease spread from animal waste.\\n\\nThis system provides a cost-effective, hygienic, and environmentally responsible solution for integrated solid waste and animal carcass disposal.",
-    "shortDescription": "2 in 1 Solid Waste & Dead Animal Waste Incinerator is a high-temperature thermal waste disposal system designed for the hygienic destruction of poultry waste, animal carcasses, hatchery waste, slaughterhouse waste, and other biological waste. Featuring dual-chamber combustion and advanced emission control, it provides safe, efficient, and environmentally compliant waste treatment.",
+    "description": "The Dead Animal & Solid Waste Incinerator is an advanced, high-temperature waste treatment system designed for the safe and hygienic disposal of municipal solid waste as well as animal carcasses in a single integrated unit. The system operates on controlled combustion technology to ensure complete destruction of waste, minimizing environmental impact.\\n\\nThe incinerator features a dual-chamber combustion system, where the primary chamber burns the waste at high temperature and the secondary chamber ensures complete combustion of gases, reducing smoke, odor, and harmful emissions. This results in a smokeless, odor-free, and eco-friendly operation.\\n\\nIt is widely used in municipal corporations, veterinary hospitals, slaughterhouses, animal shelters, disaster management units, and rural waste management systems for safe disposal of bio-contaminated and organic waste.\\n\\nThe unit is designed with a heat-resistant insulated body, advanced emission control system (scrubber and filtration unit), and automated temperature control system to maintain efficient and safe operation. It ensures compliance with environmental safety norms and reduces the risk of disease spread from animal waste.\\n\\nThis system provides a cost-effective, hygienic, and environmentally responsible solution for integrated solid waste and animal carcass disposal.",
+    "shortDescription": "Dead Animal & Solid Waste Incinerator is a high-temperature thermal waste disposal system designed for the hygienic destruction of poultry waste, animal carcasses, hatchery waste, slaughterhouse waste, and other biological waste. Featuring dual-chamber combustion and advanced emission control, it provides safe, efficient, and environmentally compliant waste treatment.",
     "features": [
       "Dual chamber combustion",
       "High-temperature operation",
@@ -2675,9 +2590,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/products/dead-animal-solid-waste-incinerator/1.jpeg",
-      "/images/products/dead-animal-solid-waste-incinerator/2.jpeg",
-      "/images/products/dead-animal-solid-waste-incinerator/3.jpeg"
+      "/images/products/dead-animal-solid-waste-incinerator/primary.png"
     ],
     "price": "On Request",
     "inStock": true,
