@@ -417,7 +417,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/products/solar-tree/primary.jpg"
+      "/images/products/solar-tree/primary.png"
     ],
     "price": "On Request",
     "inStock": true,
@@ -1670,8 +1670,8 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/products/biomass-gasifier-plant/1.jpeg",
-      "/images/products/biomass-gasifier-plant/2.jpeg"
+      "/images/products/biomass-gasifier-plant/2.jpeg",
+      "/images/products/biomass-gasifier-plant/1.jpeg"
     ],
     "price": "On Request",
     "inStock": true,
