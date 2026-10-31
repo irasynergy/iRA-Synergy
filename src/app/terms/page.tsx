@@ -153,7 +153,7 @@ export default function TermsPage() {
                       <li><strong className="text-gray-900 font-bold">Company:</strong> iRA Synergy Private Limited</li>
                       <li><strong className="text-gray-900 font-bold">Address:</strong> Shop No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra – 422009</li>
                       <li><strong className="text-gray-900 font-bold">Email:</strong> <a href="mailto:info@irasynergy.com" className="text-ira-primary hover:underline">info@irasynergy.com</a></li>
-                      <li><strong className="text-gray-900 font-bold">Phone:</strong> +91 75880 15401</li>
+                      <li><strong className="text-gray-900 font-bold">Phone:</strong> +91 93211 14440</li>
                     </ul>
                   </div>
 

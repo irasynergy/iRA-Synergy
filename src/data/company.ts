@@ -146,7 +146,7 @@ export const companyInfo = {
     }
   ],
 
-  phone: "+91 75880 15401",
+  phone: "+91 93211 14440",
   email: "info@irasynergy.com",
   website: "www.irasynergy.com",
   address: {
@@ -156,7 +156,7 @@ export const companyInfo = {
     country: "India",
     pincode: "422001",
   },
-  whatsapp: "917588015401",
+  whatsapp: "919321114440",
   social: {
     facebook: "#",
     twitter: "#",

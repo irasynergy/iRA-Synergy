@@ -251,6 +251,7 @@ export const products: any[] = [
       "NABL Certification"
     ],
     "images": [
+      "/images/products/food-trolley/primary.png",
       "/images/generated/smart-food-cart-2.jpg",
       "/images/generated/smart-food-cart-3.jpg"
     ],
@@ -569,10 +570,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/db-uploads/prod_Plastic Shredder Machine_0_1788713115025_pm7nrp.png",
-      "/images/generated/plastic-shredder-machine-0.jpg",
-      "/images/generated/plastic-shredder-machine-1.jpg",
-      "/images/generated/plastic-shredder-machine-2.jpg"
+      "/images/products/plastic-shredder-machine/primary.png"
     ],
     "price": "On Request",
     "inStock": true,
@@ -646,7 +644,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/db-uploads/prod_solid-waste-incinerator_0_1788713113318_a3g0ok.png",
+      "/images/products/solid_incinerator/primary.png",
       "/images/products/solid_incinerator/4_2.png",
       "/images/generated/solid-waste-incinerator-1.jpg",
       "/images/generated/solid-waste-incinerator-2.jpg"
@@ -1372,7 +1370,7 @@ export const products: any[] = [
       "Pollution Control Standard"
     ],
     "images": [
-      "/images/db-uploads/prod_smoke-control-unit_0_1788713111120_s7mf9h.png",
+      "/images/products/smoke-control-unit/primary.png",
       "/images/products/smoke-control-unit/1.jpeg",
       "/images/generated/smoke-control-unit-1.jpg"
     ],
@@ -1450,7 +1448,7 @@ export const products: any[] = [
     ],
     "certifications": [],
     "images": [
-      "/images/db-uploads/prod_Solid Waste Incinerator with Smoke Control System_0_1788713139093_oojglp.png",
+      "/images/products/solid-waste-incinerator-with-smoke-control-system/primary.png",
       "/images/generated/solid-waste-incinerator-with-smoke-control-system-0.jpg"
     ],
     "price": "On Request",
@@ -1841,7 +1839,7 @@ export const products: any[] = [
       "CE Certification"
     ],
     "images": [
-      "/images/db-uploads/prod_pet-bottle-crusher_0_1788713134579_aaa78.png"
+      "/images/products/pet-bottle-crusher/primary.png"
     ],
     "price": "On Request",
     "inStock": true,

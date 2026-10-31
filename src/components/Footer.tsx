@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-ira-accent flex-shrink-0 mt-0.5" />
                 <span className="text-[11px] sm:text-xs text-gray-300 leading-relaxed">
-                  6th Floor, Gera's Imperium Gateway, A-620, Nashik Phata, PCMC, Pune, Pimpri-Chinchwad, Maharashtra 411034
+                  Nashik, Pune, Mahrashtra, India
                 </span>
               </li>
               <li className="flex flex-col gap-1.5 sm:gap-2">
@@ -101,9 +101,6 @@ export default function Footer() {
                 <div className="flex items-center gap-3 ml-7">
                   <span className="text-[11px] sm:text-xs text-gray-300">+91 80076 29969</span>
                 </div>
-                <div className="flex items-center gap-3 ml-7">
-                  <span className="text-[11px] sm:text-xs text-gray-300">+91 74100 44049</span>
-                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-ira-accent flex-shrink-0" />
@@ -112,7 +109,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <a href={companyInfo.whatsapp} className="mt-4 sm:mt-6 w-full bg-[#25D366] hover:bg-[#128C7E] transition-colors text-white text-[11px] sm:text-xs font-bold py-2.5 rounded flex items-center justify-center gap-2">
+            <a href={`https://wa.me/${companyInfo.whatsapp}`} target="_blank" rel="noopener noreferrer" className="mt-4 sm:mt-6 w-full bg-[#25D366] hover:bg-[#128C7E] transition-colors text-white text-[11px] sm:text-xs font-bold py-2.5 rounded flex items-center justify-center gap-2">
               <MessageCircle size={16} />
               CHAT ON WHATSAPP
             </a>

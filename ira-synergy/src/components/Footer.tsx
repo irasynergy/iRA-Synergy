@@ -93,7 +93,7 @@ export default function Footer() {
               <li className="flex flex-col gap-1.5 sm:gap-2">
                 <div className="flex items-center gap-3">
                   <Phone size={16} className="text-ira-accent flex-shrink-0" />
-                  <span className="text-[11px] sm:text-xs text-gray-300">+91 75880 15401</span>
+                  <span className="text-[11px] sm:text-xs text-gray-300">+91 93211 14440</span>
                 </div>
                 <div className="flex items-center gap-3 ml-7">
                   <span className="text-[11px] sm:text-xs text-gray-300">+91 88880 48480</span>
@@ -109,7 +109,7 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <a href={companyInfo.whatsapp} className="mt-4 sm:mt-6 w-full bg-[#25D366] hover:bg-[#128C7E] transition-colors text-white text-[11px] sm:text-xs font-bold py-2.5 rounded flex items-center justify-center gap-2">
+            <a href={`https://wa.me/${companyInfo.whatsapp}`} target="_blank" rel="noopener noreferrer" className="mt-4 sm:mt-6 w-full bg-[#25D366] hover:bg-[#128C7E] transition-colors text-white text-[11px] sm:text-xs font-bold py-2.5 rounded flex items-center justify-center gap-2">
               <MessageCircle size={16} />
               CHAT ON WHATSAPP
             </a>

@@ -31,11 +31,11 @@ export default function CTABanner() {
               <ArrowRight size={18} />
             </Link>
             <a
-              href="tel:+917588015401"
+              href="tel:+919321114440"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold rounded-xl text-white bg-white/10 border-2 border-white/30 hover:bg-white/20 transition-all"
             >
               <Phone size={18} />
-              Call: +91 75880 15401
+              Call: +91 93211 14440
             </a>
           </div>
         </div>
