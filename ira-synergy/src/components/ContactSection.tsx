@@ -90,12 +90,14 @@ export default function ContactSection() {
                   </a>
 
                   <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0">
+                    <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <MapPin size={18} />
                     </div>
                     <div>
                       <p className="text-xs text-white/50 uppercase tracking-wider font-medium">Location</p>
-                      <p className="font-semibold">Nashik, Maharashtra, India</p>
+                      <p className="font-semibold text-sm leading-relaxed">
+                        6th Floor, Gera&apos;s Imperium Gateway, A-620, Nashik Phata, PCMC, Pune, Pimpri-Chinchwad, Maharashtra 411034
+                      </p>
                     </div>
                   </div>
 

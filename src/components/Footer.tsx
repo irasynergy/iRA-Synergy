@@ -87,7 +87,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-ira-accent flex-shrink-0 mt-0.5" />
                 <span className="text-[11px] sm:text-xs text-gray-300 leading-relaxed">
-                  Nashik, Pune, Mahrashtra, India
+                  6th Floor, Gera&apos;s Imperium Gateway, A-620, Nashik Phata, PCMC, Pune, Pimpri-Chinchwad, Maharashtra 411034
                 </span>
               </li>
               <li className="flex flex-col gap-1.5 sm:gap-2">

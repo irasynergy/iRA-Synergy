@@ -117,10 +117,10 @@ export default function RootLayout({
               address: {
                 "@type": "PostalAddress",
                 streetAddress:
-                  "Shop No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road",
-                addressLocality: "Nashik",
+                  "6th Floor, Gera's Imperium Gateway, A-620, Nashik Phata, PCMC",
+                addressLocality: "Pune, Pimpri-Chinchwad",
                 addressRegion: "Maharashtra",
-                postalCode: "422001",
+                postalCode: "411034",
                 addressCountry: "IN",
               },
               contactPoint: {

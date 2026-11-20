@@ -118,7 +118,7 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             </a>
             <div className="flex items-center gap-3 text-sm text-gray-700">
               <MapPin size={16} className="text-ira-secondary" />
-              Nashik, Maharashtra, India
+              Pune, Maharashtra, India
             </div>
           </div>
 

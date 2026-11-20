@@ -132,11 +132,11 @@ export const companyInfo = {
   email: "info@irasynergy.com",
   website: "www.irasynergy.com",
   address: {
-    street: "Nashik",
-    city: "Nashik",
+    street: "6th Floor, Gera's Imperium Gateway, A-620, Nashik Phata, PCMC",
+    city: "Pune, Pimpri-Chinchwad",
     state: "Maharashtra",
     country: "India",
-    pincode: "422001",
+    pincode: "411034",
   },
   whatsapp: "919321114440",
   social: {

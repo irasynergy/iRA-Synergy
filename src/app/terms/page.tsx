@@ -151,7 +151,7 @@ export default function TermsPage() {
                   <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 not-prose mt-6">
                     <ul className="space-y-3 text-sm text-gray-700">
                       <li><strong className="text-gray-900 font-bold">Company:</strong> iRA Synergy Private Limited</li>
-                      <li><strong className="text-gray-900 font-bold">Address:</strong> Shop No. 4113, 4099 Roongta Shopping Hub, Near Hotel Sai Saya, Mumbai Agra Highway Road, Nashik, Maharashtra – 422009</li>
+                      <li><strong className="text-gray-900 font-bold">Address:</strong> 6th Floor, Gera&apos;s Imperium Gateway, A-620, Nashik Phata, PCMC, Pune, Pimpri-Chinchwad, Maharashtra 411034</li>
                       <li><strong className="text-gray-900 font-bold">Email:</strong> <a href="mailto:info@irasynergy.com" className="text-ira-primary hover:underline">info@irasynergy.com</a></li>
                       <li><strong className="text-gray-900 font-bold">Phone:</strong> +91 93211 14440</li>
                     </ul>
