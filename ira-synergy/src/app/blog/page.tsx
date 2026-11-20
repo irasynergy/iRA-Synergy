@@ -64,9 +64,9 @@ export default async function BlogHubPage() {
   return (
     <div className="flex flex-col min-h-screen bg-gray-50">
       <Header />
-      
+
       <main className="flex-grow pt-20 lg:pt-44 pb-24">
-        
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
           <ScrollReveal>
             <div className="text-center max-w-3xl mx-auto">
@@ -85,7 +85,7 @@ export default async function BlogHubPage() {
           <ScrollReveal>
             <Link href={`/blog/${featuredBlog.slug}`} className="group block">
               <div className="relative h-[500px] md:h-[600px] w-full rounded-[2rem] overflow-hidden shadow-2xl">
-                <Image 
+                <Image
                   src={featuredBlog.coverImage}
                   alt={featuredBlog.title}
                   fill
@@ -95,7 +95,7 @@ export default async function BlogHubPage() {
                 />
                 {/* Heavy bottom gradient for legibility */}
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent" />
-                
+
                 <div className="absolute bottom-0 left-0 w-full p-8 md:p-16">
                   <div className="max-w-4xl">
                     <div className="flex items-center gap-3 mb-6">
@@ -146,7 +146,7 @@ export default async function BlogHubPage() {
               <ScrollReveal key={blog.id} delay={idx * 100}>
                 <Link href={`/blog/${blog.slug}`} className="group block h-full flex flex-col">
                   <div className="relative h-64 w-full rounded-2xl overflow-hidden mb-6 shadow-md">
-                    <Image 
+                    <Image
                       src={blog.coverImage}
                       alt={blog.title}
                       fill
@@ -157,10 +157,10 @@ export default async function BlogHubPage() {
                       {blog.category}
                     </div>
                   </div>
-                  
+
                   <div className="flex flex-col flex-grow">
                     <div className="flex items-center gap-3 text-xs font-medium text-gray-500 mb-3">
-                      <span className="flex items-center gap-1"><Clock size={12}/> {blog.readTime}</span>
+                      <span className="flex items-center gap-1"><Clock size={12} /> {blog.readTime}</span>
                       <span>•</span>
                       <span>{blog.date}</span>
                     </div>
@@ -170,7 +170,7 @@ export default async function BlogHubPage() {
                     <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
                       {blog.excerpt}
                     </p>
-                    
+
                     <div className="flex items-center gap-2 text-sm font-bold text-gray-900 mt-auto">
                       Read Article
                       <ArrowRight size={16} className="text-ira-primary group-hover:translate-x-1.5 transition-transform" />
@@ -183,7 +183,7 @@ export default async function BlogHubPage() {
         </div>
 
       </main>
-      
+
       <CTABanner />
       <Footer />
     </div>

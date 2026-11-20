@@ -3,10 +3,10 @@ import { type TeamMember, type Certification, type CoreValue, type Stat, type Na
 export const teamMembers: TeamMember[] = [
   {
     id: "tm-1",
-    name: "Rohit Sharma",
+    name: "Hemant Bhamare",
     role: "Operations Manager",
     bio: "Ensures smooth project execution and daily operations.",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80",
+    image: "/images/team/hemant.png",
     email: "ops@irasynergy.com",
     linkedin: "#",
   },
@@ -17,24 +17,6 @@ export const teamMembers: TeamMember[] = [
     bio: "Drives business growth and government partnerships.",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80",
     email: "sales@irasynergy.com",
-    linkedin: "#",
-  },
-  {
-    id: "tm-3",
-    name: "Rajesh Kumar",
-    role: "Engineering Lead",
-    bio: "Oversees technical design and smart city implementations.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80",
-    email: "tech@irasynergy.com",
-    linkedin: "#",
-  },
-  {
-    id: "tm-4",
-    name: "Priya Deshmukh",
-    role: "HR Manager",
-    bio: "Builds a culture of innovation and employee growth.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80",
-    email: "hr@irasynergy.com",
     linkedin: "#",
   },
 ];

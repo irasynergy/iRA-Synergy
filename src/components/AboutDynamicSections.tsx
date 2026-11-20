@@ -115,10 +115,10 @@ export default function AboutDynamicSections() {
             </div>
           </ScrollReveal>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-16 max-w-4xl mx-auto">
             {teamMembers.map((member, idx) => (
               <ScrollReveal key={member.id} delay={idx * 100}>
-                <div className="flex flex-col items-center text-center group cursor-default">
+                <div className="flex flex-col items-center text-center group cursor-default w-40 sm:w-56">
                   <div className="relative w-32 h-32 md:w-40 md:h-40 mb-6 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border-4 border-gray-50 group-hover:border-ira-primary/20">
                     <Image
                       src={member.image}
